@@ -43,7 +43,7 @@
       "tokens": [
         { "form": "obénuci",  "mixed_script": "海", "entry_ids": ["obénuci"], "gloss": "ocean"  },
         { "form": "kan",      "mixed_script": "処", "entry_ids": ["kan"],     "gloss": "LOC"    },
-        { "form": "moúla-ta", "mixed_script": "行ら終", "entry_ids": ["moú-", "(a)ta"],    "gloss": "go-PST" }
+        { "form": "moŕla-ta", "mixed_script": "行ら終", "entry_ids": ["moŕ-", "(a)ta"],    "gloss": "go-PST" }
       ],
       "translation": "[implicit subject] went to the ocean."
     },

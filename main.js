@@ -19,10 +19,13 @@ const CV_TABLE = {
 };
 const VOWELS = new Set('aeiou');
 
-function romanToHiragana(token) {
+function latinToSyllabary(token) {
   // Strip accent marks (acute etc.) then morpheme-boundary markers
   let text = token.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   text = text.replace(/[-=]/g, '').toLowerCase();
+  
+  // or → ou
+  text = text.replace(/or/g, "ou");
 
   let result = '';
   let i = 0;
@@ -223,7 +226,7 @@ function buildTokenEl(token) {
   div.className = 'token';
 
   const mixedText = token.mixed_script || '';
-  const syllText  = romanToHiragana(token.form);
+  const syllText  = latinToSyllabary(token.form);
   const coincide  = !mixedText || mixedText === syllText;
 
   const scriptEl = document.createElement('ruby');
