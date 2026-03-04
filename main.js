@@ -168,7 +168,7 @@ function buildEntryEl(entry) {
   }
 
   // Link to corpus sentences that use this entry
-  const linked = corpus.filter(s => s.tokens.some(t => t.entry_id === entry.id));
+  const linked = corpus.filter(s => s.tokens.some(t => t.entry_ids?.includes(entry.id)));
   if (linked.length > 0) {
     const link = document.createElement('div');
     link.className = 'corpus-link';
@@ -229,18 +229,6 @@ function buildTokenEl(token) {
   const div = document.createElement('div');
   div.className = 'token';
 
-  if (token.entry_id) {
-    if (entryMap.has(token.entry_id)) {
-      div.classList.add('linked');
-      div.addEventListener('click', () => {
-        switchTab('dictionary');
-        highlightEntry(token.entry_id);
-      });
-    } else {
-      div.classList.add('missing');
-    }
-  }
-
   if (token.script) {
     const script = document.createElement('div');
     script.className = 'token-script';
@@ -252,6 +240,27 @@ function buildTokenEl(token) {
   form.className = 'token-form';
   form.textContent = token.form;
   div.appendChild(form);
+
+  // One clickable badge per entry_id; red if missing from dictionary
+  if (token.entry_ids?.length) {
+    const links = document.createElement('div');
+    links.className = 'entry-links';
+    for (const id of token.entry_ids) {
+      const badge = document.createElement('span');
+      if (entryMap.has(id)) {
+        badge.className = 'entry-link found';
+        badge.addEventListener('click', () => {
+          switchTab('dictionary');
+          highlightEntry(id);
+        });
+      } else {
+        badge.className = 'entry-link missing';
+      }
+      badge.textContent = id;
+      links.appendChild(badge);
+    }
+    div.appendChild(links);
+  }
 
   const gloss = document.createElement('div');
   gloss.className = 'token-gloss';

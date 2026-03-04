@@ -163,14 +163,24 @@ main {
   align-items: center;
   gap: 2px;
 }
-.token.linked { cursor: pointer; }
-.token.linked:hover .token-form { color: #3498db; text-decoration: underline; }
-.token.missing .token-form,
-.token.missing .token-gloss { color: #c0392b; }
-.token.missing .token-form { font-weight: bold; }
+.entry-links {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.entry-link {
+  font-size: 0.7rem;
+  font-family: monospace;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.entry-link.found { background: #d6eaf8; color: #2471a3; cursor: pointer; }
+.entry-link.found:hover { background: #aed6f1; }
+.entry-link.missing { background: #fadbd8; color: #c0392b; font-weight: bold; }
 
 .token-script { font-size: 1.2rem; }
-.token-form   { font-size: 1rem; }
+.token-form   { font-size: 1rem; font-family: monospace; }
 .token-gloss  { font-size: 0.8rem; color: #888; }
 
 .translation {

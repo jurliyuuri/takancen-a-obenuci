@@ -4,11 +4,11 @@
       "id": "s001",
       "source": "Takan-cen Creation Myth, §1",
       "tokens": [
-        { "form": "kijákaga",       "script": "", "entry_id": "kijákaga",  "gloss": "daytime"           },
-        { "form": "ja",        "script": "", "entry_id": "ja",   "gloss": "NOM"           },
-        { "form": "tákan=cen", "script": "", "entry_id": "cen",  "gloss": "Takan-language"},
-        { "form": "ki",        "script": "", "entry_id": "ki",   "gloss": "ACC"           },
-        { "form": "cémala-ta",   "script": "", "entry_id": "céma-", "gloss": "speak-PST"     }
+        { "form": "kijákaga",  "script": "", "entry_ids": ["kijákaga"],      "gloss": "daytime"        },
+        { "form": "ja",        "script": "", "entry_ids": ["ja"],             "gloss": "NOM"            },
+        { "form": "tákan=cen", "script": "", "entry_ids": ["tákan", "cen"],  "gloss": "Takan-language" },
+        { "form": "ki",        "script": "", "entry_ids": ["ki"],             "gloss": "ACC"            },
+        { "form": "cémala-ta", "script": "", "entry_ids": ["céma-"],         "gloss": "speak-PST"      }
       ],
       "translation": "The daytime spoke the Takan language."
     },
@@ -16,11 +16,11 @@
       "id": "s002",
       "source": "Takan-cen Creation Myth, §2",
       "tokens": [
-        { "form": "ná",    "script": "", "entry_id": "ná", "gloss": "water" },
-        { "form": "ja",      "script": "", "entry_id": "ja",   "gloss": "NOM"   },
-        { "form": "ácijo",    "script": "", "entry_id": "ácijo", "gloss": "stone" },
-        { "form": "ki",      "script": "", "entry_id": "ki",   "gloss": "ACC"   },
-        { "form": "átala-ta", "script": "", "entry_id": "áta-", "gloss": "see-PST" }
+        { "form": "ná",       "script": "", "entry_ids": ["ná"],    "gloss": "water"  },
+        { "form": "ja",       "script": "", "entry_ids": ["ja"],    "gloss": "NOM"    },
+        { "form": "ácijo",    "script": "", "entry_ids": ["ácijo"], "gloss": "stone"  },
+        { "form": "ki",       "script": "", "entry_ids": ["ki"],    "gloss": "ACC"    },
+        { "form": "átala-ta", "script": "", "entry_ids": ["áta-"],  "gloss": "see-PST"}
       ],
       "translation": "The water looked upon the stone."
     },
@@ -28,11 +28,11 @@
       "id": "s003",
       "source": "Folk song, verse 1",
       "tokens": [
-        { "form": "kijákaga",    "script": "", "entry_id": "kijákaga",  "gloss": "daytime"     },
-        { "form": "ja",     "script": "", "entry_id": "ja",   "gloss": "NOM"     },
-        { "form": "ná",   "script": "", "entry_id": "ná", "gloss": "water"   },
-        { "form": "ki",     "script": "", "entry_id": "ki",   "gloss": "ACC"     },
-        { "form": "átalu", "script": "", "entry_id": "áta-", "gloss": "see-NPST"}
+        { "form": "kijákaga", "script": "", "entry_ids": ["kijákaga"], "gloss": "daytime"  },
+        { "form": "ja",       "script": "", "entry_ids": ["ja"],       "gloss": "NOM"      },
+        { "form": "ná",       "script": "", "entry_ids": ["ná"],       "gloss": "water"    },
+        { "form": "ki",       "script": "", "entry_ids": ["ki"],       "gloss": "ACC"      },
+        { "form": "átalu",    "script": "", "entry_ids": ["áta-"],     "gloss": "see-NPST" }
       ],
       "translation": "The daytime gazes upon the water."
     },
@@ -40,12 +40,12 @@
       "id": "s004",
       "source": "Spoonfed Takancen, sample #10",
       "tokens": [
-        { "form": "má",     "script": "", "entry_id": "má",   "gloss": "you"     },
-        { "form": "ja",     "script": "", "entry_id": "ja",   "gloss": "NOM"     },
-        { "form": "nán",     "script": "", "entry_id": "nán",   "gloss": "what?"     },
-        { "form": "oca",     "script": "", "entry_id": "oca",   "gloss": "ABL"     },
-        { "form": "cák-u",     "script": "", "entry_id": "cák-",   "gloss": "come"     },
-        { "form": "mu",     "script": "", "entry_id": "mu",   "gloss": "Q"     }
+        { "form": "má",    "script": "", "entry_ids": ["má"],   "gloss": "you"  },
+        { "form": "ja",    "script": "", "entry_ids": ["ja"],   "gloss": "NOM"  },
+        { "form": "nán",   "script": "", "entry_ids": ["nán"],  "gloss": "what?"},
+        { "form": "oca",   "script": "", "entry_ids": ["oca"],  "gloss": "ABL"  },
+        { "form": "cák-u", "script": "", "entry_ids": ["cák-"], "gloss": "come" },
+        { "form": "mu",    "script": "", "entry_ids": ["mu"],   "gloss": "Q"    }
       ],
       "translation": "Where are you from?"
     },
@@ -53,9 +53,9 @@
       "id": "s005",
       "source": "Imperfect pangram",
       "tokens": [
-        { "form": "obénuci",     "script": "", "entry_id": "obénuci",   "gloss": "ocean"     },
-        { "form": "kan",     "script": "", "entry_id": "kan",   "gloss": "LOC"     },
-        { "form": "moúla-ta",     "script": "", "entry_id": "moú-",   "gloss": "go-PST"     }
+        { "form": "obénuci",  "script": "", "entry_ids": ["obénuci"], "gloss": "ocean"  },
+        { "form": "kan",      "script": "", "entry_ids": ["kan"],     "gloss": "LOC"    },
+        { "form": "moúla-ta", "script": "", "entry_ids": ["moú-"],    "gloss": "go-PST" }
       ],
       "translation": "[implicit subject] went to the ocean."
     }
