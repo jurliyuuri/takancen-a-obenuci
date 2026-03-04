@@ -222,17 +222,30 @@ function buildTokenEl(token) {
   const div = document.createElement('div');
   div.className = 'token';
 
-  const scriptText = { mixed_script: token.mixed_script, syllabaries: romanToHiragana(token.form) };
+  const mixedText = token.mixed_script || '';
+  const syllText  = romanToHiragana(token.form);
+  const coincide  = !mixedText || mixedText === syllText;
 
-  const mixedScript = document.createElement('div');
-  mixedScript.className = 'token-script';
-  mixedScript.textContent = scriptText.mixed_script;
-  div.appendChild(mixedScript);
+  const scripts = document.createElement('div');
+  scripts.className = coincide ? 'token-scripts single' : 'token-scripts';
 
-  const syllabaries = document.createElement('div');
-  syllabaries.className = 'token-script';
-  syllabaries.textContent = scriptText.syllabaries;
-  div.appendChild(syllabaries);
+  if (coincide) {
+    const s = document.createElement('div');
+    s.className = 'token-script';
+    s.textContent = mixedText || syllText;
+    scripts.appendChild(s);
+  } else {
+    const mixed = document.createElement('div');
+    mixed.className = 'token-script';
+    mixed.textContent = mixedText;
+    scripts.appendChild(mixed);
+
+    const syll = document.createElement('div');
+    syll.className = 'token-script';
+    syll.textContent = syllText;
+    scripts.appendChild(syll);
+  }
+  div.appendChild(scripts);
 
   const form = document.createElement('div');
   form.className = 'token-form';
