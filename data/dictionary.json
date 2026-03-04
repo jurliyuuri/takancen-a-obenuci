@@ -5,7 +5,7 @@
       "lemma": "cen",
       "script": "",
       "pos": "noun",
-      "inflection_class": "class-A",
+      "inflection_class": "",
       "definitions": [
         {
           "gloss": "language",
@@ -15,24 +15,24 @@
       "notes": "Commonly used in compounds, as in 'Takan-cen' (the Takan language)."
     },
     {
-      "id": "asa",
-      "lemma": "asa",
+      "id": "kijákaga",
+      "lemma": "kijákaga",
       "script": "",
       "pos": "noun",
-      "inflection_class": "class-A",
+      "inflection_class": "",
       "definitions": [
         {
-          "gloss": "sun",
-          "definition": "The sun; by extension, daylight or a radiant day."
+          "gloss": "daytime",
+          "definition": "A compound word, consisting of <i>kíja</i> (sun) and <i>kága</i> (time)."
         }
       ]
     },
     {
-      "id": "koru",
-      "lemma": "koru",
+      "id": "ácijo",
+      "lemma": "ácijo",
       "script": "",
       "pos": "noun",
-      "inflection_class": "class-B",
+      "inflection_class": "",
       "definitions": [
         {
           "gloss": "stone",
@@ -41,11 +41,11 @@
       ]
     },
     {
-      "id": "veli",
-      "lemma": "veli",
+      "id": "ná",
+      "lemma": "ná",
       "script": "",
       "pos": "noun",
-      "inflection_class": "class-A",
+      "inflection_class": "",
       "definitions": [
         {
           "gloss": "water",
@@ -54,11 +54,37 @@
       ]
     },
     {
-      "id": "noba",
-      "lemma": "noba-",
+      "id": "má",
+      "lemma": "má",
+      "script": "",
+      "pos": "noun",
+      "inflection_class": "",
+      "definitions": [
+        {
+          "gloss": "you",
+          "definition": "second person singular pronoun"
+        }
+      ]
+    },
+    {
+      "id": "nán",
+      "lemma": "nán",
+      "script": "",
+      "pos": "noun",
+      "inflection_class": "",
+      "definitions": [
+        {
+          "gloss": "what?",
+          "definition": "A word used to compose a wh- question."
+        }
+      ]
+    },
+    {
+      "id": "céma",
+      "lemma": "céma-",
       "script": "",
       "pos": "verb",
-      "inflection_class": "class-1",
+      "inflection_class": "vowel-stem",
       "definitions": [
         {
           "gloss": "speak",
@@ -67,11 +93,24 @@
       ]
     },
     {
-      "id": "imel",
-      "lemma": "imel-",
+      "id": "cak-",
+      "lemma": "cak-",
       "script": "",
       "pos": "verb",
-      "inflection_class": "class-2",
+      "inflection_class": "consonant-stem",
+      "definitions": [
+        {
+          "gloss": "come",
+          "definition": "To come."
+        }
+      ]
+    },
+    {
+      "id": "áta",
+      "lemma": "áta-",
+      "script": "",
+      "pos": "verb",
+      "inflection_class": "vowel-stem",
       "definitions": [
         {
           "gloss": "see",
@@ -80,8 +119,8 @@
       ]
     },
     {
-      "id": "ra",
-      "lemma": "ra",
+      "id": "ja",
+      "lemma": "ja",
       "script": "",
       "pos": "particle",
       "definitions": [
@@ -92,14 +131,38 @@
       ]
     },
     {
-      "id": "na",
-      "lemma": "na",
+      "id": "ki",
+      "lemma": "ki",
       "script": "",
       "pos": "particle",
       "definitions": [
         {
           "gloss": "ACC",
           "definition": "Accusative case marker; indicates the direct object of the sentence."
+        }
+      ]
+    },
+    {
+      "id": "mu",
+      "lemma": "mu",
+      "script": "",
+      "pos": "particle",
+      "definitions": [
+        {
+          "gloss": "Q",
+          "definition": "Question marker; placed at the end of a questioning sentence."
+        }
+      ]
+    },
+    {
+      "id": "ocá",
+      "lemma": "ocá",
+      "script": "",
+      "pos": "particle",
+      "definitions": [
+        {
+          "gloss": "ABL",
+          "definition": "Ablative case marker; indicates a movement away from it."
         }
       ]
     }
