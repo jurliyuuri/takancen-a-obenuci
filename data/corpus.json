@@ -32,7 +32,7 @@
         { "form": "ja",       "mixed_script": "や", "entry_ids": ["ja"],       "gloss": "NOM"      },
         { "form": "ná",       "mixed_script": "水", "entry_ids": ["ná"],       "gloss": "water"    },
         { "form": "ki",       "mixed_script": "き", "entry_ids": ["ki"],       "gloss": "ACC"      },
-        { "form": "átalu",    "mixed_script": "目ら終", "entry_ids": ["áta-","(u)"],     "gloss": "see-NPST" }
+        { "form": "átalu",    "mixed_script": "目る", "entry_ids": ["áta-","(u)"],     "gloss": "see-NPST" }
       ],
       "translation": "The daytime gazes upon the water."
     },

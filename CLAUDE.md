@@ -51,10 +51,12 @@ translation string   free translation
 
 Each `Token`:
 ```
-form      string   surface form in romanization
-script    string   native script (may be empty)
-entry_id  string   dictionary entry id this token is an inflected form of (null for unlinked tokens)
-gloss     string   interlinear gloss label, e.g. "sun", "NOM", "speak-PST"
+form         string    surface form in romanization
+mixed_script string    mixed logogram+syllabary representation (displayed with LinzklarRounded font);
+                       if absent, the UI falls back to pure hiragana computed from `form`
+entry_ids    string[]  dictionary entry ids this token links to (one per morpheme for compounds);
+                       red badge if id is missing from dictionary, blue+clickable if found
+gloss        string    interlinear gloss label, e.g. "sun", "NOM", "speak-PST"
 ```
 
 ## About the User

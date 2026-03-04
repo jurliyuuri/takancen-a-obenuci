@@ -222,11 +222,17 @@ function buildTokenEl(token) {
   const div = document.createElement('div');
   div.className = 'token';
 
-  const scriptText = token.script || romanToHiragana(token.form);
-  const script = document.createElement('div');
-  script.className = 'token-script';
-  script.textContent = scriptText;
-  div.appendChild(script);
+  const scriptText = { mixed_script: token.mixed_script, syllabaries: romanToHiragana(token.form) };
+
+  const mixedScript = document.createElement('div');
+  mixedScript.className = 'token-script';
+  mixedScript.textContent = scriptText.mixed_script;
+  div.appendChild(mixedScript);
+
+  const syllabaries = document.createElement('div');
+  syllabaries.className = 'token-script';
+  syllabaries.textContent = scriptText.syllabaries;
+  div.appendChild(syllabaries);
 
   const form = document.createElement('div');
   form.className = 'token-form';
