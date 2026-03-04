@@ -1,18 +1,6 @@
 {
   "sentences": [
     {
-      "id": "s001",
-      "source": "Takan-cen Creation Myth, §1",
-      "tokens": [
-        { "form": "kijákaga",  "mixed_script": "日時", "entry_ids": ["kijákaga"],      "gloss": "daytime"        },
-        { "form": "ja",        "mixed_script": "や", "entry_ids": ["ja"],             "gloss": "NOM"            },
-        { "form": "tákan=cen", "mixed_script": "皇言", "entry_ids": ["tákan", "cen"],  "gloss": "Takan-language" },
-        { "form": "ki",        "mixed_script": "き", "entry_ids": ["ki"],             "gloss": "ACC"            },
-        { "form": "cémala-ta", "mixed_script": "言ら終", "entry_ids": ["céma-", "(a)ta"],         "gloss": "speak-PST"      }
-      ],
-      "translation": "The daytime spoke the Takan language."
-    },
-    {
       "id": "s002",
       "source": "Takan-cen Creation Myth, §2",
       "tokens": [
@@ -58,6 +46,42 @@
         { "form": "moúla-ta", "mixed_script": "行ら終", "entry_ids": ["moú-", "(a)ta"],    "gloss": "go-PST" }
       ],
       "translation": "[implicit subject] went to the ocean."
+    },
+    {
+      "id": "s006",
+      "source": "タカン語概論",
+      "tokens": [
+        { "form": "tákan=cen", "mixed_script": "皇言", "entry_ids": ["tákan", "cen"],  "gloss": "Takan-language" },
+        { "form": "ki",       "mixed_script": "き", "entry_ids": ["ki"],       "gloss": "ACC"      },
+        { "form": "caneníta",  "mixed_script": "識ね入た", "entry_ids": ["cán-", "(e)nít-", "(a)"], "gloss": "learn-PTCP"  },
+        { "form": "áku",      "mixed_script": "書", "entry_ids": ["áku"],     "gloss": "book"    }
+      ],
+      "translation": "a book to learn the Takan language from"
+    },
+    {
+      "id": "s007",
+      "source": "タカン語概論",
+      "tokens": [
+        { "form": "kijákaga",  "mixed_script": "日時", "entry_ids": ["kijákaga"],      "gloss": "daytime"        },
+        { "form": "únune",  "mixed_script": "うぬね", "entry_ids": ["únun-", "(e)"],      "gloss": "be-ADV"        },
+        { "form": "áika",  "mixed_script": "光", "entry_ids": ["áika"],      "gloss": "light"        },
+        { "form": "ja",        "mixed_script": "や", "entry_ids": ["ja"],             "gloss": "NOM"            },
+        { "form": "cakenítu",  "mixed_script": "来け入つ", "entry_ids": ["cák-", "(e)nít-", "(u)"], "gloss": "come.in-NPST"  },
+        { "form": "mu",    "mixed_script": "む", "entry_ids": ["mu"],   "gloss": "Q"    }
+      ],
+      "translation": "Would light have come through, if it were daytime?"
+    },
+    {
+      "id": "s007",
+      "source": "タカン語概論",
+      "tokens": [
+        { "form": "nó",  "mixed_script": "我", "entry_ids": ["nó"],      "gloss": "I"        },
+        { "form": "ja",        "mixed_script": "や", "entry_ids": ["ja"],             "gloss": "NOM"            },
+        { "form": "nimálane=cen", "mixed_script": "哩言", "entry_ids": ["nimálane", "cen"],  "gloss": "Linepāine.language" },
+        { "form": "ki",        "mixed_script": "き", "entry_ids": ["ki"],             "gloss": "ACC"            },
+        { "form": "cemalá-cu", "mixed_script": "言能す", "entry_ids": ["céma-", "(á)c-", "(u)"],         "gloss": "speak-can-NPST"      }
+     ],
+      "translation": "I can speak Linepāine."
     }
   ]
 }

@@ -218,6 +218,19 @@
       ]
     },
     {
+      "id": "(e)nít-",
+      "lemma": "(e)nít-",
+      "script": "",
+      "pos": "auxiliary verb",
+      "inflection_class": "",
+      "definitions": [
+        {
+          "gloss": "CMPL",
+          "definition": "The instant-of-completion marker"
+        }
+      ]
+    },
+    {
       "id": "(u)",
       "lemma": "(u)",
       "script": "",
