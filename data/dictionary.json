@@ -213,7 +213,7 @@
       "definitions": [
         {
           "gloss": "PST",
-          "definition": "A marker that marks that the action is already completed."
+          "definition": "Past marker; A marker that marks that the action is already completed."
         }
       ]
     },
@@ -225,8 +225,8 @@
       "inflection_class": "",
       "definitions": [
         {
-          "gloss": "PST",
-          "definition": "A marker that marks that the action is already completed."
+          "gloss": "NPST",
+          "definition": "Non-past marker; A marker that marks non-past."
         }
       ]
     }

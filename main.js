@@ -203,13 +203,6 @@ function buildSentenceEl(sentence) {
     div.appendChild(src);
   }
 
-  // Sentence rendered in native script (hiragana + custom font)
-  // Each token is converted independently to avoid cross-boundary syllabification errors.
-  const scriptLine = document.createElement('div');
-  scriptLine.className = 'sentence-script';
-  scriptLine.textContent = sentence.tokens.map(t => romanToHiragana(t.form)).join('');
-  div.appendChild(scriptLine);
-
   // Interlinear gloss block
   const interlinear = document.createElement('div');
   interlinear.className = 'interlinear';
@@ -229,12 +222,11 @@ function buildTokenEl(token) {
   const div = document.createElement('div');
   div.className = 'token';
 
-  if (token.script) {
-    const script = document.createElement('div');
-    script.className = 'token-script';
-    script.textContent = token.script;
-    div.appendChild(script);
-  }
+  const scriptText = token.script || romanToHiragana(token.form);
+  const script = document.createElement('div');
+  script.className = 'token-script';
+  script.textContent = scriptText;
+  div.appendChild(script);
 
   const form = document.createElement('div');
   form.className = 'token-form';
