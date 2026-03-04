@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'LinzklarRounded';
+  src: url('https://yasusho.github.io/linmarn_font_project/fonts/rounded/Linzklar_rounded.woff') format('woff');
+}
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -135,7 +140,13 @@ main {
 .source {
   font-size: 0.8rem;
   color: #aaa;
+  margin-bottom: 8px;
+}
+.sentence-script {
+  font-family: 'LinzklarRounded', serif;
+  font-size: 1.6rem;
   margin-bottom: 12px;
+  letter-spacing: 0.05em;
 }
 
 /* Interlinear gloss: each token is a small column */
