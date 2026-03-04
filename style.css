@@ -154,6 +154,9 @@ main {
 }
 .token.linked { cursor: pointer; }
 .token.linked:hover .token-form { color: #3498db; text-decoration: underline; }
+.token.missing .token-form,
+.token.missing .token-gloss { color: #c0392b; }
+.token.missing .token-form { font-weight: bold; }
 
 .token-script { font-size: 1.2rem; }
 .token-form   { font-size: 1rem; }

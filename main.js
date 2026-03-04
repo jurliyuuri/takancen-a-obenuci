@@ -181,11 +181,15 @@ function buildTokenEl(token) {
   div.className = 'token';
 
   if (token.entry_id) {
-    div.classList.add('linked');
-    div.addEventListener('click', () => {
-      switchTab('dictionary');
-      highlightEntry(token.entry_id);
-    });
+    if (entryMap.has(token.entry_id)) {
+      div.classList.add('linked');
+      div.addEventListener('click', () => {
+        switchTab('dictionary');
+        highlightEntry(token.entry_id);
+      });
+    } else {
+      div.classList.add('missing');
+    }
   }
 
   if (token.script) {
