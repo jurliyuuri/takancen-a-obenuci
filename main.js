@@ -266,7 +266,7 @@ function buildEntryEl(entry) {
                 const linked = entryMap.get(id);
                 const gloss = linked.definitions[0]?.gloss;
                 badge.textContent = id;
-                badge.addEventListener('click', () => highlightEntry(id));
+                badge.addEventListener('click', () => navigateToEntry(id));
             }
             else {
                 badge.className = 'entry-link missing';
@@ -354,10 +354,7 @@ function buildTokenEl(token) {
             const badge = document.createElement('span');
             if (entryMap.has(id)) {
                 badge.className = 'entry-link found';
-                badge.addEventListener('click', () => {
-                    switchTab('dictionary');
-                    highlightEntry(id);
-                });
+                badge.addEventListener('click', () => navigateToEntry(id));
             }
             else {
                 badge.className = 'entry-link missing';
@@ -386,6 +383,13 @@ function highlightSentences(ids) {
             first = false;
         }
     }
+}
+function navigateToEntry(id) {
+    document.getElementById('search-input').value = '';
+    document.getElementById('pos-filter').value = '';
+    renderDictionary(dictionary);
+    switchTab('dictionary');
+    highlightEntry(id);
 }
 function highlightEntry(id) {
     for (const el of document.querySelectorAll('.entry'))

@@ -294,7 +294,7 @@ function buildEntryEl(entry: DictionaryEntry): HTMLDivElement {
         const linked = entryMap.get(id)!;
         const gloss = linked.definitions[0]?.gloss;
         badge.textContent = id;
-        badge.addEventListener('click', () => highlightEntry(id));
+        badge.addEventListener('click', () => navigateToEntry(id));
       } else {
         badge.className = 'entry-link missing';
         badge.textContent = id;
@@ -395,10 +395,7 @@ function buildTokenEl(token: import('./types.js').Token): HTMLDivElement {
       const badge = document.createElement('span');
       if (entryMap.has(id)) {
         badge.className = 'entry-link found';
-        badge.addEventListener('click', () => {
-          switchTab('dictionary');
-          highlightEntry(id);
-        });
+        badge.addEventListener('click', () => navigateToEntry(id));
       } else {
         badge.className = 'entry-link missing';
         badge.addEventListener('click', () => openEntryModal(id));
@@ -430,6 +427,14 @@ function highlightSentences(ids: string[]) {
       first = false;
     }
   }
+}
+
+function navigateToEntry(id: string) {
+  (document.getElementById('search-input') as HTMLInputElement).value = '';
+  (document.getElementById('pos-filter') as HTMLSelectElement).value = '';
+  renderDictionary(dictionary);
+  switchTab('dictionary');
+  highlightEntry(id);
 }
 
 function highlightEntry(id: string) {
