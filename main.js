@@ -210,9 +210,13 @@ function buildEntryEl(entry) {
     const stemPart = baseId(entry.id);
     const homNum = entry.id.match(/#(\d+)$/);
     const sup = homNum ? superscript(homNum[1]) : '';
-    lemma.textContent = headword !== stemPart
-        ? `${headword}${sup} [${stemPart}]`
-        : `${headword}${sup}`;
+    lemma.appendChild(document.createTextNode(`${headword}${sup}`));
+    if (headword !== stemPart) {
+        const stemLabel = document.createElement('span');
+        stemLabel.className = 'lemma-stem';
+        stemLabel.textContent = ` [${stemPart}]`;
+        lemma.appendChild(stemLabel);
+    }
     header.appendChild(lemma);
     if (entry.script) {
         const script = document.createElement('span');
