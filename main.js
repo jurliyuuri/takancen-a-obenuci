@@ -133,8 +133,8 @@ function applyFilter() {
     const matchQuery = !query
       || entry.id.toLowerCase().includes(query)
       || entry.definitions.some(d =>
-           d.gloss.toLowerCase().includes(query) ||
-           d.definition.toLowerCase().includes(query));
+           (d.gloss ?? "").toLowerCase().includes(query) ||
+           (d.definition ?? "").toLowerCase().includes(query));
     const matchPos = !pos || entry.pos === pos;
     return matchQuery && matchPos;
   });
