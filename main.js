@@ -265,7 +265,7 @@ function buildEntryEl(entry) {
                 badge.className = 'entry-link found';
                 const linked = entryMap.get(id);
                 const gloss = linked.definitions[0]?.gloss;
-                badge.textContent = gloss ? `${id} (${gloss})` : id;
+                badge.textContent = id;
                 badge.addEventListener('click', () => highlightEntry(id));
             }
             else {

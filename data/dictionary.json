@@ -13,6 +13,17 @@
       "notes": "Commonly used in compounds, as in 'Takan-cen' (the Takan language)."
     },
     {
+      "id": "kága",
+      "script": "時",
+      "pos": "noun",
+
+      "definitions": [
+        {
+          "gloss": "time"
+        }
+      ]
+    },
+    {
       "id": "kijákaga",
       "script": "日時",
       "pos": "noun",
