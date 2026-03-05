@@ -221,9 +221,70 @@ function buildSentenceEl(sentence) {
   return div;
 }
 
+// ── Morphophonological form prediction ────────────────────────────────────────
+// Validates that a token's form is consistent with its entry_ids.
+// Rules: vowel-stem: (a)→la, (e)→"", (i)→ci, (u)→lu
+//        consonant-stem: (V)→V  (use the vowel directly)
+//        accent: rightmost acute wins, all others deleted
+
+function applyAccentRule(text) {
+  const nfd = text.normalize('NFD');
+  const acute = '\u0301';
+  const lastIdx = nfd.lastIndexOf(acute);
+  if (lastIdx === -1) return text;
+  let result = '';
+  for (let i = 0; i < nfd.length; i++) {
+    if (nfd[i] === acute && i !== lastIdx) continue;
+    result += nfd[i];
+  }
+  return result.normalize('NFC');
+}
+
+const VOWEL_STEM_MAP = { a: 'la', e: '', i: 'ci', u: 'lu' };
+
+function predictTokenForm(token) {
+  const ids = token.entry_ids;
+  if (!ids || ids.length < 2) return null;
+
+  const verbEntry = entryMap.get(ids[0]);
+  if (!verbEntry || verbEntry.pos !== 'verb') return null;
+
+  let stemClass = verbEntry.inflection_class;
+  if (stemClass !== 'vowel-stem' && stemClass !== 'consonant-stem') return null;
+
+  const suffixIds = ids.slice(1);
+  if (!suffixIds.every(id => /^\([aeiou]\)/.test(id))) return null;
+
+  let stem = verbEntry.lemma.replace(/-$/, '');
+
+  for (const suffixId of suffixIds) {
+    const hasDash = suffixId.endsWith('-');
+    const withoutDash = hasDash ? suffixId.slice(0, -1) : suffixId;
+    const m = withoutDash.match(/^\(([aeiou])\)(.*)$/);
+    if (!m) return null;
+    const [, vowel, fixed] = m;
+
+    const prefix = stemClass === 'consonant-stem' ? vowel : VOWEL_STEM_MAP[vowel];
+    const concrete = prefix + fixed;
+
+    stem = applyAccentRule(stem + concrete);
+
+    if (hasDash) {
+      const lastChar = concrete.slice(-1);
+      stemClass = VOWELS.has(lastChar) ? 'vowel-stem' : 'consonant-stem';
+    }
+  }
+
+  return stem;
+}
+
 function buildTokenEl(token) {
   const div = document.createElement('div');
-  div.className = 'token';
+
+  const predicted = predictTokenForm(token);
+  const actual    = token.form.replace(/[-=]/g, '').normalize('NFC');
+  const mismatch  = predicted !== null && predicted !== actual;
+  div.className = mismatch ? 'token mismatch' : 'token';
 
   const mixedText = token.mixed_script || '';
   const syllText  = latinToSyllabary(token.form);

@@ -157,6 +157,12 @@ main {
   align-items: center;
   gap: 2px;
 }
+.token.mismatch {
+  background: hsl(321, 100%, 75%);
+  border-radius: 4px;
+  outline: 2px solid hsl(306, 95%, 56%);
+  padding: 2px 4px;
+}
 .entry-links {
   display: flex;
   gap: 3px;
