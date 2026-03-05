@@ -53,8 +53,8 @@ const entryMap = new Map(); // id -> entry
 
 async function init() {
   const [dictData, corpusData] = await Promise.all([
-    fetch('data/dictionary.json').then(r => r.json()),
-    fetch('data/corpus.json').then(r => r.json()),
+    fetch('data/dictionary.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/corpus.json',     { cache: 'no-store' }).then(r => r.json()),
   ]);
 
   dictionary = dictData.entries;
