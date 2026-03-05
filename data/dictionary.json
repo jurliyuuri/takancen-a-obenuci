@@ -271,6 +271,19 @@
           "definition": "To be able to"
         }
       ]
+    },
+    {
+      "id": "cík-",
+      "lemma": "cík-",
+      "script": "",
+      "pos": "verb",
+      "inflection_class": "consonant-stem",
+      "definitions": [
+        {
+          "gloss": "sit",
+          "definition": "To sit"
+        }
+      ]
     }
   ]
 }

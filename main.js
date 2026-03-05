@@ -129,7 +129,7 @@ function getLemma(entry) {
   const base = baseId(entry.id);
   if (entry.pos === "verb" || entry.pos === "auxiliary verb") {
     if (base.slice(-1) === "-") {
-      if (entry.inflection_class === "consonant-stem") {
+      if (entry.inflection_class === "consonant-stem" || entry.inflection_class === "c-irregular") {
         return base.slice(0, -1) + "u";
       } else if (entry.inflection_class === "vowel-stem") {
         return base.slice(0, -1) + "lu";
@@ -283,21 +283,27 @@ const SUFFIX_VOWEL = {
 };
 
 function predictTokenForm(token) {
+  console.log(token);
   const ids = token.entry_ids;
   if (!ids || ids.length < 2) return null;
 
-  const verbEntry = entryMap.get(ids[0]);
-  if (!verbEntry || verbEntry.pos !== 'verb') return null;
-
-  let stemClass = verbEntry.inflection_class;
-  if (!(stemClass in SUFFIX_VOWEL)) return null;
-
   const suffixIds = ids.slice(1);
-  if (!suffixIds.every(id => /^\([aeiou]\)/.test(id))) return null;
+  if (!suffixIds.every(id => /^\([aeiou]\)/.test(id))) {
+    console.log(`What should follow a verb is a chain of suffixes; the chain is interrupted in the token ${JSON.stringify(token)}`)
+    return null;
+  }
 
-  let stem = baseId(verbEntry.id).replace(/-$/, '');
+  let stem = baseId(ids[0]).replace(/-$/, '');
 
-  for (const suffixId of suffixIds) {
+  for (let i = 1; i < ids.length; i++) {
+
+    const previousEntry = entryMap.get(ids[i - 1]);
+    if (!previousEntry || (previousEntry.pos !== 'verb' && previousEntry.pos !== 'auxiliary verb')) return null;
+    let stemClass = previousEntry.inflection_class ? previousEntry.inflection_class : guessStemClassFromId(ids[0]);
+    if (!(stemClass in SUFFIX_VOWEL)) return null;
+    
+
+    const suffixId = ids[i];
     const hasDash = suffixId.endsWith('-');
     const withoutDash = hasDash ? suffixId.slice(0, -1) : suffixId;
     const m = withoutDash.match(/^\(([aeiou])\)(.*)$/);
@@ -305,6 +311,7 @@ function predictTokenForm(token) {
     const [, vowel, fixed] = m;
 
     const prefix = SUFFIX_VOWEL[stemClass][vowel];
+    console.log({stemClass, prefix, vowel})
     const concrete = prefix + fixed;
 
     stem = applyAccentRule(stem + concrete);
@@ -324,7 +331,12 @@ function buildTokenEl(token) {
   const predicted = predictTokenForm(token);
   const actual    = token.form.replace(/[-=]/g, '').normalize('NFC');
   const mismatch  = predicted !== null && predicted !== actual;
-  div.className = mismatch ? 'token mismatch' : 'token';
+  if (mismatch) {
+    div.className ='token mismatch';
+    console.log(`expected "${predicted}" but was given ${actual}`)
+  } else {
+    div.className = 'token';
+  }
 
   const mixedText = token.mixed_script || '';
   const syllText  = latinToSyllabary(token.form);
@@ -412,6 +424,19 @@ const jsonOutput     = document.getElementById('json-output');
 
 let modalEntryId = '';
 
+function guessStemClassFromId(id) {
+  const base = id.replace(/#\d+$/, '');
+  if (base.endsWith('-')) {
+    const stem     = base.slice(0, -1);
+    const lastChar = stem.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const ans = VOWELS.has(lastChar) ? 'vowel-stem' : 'consonant-stem';
+    console.log({base, ans});
+    return ans;
+  } else {
+    return null;
+  }
+}
+
 function openEntryModal(id) {
   modalEntryId = id;
   document.getElementById('modal-title').textContent = 'New entry: ' + id;
@@ -421,10 +446,7 @@ function openEntryModal(id) {
   const base = id.replace(/#\d+$/, '');
   if (base.endsWith('-')) {
     fieldPos.value = base.startsWith('(') ? 'auxiliary verb' : 'verb';
-    // Guess stem class from the last character of the stem
-    const stem     = base.slice(0, -1);
-    const lastChar = stem.slice(-1).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    fieldInflect.value = VOWELS.has(lastChar) ? 'vowel-stem' : 'consonant-stem';
+    fieldInflect.value = guessStemClassFromId(id);
   } else {
     fieldPos.value = 'noun';
   }
