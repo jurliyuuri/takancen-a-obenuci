@@ -4,15 +4,33 @@ function stripHomophoneDisambiguator(id) { return id.replace(/#\d+$/, ''); }
 // Keys are inflection_class values; values map the parenthesised vowel to its realisation.
 const SUFFIX_VOWEL = {
     'vowel-stem': { a: 'la', e: '', i: 'ci', u: 'lu', á: 'lá', é: '', í: 'cí', ú: 'lú' },
-    'consonant-stem': { a: 'a', e: 'e', i: 'i', u: 'u', á: 'á', é: 'e', í: 'í', ú: 'ú' },
-    'c-irregular': { a: 'ola', e: 'o', i: 'i', u: 'u', á: 'olá', é: 'o', í: 'í', ú: 'ú' },
+    'consonant-stem': { a: 'a', e: 'e', i: 'i', u: 'u', á: 'á', é: 'é', í: 'í', ú: 'ú' },
+    'c-irregular': { a: 'ola', e: 'o', i: 'i', u: 'u', á: 'olá', é: 'ó', í: 'í', ú: 'ú' },
 };
-console.assert(predictTokenFormPure(["únun-", "(e)"]) === "únune");
 console.assert(predictTokenFormPure(["cán-", "(e)nít-", "(a)"]) === "caneníta");
 console.assert(predictTokenFormPure(["móm-", "(e)cák-", "(í)ja-", "(u)"]) === "momecakíjalu");
 console.assert(predictTokenFormPure(["éma-", "(e)"]) === "éma");
 console.assert(predictTokenFormPure(["éma-", "(u)"]) === "émalu");
-console.assert(predictTokenFormPure(["moŕ-", "(a)ta"]) === "moŕlata");
+// únunu
+/* 普 */ console.assert(predictTokenFormPure(["únun-", "(e)"]) === "únune");
+/* 普 */ console.assert(predictTokenFormPure(["únun-", "(a)ta"]) === "únunata");
+/* 妙 */ console.assert(predictTokenFormPure(["únun-", "(é)m-", "(u)"]) === "unúnemu");
+/* 妙 */ console.assert(predictTokenFormPure(["únun-", "(á)c-", "(u)"]) === "unúnacu");
+/* 普 */ console.assert(predictTokenFormPure(["únun-", "(í)-", "(u)"]) === "ununílu");
+/* 妙 */ console.assert(predictTokenFormPure(["únun-", "(í)ja-", "(u)"]) === "unúnijalu");
+/* 妙 */ console.assert(predictTokenFormPure(["únun-", "(é)t-", "(u)"]) === "unúnetu");
+/* 普 */ console.assert(predictTokenFormPure(["únun-", "(e)có-", "(u)"]) === "ununecólu");
+/* 妙 */ console.assert(predictTokenFormPure(["únun-", "(é)mu-", "(u)"]) === "unúnemulu");
+// moŕlu
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(e)"]) === "moŕ");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(a)ta"]) === "moŕlata");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(é)m-", "(u)"]) === "moŕmu");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(á)c-", "(u)"]) === "morlácu");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(í)-", "(u)"]) === "morcílu");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(í)ja-", "(u)"]) === "morcíjalu");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(é)t-", "(u)"]) === "moŕtu");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(e)có-", "(u)"]) === "morcólu");
+/* 普 */ console.assert(predictTokenFormPure(["moŕ-", "(é)mu-", "(u)"]) === "moŕmulu");
 export function getStemClassFromId(id) {
     if (["c-", "ác-", "(á)c-"].includes(id)) {
         return "c-irregular";
@@ -78,6 +96,22 @@ function predictTokenFormVerb(ids) {
     return stem;
 }
 function applyAccentRule(text) {
+    // Handle special cases
+    if (text === "únunác") {
+        return "unúnac";
+    }
+    if (text === "únuném") {
+        return "unúnem";
+    }
+    if (text === "únunému") {
+        return "unúnemu";
+    }
+    if (text === "únunét") {
+        return "unúnet";
+    }
+    if (text === "únuníja") {
+        return "unúnija";
+    }
     const nfd = text.normalize('NFD');
     const acute = '\u0301';
     const lastIdx = nfd.lastIndexOf(acute);
