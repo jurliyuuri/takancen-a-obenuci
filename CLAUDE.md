@@ -34,7 +34,8 @@ id              string   unique key; append #N for homophones (e.g. "ná#2") —
                          #N for display and shows a superscript number (ná²) in the header
 script          string   native script representation (may be empty)
 pos             string   "noun" | "verb" | "noun particle" | "verb particle" | "sentence particle"
-inflection_class string  e.g. "vowel-stem", "consonant-stem" (omit for indeclinables)
+inflection_class string  "vowel-stem" | "consonant-stem" | "c-irregular" (omit for indeclinables)
+                         c-irregular: like consonant-stem for (i)/(u), but (a)→ola and (e)→o
 definitions     [ { gloss: string, definition: string } ]
 notes           string   optional
 ```

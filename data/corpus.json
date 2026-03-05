@@ -115,7 +115,8 @@
             { "form": "ja",    "mixed_script": "や", "entry_ids": ["ja"],   "gloss": "NOM"  },
             { "form": "takamácuka",    "mixed_script": "皇人", "entry_ids": ["takamácuka"],   "gloss": "person.of.Takan.ethnicity"  },
             { "form": "ununílu",  "mixed_script": "うぬにる", "entry_ids": ["únun-", "(í)-", "(u)"],      "gloss": "be-PTCP-NPST"        }
-          ]
+          ],
+          "translation": "Are you a Takan?"
     }
   ]
 }

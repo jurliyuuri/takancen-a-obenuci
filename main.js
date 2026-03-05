@@ -274,7 +274,13 @@ function applyAccentRule(text) {
   return result.normalize('NFC');
 }
 
-const VOWEL_STEM_MAP = { a: 'la', e: '', i: 'ci', u: 'lu' };
+// Suffix vowel realisation per stem class.
+// Keys are inflection_class values; values map the parenthesised vowel to its realisation.
+const SUFFIX_VOWEL = {
+  'vowel-stem':    { a: 'la',  e: '',    i: 'ci', u: 'lu'  },
+  'consonant-stem':{ a: 'a',   e: 'e',   i: 'i',  u: 'u'   },
+  'c-irregular':   { a: 'ola', e: 'o',   i: 'i',  u: 'u'   },
+};
 
 function predictTokenForm(token) {
   const ids = token.entry_ids;
@@ -284,7 +290,7 @@ function predictTokenForm(token) {
   if (!verbEntry || verbEntry.pos !== 'verb') return null;
 
   let stemClass = verbEntry.inflection_class;
-  if (stemClass !== 'vowel-stem' && stemClass !== 'consonant-stem') return null;
+  if (!(stemClass in SUFFIX_VOWEL)) return null;
 
   const suffixIds = ids.slice(1);
   if (!suffixIds.every(id => /^\([aeiou]\)/.test(id))) return null;
@@ -298,7 +304,7 @@ function predictTokenForm(token) {
     if (!m) return null;
     const [, vowel, fixed] = m;
 
-    const prefix = stemClass === 'consonant-stem' ? vowel : VOWEL_STEM_MAP[vowel];
+    const prefix = SUFFIX_VOWEL[stemClass][vowel];
     const concrete = prefix + fixed;
 
     stem = applyAccentRule(stem + concrete);

@@ -258,6 +258,19 @@
           "definition": "Non-past marker; A marker that marks non-past."
         }
       ]
+    },
+    {
+      "id": "(á)c-",
+      "lemma": "(á)c-",
+      "script": "",
+      "pos": "auxiliary verb",
+      "inflection_class": "c-irregular",
+      "definitions": [
+        {
+          "gloss": "can",
+          "definition": "To be able to"
+        }
+      ]
     }
   ]
 }
