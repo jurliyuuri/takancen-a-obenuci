@@ -27,6 +27,8 @@ function latinToSyllabary(token) {
   // or → ou
   text = text.replace(/or/g, "ou");
 
+  text = text.replace(/r/g, "ー");
+
   let result = '';
   let i = 0;
   while (i < text.length) {

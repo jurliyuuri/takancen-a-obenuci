@@ -80,6 +80,33 @@
             { "form": "átaci",    "mixed_script": "目し", "entry_ids": ["áta-","(i)"],     "gloss": "see-IMP" }
       ],
       "translation": "Watch this."
+    }, {
+      "id": "s010",
+      "source": "タカン語概論",
+      "tokens": [
+            { "form": "ailúcima",    "mixed_script": "冠国", "entry_ids": ["ailúcima"],   "gloss": "Ai’ren.Republic"  },
+            { "form": "ja",    "mixed_script": "や", "entry_ids": ["ja"],   "gloss": "NOM"  },
+            { "form": "dońdatu",    "mixed_script": "島集", "entry_ids": ["dońdatu"],   "gloss": "Republic.Union.of.the.Eastern.Islands"  },
+            { "form": "a",    "mixed_script": "あ", "entry_ids": ["a"],   "gloss": "GEN"  },
+            { "form": "címa",    "mixed_script": "国", "entry_ids": ["címa"],   "gloss": "country"  },
+            { "form": "únune",  "mixed_script": "うぬね", "entry_ids": ["únun-", "(e)"],      "gloss": "be-ADV"        },
+            { "form": "wa",  "mixed_script": "わ", "entry_ids": ["wa"],      "gloss": "and.then"        },
+
+            { "form": "amamátono",    "mixed_script": "大島", "entry_ids": ["amamátono"],   "gloss": "big.island"  },
+            { "form": "únuna",  "mixed_script": "うぬな", "entry_ids": ["únun-", "(a)"],      "gloss": "be-PTCP"        },
+            { "form": "mananádon",    "mixed_script": "母島", "entry_ids": ["mananádon"],   "gloss": "Manmana.Island"  },
+            { "form": "éma",    "mixed_script": "在", "entry_ids": ["éma-", "(e)"],   "gloss": "exist-ADV"  },
+            { "form": "wa",  "mixed_script": "わ", "entry_ids": ["wa"],      "gloss": "and.then"        },
+            { "form": "ininátono",    "mixed_script": "小島", "entry_ids": ["ininátono"],   "gloss": "small.island"  },
+            { "form": "a",    "mixed_script": "あ", "entry_ids": ["a"],   "gloss": "GEN"  },
+            { "form": "takańdon",    "mixed_script": "皇島", "entry_ids": ["takańdon"],   "gloss": "Atalam.Island"  },
+            { "form": "ata",    "mixed_script": "あた", "entry_ids": ["ata"],   "gloss": "and"  },
+            { "form": "ekádon",    "mixed_script": "光島", "entry_ids": ["ekádon"],   "gloss": "Ekadon.Island"  },
+            { "form": "ata",    "mixed_script": "あた", "entry_ids": ["ata"],   "gloss": "and"  },
+            { "form": "bartádon",    "mixed_script": "闇島", "entry_ids": ["bartádon"],   "gloss": "闇島"  },
+            { "form": "émalu",    "mixed_script": "在る", "entry_ids": ["éma-", "(u)"],   "gloss": "exist-NPST"  }
+      ],
+      "translation": "The Ai’ren Republic is a country belonging to the Republic Union of the Eastern Islands; there is Manmana Island, which is a big island, and there are Atalam Island, Ekadon Island and 闇島, which are small islands."
     }
   ]
 }
