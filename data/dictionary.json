@@ -156,6 +156,17 @@
       ]
     },
     {
+      "id": "ki#2",
+      "script": "",
+      "pos": "noun",
+      "definitions": [
+        {
+          "gloss": "3sg",
+          "definition": "third person singular pronoun"
+        }
+      ]
+    },
+    {
       "id": "mu",
       "script": "",
       "pos": "sentence particle",

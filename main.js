@@ -118,21 +118,29 @@ function renderDictionary(entries) {
   for (const entry of entries) list.appendChild(buildEntryEl(entry));
 }
 
+// Strip the homophone disambiguator (#2, #3, …) from an id.
+function baseId(id) { return id.replace(/#\d+$/, ''); }
+
+// Unicode superscript digits for homophone numbering in headers.
+const SUPERS = '⁰¹²³⁴⁵⁶⁷⁸⁹';
+function superscript(n) { return String(n).split('').map(d => SUPERS[+d]).join(''); }
+
 function getLemma(entry) {
+  const base = baseId(entry.id);
   if (entry.pos === "verb" || entry.pos === "auxiliary verb") {
-    if (entry.id.slice(-1) === "-") {
+    if (base.slice(-1) === "-") {
       if (entry.inflection_class === "consonant-stem") {
-        return entry.id.slice(0, -1) + "u";
+        return base.slice(0, -1) + "u";
       } else if (entry.inflection_class === "vowel-stem") {
-        return entry.id.slice(0, -1) + "lu";
+        return base.slice(0, -1) + "lu";
       } else {
-        console.log(`warning: entry ${entry.id} ends in a hyphen but its inflection class is ${entry.inflection_class}`)
+        console.log(`warning: entry ${entry.id} ends in a hyphen but its inflection class is ${entry.inflection_class}`);
       }
     } else {
-      console.log(`warning: entry ${entry.id} ends in a hyphen but is neither a verb nor an auxiliary verb`)
+      console.log(`warning: entry ${entry.id} is a verb/aux but does not end in a hyphen`);
     }
   }
-  return entry.id;
+  return base;
 }
 
 function buildEntryEl(entry) {
@@ -146,7 +154,13 @@ function buildEntryEl(entry) {
 
   const lemma = document.createElement('span');
   lemma.className = 'lemma';
-  lemma.textContent = entry.id === getLemma(entry) ? entry.id : `${getLemma(entry)} [${entry.id}]`;
+  const headword  = getLemma(entry);
+  const stemPart  = baseId(entry.id);          // id without #N
+  const homNum    = entry.id.match(/#(\d+)$/); // present only for homophones
+  const sup       = homNum ? superscript(homNum[1]) : '';
+  lemma.textContent = headword !== stemPart
+    ? `${headword}${sup} [${stemPart}]`        // verb: show citation form + stem id
+    : `${headword}${sup}`;                     // other: just headword (+ superscript if homophone)
   header.appendChild(lemma);
 
   if (entry.script) {
@@ -275,7 +289,7 @@ function predictTokenForm(token) {
   const suffixIds = ids.slice(1);
   if (!suffixIds.every(id => /^\([aeiou]\)/.test(id))) return null;
 
-  let stem = verbEntry.id.replace(/-$/, '');
+  let stem = baseId(verbEntry.id).replace(/-$/, '');
 
   for (const suffixId of suffixIds) {
     const hasDash = suffixId.endsWith('-');

@@ -30,11 +30,11 @@ Then visit `http://localhost:8000`.
 
 Each `Entry`:
 ```
-id              string   unique key
-lemma           string   romanized citation form (verbs conventionally written with trailing "-")
+id              string   unique key; append #N for homophones (e.g. "ná#2") — the UI strips
+                         #N for display and shows a superscript number (ná²) in the header
 script          string   native script representation (may be empty)
-pos             string   "noun" | "verb" | "particle" | "adj" | "adv" | "conj" | "intj"
-inflection_class string  e.g. "class-A", "class-1" (omit for indeclinables)
+pos             string   "noun" | "verb" | "noun particle" | "verb particle" | "sentence particle"
+inflection_class string  e.g. "vowel-stem", "consonant-stem" (omit for indeclinables)
 definitions     [ { gloss: string, definition: string } ]
 notes           string   optional
 ```

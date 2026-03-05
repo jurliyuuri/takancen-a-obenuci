@@ -107,6 +107,15 @@
             { "form": "émalu",    "mixed_script": "在る", "entry_ids": ["éma-", "(u)"],   "gloss": "exist-NPST"  }
       ],
       "translation": "The Ai’ren Republic is a country belonging to the Republic Union of the Eastern Islands; there is Manmana Island, which is a big island, and there are Atalam Island, Ekadon Island and 闇島, which are small islands."
+    }, {
+      "id": "s011",
+         "source": "タカン語概論",
+      "tokens": [
+            { "form": "ki",    "mixed_script": "那", "entry_ids": ["ki#2"],   "gloss": "he"  },
+            { "form": "ja",    "mixed_script": "や", "entry_ids": ["ja"],   "gloss": "NOM"  },
+            { "form": "takamácuka",    "mixed_script": "皇人", "entry_ids": ["takamácuka"],   "gloss": "person.of.Takan.ethnicity"  },
+            { "form": "ununílu",  "mixed_script": "うぬにる", "entry_ids": ["únun-", "(í)-", "(u)"],      "gloss": "be-PTCP-NPST"        }
+          ]
     }
   ]
 }
