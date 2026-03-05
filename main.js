@@ -144,6 +144,7 @@ function setupControls() {
     document.getElementById('pos-filter').addEventListener('change', applyFilter);
     document.getElementById('tab-dictionary').textContent = t('ui', 'Dictionary');
     document.getElementById('tab-corpus').textContent = t('ui', 'Corpus');
+    document.getElementById('search-input').placeholder = t('ui', 'Search\u2026');
     // Create the "All parts of speech" option first
     const sel = document.getElementById('pos-filter');
     const allOpt = document.createElement('option');
@@ -418,7 +419,7 @@ const jsonOutput = document.getElementById('json-output');
 let modalEntryId = '';
 function openEntryModal(id) {
     modalEntryId = id;
-    document.getElementById('modal-title').textContent = 'New entry: ' + id;
+    document.getElementById('modal-title').textContent = t('ui', 'New entry:') + ' ' + id;
     fieldLemma.value = id;
     // Auto-select POS: strip #N disambiguator, then check id shape
     const base = id.replace(/#\d+$/, '');
@@ -447,12 +448,12 @@ function addDefRow() {
     row.className = 'def-row';
     const gloss = document.createElement('input');
     gloss.type = 'text';
-    gloss.placeholder = 'gloss';
+    gloss.placeholder = t('ui', 'gloss');
     gloss.className = 'def-gloss';
     gloss.addEventListener('input', updateJsonOutput);
     const def = document.createElement('input');
     def.type = 'text';
-    def.placeholder = 'definition';
+    def.placeholder = t('ui', 'definition');
     def.className = 'def-definition';
     def.addEventListener('input', updateJsonOutput);
     const rm = document.createElement('button');
@@ -502,5 +503,31 @@ function setupModal() {
     // Close on backdrop click
     modal.addEventListener('click', e => { if (e.target === modal)
         modal.close(); });
+    // Set localized label text
+    document.getElementById('modal-label-lemma').textContent = t('ui', 'Lemma');
+    document.getElementById('modal-label-pos').textContent = t('ui', 'POS');
+    document.getElementById('modal-label-conj').textContent = t('ui', 'conjugation class');
+    document.getElementById('modal-label-definitions').textContent = t('ui', 'Definitions');
+    document.getElementById('add-def-btn').textContent = t('ui', '+ Add definition');
+    document.getElementById('modal-label-notes').textContent = t('ui', 'Notes');
+    document.getElementById('modal-label-optional').textContent = t('ui', '(optional)');
+    document.getElementById('modal-label-json-output').textContent = t('ui', 'JSON output');
+    document.getElementById('copy-json-btn').textContent = t('ui', 'Copy');
+    // Populate POS select
+    const poses = ['noun', 'noun suffix', 'noun particle', 'verb particle', 'sentence particle', 'verb', 'auxiliary verb'];
+    for (const p of poses) {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = t('pos', p);
+        fieldPos.appendChild(opt);
+    }
+    // Populate conjugation class select
+    const conjClasses = ['vowel-stem', 'consonant-stem', 'c-irregular'];
+    for (const c of conjClasses) {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = t('conj', c);
+        fieldInflect.appendChild(opt);
+    }
 }
 init();

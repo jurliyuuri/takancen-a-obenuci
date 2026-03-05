@@ -20,6 +20,19 @@
     "ui": {
         "components": "構成要素",
         "Dictionary": "辞書",
-        "Corpus": "コーパス"
+        "Corpus": "コーパス",
+        "Lemma": "見出し語",
+        "POS": "品詞",
+        "conjugation class": "活用の型",
+        "Definitions": "定義",
+        "+ Add definition": "+ 定義を追加",
+        "Notes": "備考",
+        "(optional)": "(任意)",
+        "JSON output": "JSON出力",
+        "Copy": "コピー",
+        "New entry:": "新規エントリ:",
+        "gloss": "グロス",
+        "definition": "定義文",
+        "Search\u2026": "見出し語・定義で検索\u2026"
     }
 }

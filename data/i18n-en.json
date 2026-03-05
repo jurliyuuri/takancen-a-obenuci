@@ -21,6 +21,19 @@
     "ui": {
         "components": "components",
         "Dictionary": "Dictionary",
-        "Corpus": "Corpus"
+        "Corpus": "Corpus",
+        "Lemma": "Lemma",
+        "POS": "POS",
+        "conjugation class": "conjugation class",
+        "Definitions": "Definitions",
+        "+ Add definition": "+ Add definition",
+        "Notes": "Notes",
+        "(optional)": "(optional)",
+        "JSON output": "JSON output",
+        "Copy": "Copy",
+        "New entry:": "New entry:",
+        "gloss": "gloss",
+        "definition": "definition",
+        "Search\u2026": "Search lemma or definition\u2026"
     }
 }

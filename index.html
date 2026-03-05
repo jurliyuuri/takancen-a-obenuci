@@ -44,39 +44,28 @@
     </div>
     <div class="modal-body">
       <div class="modal-form">
-        <label>Lemma
+        <label><span id="modal-label-lemma"></span>
           <input id="field-lemma" type="text">
         </label>
-        <label>POS
-          <select id="field-pos">
-            <option value="noun">noun</option>
-            <option value="verb">verb</option>
-            <option value="auxiliary verb">auxiliary verb</option>
-            <option value="noun particle">noun particle</option>
-            <option value="verb particle">verb particle</option>
-            <option value="sentence particle">sentence particle</option>
-          </select>
+        <label><span id="modal-label-pos"></span>
+          <select id="field-pos"></select>
         </label>
-        <label id="conjugation-label">conjugation class
-          <select id="field-conjugation">
-            <option value="vowel-stem">vowel-stem</option>
-            <option value="consonant-stem">consonant-stem</option>
-            <option value="c-irregular">c-irregular</option>
-          </select>
+        <label id="conjugation-label"><span id="modal-label-conj"></span>
+          <select id="field-conjugation"></select>
         </label>
         <div>
-          <div class="field-label">Definitions</div>
+          <div class="field-label" id="modal-label-definitions"></div>
           <div id="def-list"></div>
-          <button type="button" id="add-def-btn">+ Add definition</button>
+          <button type="button" id="add-def-btn"></button>
         </div>
-        <label>Notes <small>(optional)</small>
+        <label><span id="modal-label-notes"></span> <small id="modal-label-optional"></small>
           <input id="field-notes" type="text">
         </label>
       </div>
       <div class="modal-output">
         <div class="output-header">
-          <span class="field-label">JSON output</span>
-          <button type="button" id="copy-json-btn">Copy</button>
+          <span class="field-label" id="modal-label-json-output"></span>
+          <button type="button" id="copy-json-btn"></button>
         </div>
         <textarea id="json-output" readonly></textarea>
       </div>
