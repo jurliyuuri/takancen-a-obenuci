@@ -416,7 +416,15 @@ function openEntryModal(id) {
   modalEntryId = id;
   document.getElementById('modal-title').textContent = 'New entry: ' + id;
   fieldLemma.value = id;
-  fieldPos.value   = 'noun';
+
+  // Auto-select POS: strip #N disambiguator, then check id shape
+  const base = id.replace(/#\d+$/, '');
+  if (base.endsWith('-')) {
+    fieldPos.value = base.startsWith('(') ? 'auxiliary verb' : 'verb';
+  } else {
+    fieldPos.value = 'noun';
+  }
+
   fieldNotes.value = '';
   defList.innerHTML = '';
   addDefRow();
@@ -425,8 +433,12 @@ function openEntryModal(id) {
   modal.showModal();
 }
 
+function isVerbPos() {
+  return fieldPos.value === 'verb' || fieldPos.value === 'auxiliary verb';
+}
+
 function syncInflectVisibility() {
-  inflectLabel.hidden = fieldPos.value !== 'verb';
+  fieldInflect.disabled = !isVerbPos();
 }
 
 function addDefRow() {
@@ -462,7 +474,7 @@ function buildEntryObject() {
     script: '',
     pos:   fieldPos.value,
   };
-  if (fieldPos.value === 'verb') {
+  if (isVerbPos()) {
     entry.inflection_class = fieldInflect.value;
   }
   const defs = [];

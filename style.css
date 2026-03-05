@@ -264,6 +264,10 @@ dialog#entry-modal::backdrop { background: rgba(0,0,0,0.45); }
   flex-shrink: 0;
 }
 .def-row button:hover { color: #c0392b; border-color: #c0392b; }
+#field-inflection:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
 #add-def-btn {
   margin-top: 2px;
   background: none;
