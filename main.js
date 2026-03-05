@@ -421,6 +421,10 @@ function openEntryModal(id) {
   const base = id.replace(/#\d+$/, '');
   if (base.endsWith('-')) {
     fieldPos.value = base.startsWith('(') ? 'auxiliary verb' : 'verb';
+    // Guess stem class from the last character of the stem
+    const stem     = base.slice(0, -1);
+    const lastChar = stem.slice(-1).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    fieldInflect.value = VOWELS.has(lastChar) ? 'vowel-stem' : 'consonant-stem';
   } else {
     fieldPos.value = 'noun';
   }
