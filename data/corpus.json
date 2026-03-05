@@ -117,6 +117,22 @@
             { "form": "ununílu",  "mixed_script": "うぬにる", "entry_ids": ["únun-", "(í)-", "(u)"],      "gloss": "be-PTCP-NPST"        }
           ],
           "translation": "Are you a Takan?"
+    }, {
+      "id": "s011",
+         "source": "タカン語概論",
+      "tokens": [
+            { "form": "cikácola",    "mixed_script": "席能そら", "entry_ids": ["cík-", "(á)c-", "(a)"],   "gloss": "sit-can-PTCP"  },
+            { "form": "méma",    "mixed_script": "地", "entry_ids": ["méma"],   "gloss": "land"  }
+          ],
+          "translation": "a place where it is possible to sit"
+    }, {
+      "id": "s012",
+         "source": "タカン語概論",
+      "tokens": [
+            { "form": "cikecóla",    "mixed_script": "席上ら", "entry_ids": ["cík-", "(e)có-", "(a)"],   "gloss": "sit-humbly-PTCP"  },
+            { "form": "méma",    "mixed_script": "地", "entry_ids": ["méma"],   "gloss": "land"  }
+          ],
+          "translation": "a place where I had the honor to sit"
     }
   ]
 }
