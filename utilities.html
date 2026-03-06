@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Takan-cen Utilities</title>
+  <title>Takan-cen Utilities / タカン語便利ツール</title>
   <style>
     body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; }
     h1 { font-size: 1.2rem; margin-bottom: 1.5rem; }
@@ -11,17 +11,28 @@
     textarea { width: 100%; box-sizing: border-box; font-size: 1.1rem; padding: 0.4rem; }
     button { margin-top: 0.4rem; padding: 0.3rem 0.8rem; }
   </style>
-</head>
-<body>
-  <h1>Takan-cen Utilities</h1>
+  <link rel="stylesheet" href="style.css">
 
-  <h2>Syllabary → Latin</h2>
+</head>
+<body onload="useLinzklarRounded('input', document.getElementById('use_linzklar_rounded').checked)">
+  <h1>Takan-cen Utilities / タカン語便利ツール</h1>
+
+  <h2>Syllabary → Latin / タカン文字 → ラテン文字</h2>
   <textarea id="input" rows="3" placeholder="かかんや せよ やまむた"></textarea>
+  <input type="checkbox" id="use_linzklar_rounded" onchange="useLinzklarRounded('input', this.checked)"><label for="use_linzklar_rounded">Display using the linzklar-rounded font / linzklar-rounded フォントで表示する</label>
   <br>
   <button onclick="convert()">Convert</button>
   <textarea id="output" rows="3" readonly></textarea>
 
   <script>
+    function useLinzklarRounded(dom_id, flag) {
+        if (flag) {
+            document.getElementById(dom_id).style.fontFamily = "LinzklarRounded";
+        } else {
+            document.getElementById(dom_id).style.fontFamily = "sans-serif";
+        }
+    }
+
     const SYLLABARY_TO_LATIN = {
       'あ':'a',  'い':'i',  'う':'u',  'え':'e',  'お':'o',
       'か':'ka', 'き':'ki', 'く':'ku', 'け':'ke', 'こ':'ko',
