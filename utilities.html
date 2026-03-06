@@ -1,11 +1,69 @@
-<script>
-    function syllabaryToLatin(input) {
-        const words_in_syllabary = input.split(" ");
-        // TODO
-    }
-    console.assert(syllabaryToLatin("かかんや せよ やまむた") === "kakanja cejo jamamuta")
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takan-cen Utilities</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { font-size: 1.2rem; margin-bottom: 1.5rem; }
+    h2 { font-size: 1rem; margin: 1.5rem 0 0.5rem; }
+    textarea { width: 100%; box-sizing: border-box; font-size: 1.1rem; padding: 0.4rem; }
+    button { margin-top: 0.4rem; padding: 0.3rem 0.8rem; }
+  </style>
+</head>
+<body>
+  <h1>Takan-cen Utilities</h1>
 
-<textarea id="input"></textarea>
-<button onclick="syllabaryToLatin()">syllabaryToLatin</button>
-<textarea id="output"></textarea>
+  <h2>Syllabary → Latin</h2>
+  <textarea id="input" rows="3" placeholder="かかんや せよ やまむた"></textarea>
+  <br>
+  <button onclick="convert()">Convert</button>
+  <textarea id="output" rows="3" readonly></textarea>
+
+  <script>
+    const SYLLABARY_TO_LATIN = {
+      'あ':'a',  'い':'i',  'う':'u',  'え':'e',  'お':'o',
+      'か':'ka', 'き':'ki', 'く':'ku', 'け':'ke', 'こ':'ko',
+      'が':'ga', 'ぎ':'gi', 'ぐ':'gu', 'げ':'ge', 'ご':'go',
+      'さ':'ca', 'し':'ci', 'す':'cu', 'せ':'ce', 'そ':'co',
+      'ざ':'sa', 'じ':'si', 'ず':'su', 'ぜ':'se', 'ぞ':'so',
+      'た':'ta', 'ち':'ti', 'つ':'tu', 'て':'te', 'と':'to',
+      'だ':'da', 'ぢ':'di', 'づ':'du', 'で':'de', 'ど':'do',
+      'な':'na', 'に':'ni', 'ぬ':'nu', 'ね':'ne', 'の':'no',
+      'ば':'ba', 'び':'bi', 'ぶ':'bu', 'べ':'be', 'ぼ':'bo',
+      'ぱ':'pa', 'ぴ':'pi', 'ぷ':'pu', 'ぺ':'pe', 'ぽ':'po',
+      'ま':'ma', 'み':'mi', 'む':'mu', 'め':'me', 'も':'mo',
+      'や':'ja', 'ゆ':'ju', 'よ':'jo',
+      'ら':'la', 'り':'li', 'る':'lu', 'れ':'le', 'ろ':'lo',
+      'わ':'wa', 'ゐ':'wi', 'ゑ':'we', 'を':'wo',
+      'ん':'n=',
+      'ー':'r',
+    };
+
+    function syllabaryToLatin(input) {
+      let result = '';
+      for (const ch of input) {
+        result += SYLLABARY_TO_LATIN[ch] ?? ch;
+      }
+
+      result = result
+        .replace(/n=(?![aeiou])/g, "n")
+        .replace(/。/g, ". ")
+        .replace(/、/g, ", ")
+        .replace(/！/g, "! ")
+        .replace(/[「」]/g, '"')
+        ;
+
+      return result;
+    }
+
+    function convert() {
+      document.getElementById('output').value =
+        syllabaryToLatin(document.getElementById('input').value);
+    }
+
+    console.assert(syllabaryToLatin("かかんや せよ やまむた") === "kakanja cejo jamamuta");
+  </script>
+</body>
+</html>
