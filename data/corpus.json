@@ -227,7 +227,7 @@
             "nimálane",
             "=cen"
           ],
-          "gloss": "Linepāine.language"
+          "gloss": "Linepāine-language"
         },
         {
           "form": "ki",
@@ -643,9 +643,9 @@
       "id": "s013.1",
       "source": "ヤマタ！",
       "tokens": [
-        {"form": "ká", "mixed_script": "此", "entry_ids": ["ká"], "gloss": "this"},
+        {"form": "mé", "mixed_script": "此", "entry_ids": ["mé"], "gloss": "this"},
         {"form": "ja", "mixed_script": "や", "entry_ids": ["ja"], "gloss": "NOM"},
-        {"form": "ká", "mixed_script": "此", "entry_ids": ["ká"], "gloss": "this"},
+        {"form": "mé", "mixed_script": "此", "entry_ids": ["mé"], "gloss": "this"},
         {"form": "ja", "mixed_script": "や", "entry_ids": ["ja"], "gloss": "NOM"},
         {"form": "munsú", "mixed_script": "無銭", "entry_ids": ["munsú"], "gloss": "free.of.charge"},
         {"form": "a", "mixed_script": "噫", "entry_ids": ["a#2"]}

@@ -7,11 +7,11 @@
       "definitions": [
         {
           "gloss": "language",
-          "translations": { "ja": "言語、〜語" }
+          "translations": { "ja": "〜語" }
         }
       ],
       "notes": {
-        "en": "Commonly used in compounds, as in 'tákan=cen' (the Takan language).",
+        "en": "Used in compounds, as in 'tákan=cen' (the Takan language).",
         "ja": "tákan=cen「タカン語」のように、複合語に用いられる。"
       }
     },
@@ -385,6 +385,84 @@
         {
           "gloss": "go",
           "translations": { "ja": "行く" }
+        }
+      ]
+    },
+    {
+      "id": "(i)",
+      "script": "",
+      "pos": "verb particle",
+      "definitions": [
+        {
+          "gloss": "IMP",
+          "translations": {
+            "en": "imperative marker",
+            "ja": "〜せよ；命令形マーカー"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jám-",
+      "script": "口む",
+      "pos": "verb",
+      "conjugation_class": "consonant-stem",
+      "definitions": [
+        {
+          "gloss": "eat",
+          "translations": {"ja": "食べる"}
+        }
+      ]
+    },
+    {
+      "id": "éma-",
+      "script": "在る",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "definitions": [
+        {
+          "gloss": "exist",
+          "translations": {
+            "ja": "ある、存在する"
+          }
+        }
+      ]
+    }, {
+      "id": "wác-",
+      "script": "無す",
+      "pos": "verb",
+      "conjugation_class": "consonant-stem",
+      "definitions": [
+        {
+          "gloss": "not exist",
+          "translations": {
+            "ja": "無い、存在しない"
+          }
+        }
+      ]
+    },
+    {
+      "id": "méma",
+      "script": "地",
+      "pos": "noun",
+      "definitions": [
+        {
+          "gloss": "land",
+          "translations": {
+            "ja": "地面、土地"
+          }
+        }
+      ]
+    }, {
+      "id": "takamácuka",
+      "script": "皇人",
+      "pos": "noun",
+      "definitions": [
+        {
+          "gloss": "person of Takan ethnicity",
+          "translations": {
+            "ja": "タカン人"
+          }
         }
       ]
     }
