@@ -81,11 +81,11 @@
         {
           "gloss": {
             "en": "you",
-            "ja": "あなた、君"
+            "ja": "you"
           },
           "definition": {
             "en": "second person singular pronoun",
-            "ja": "二人称単数代名詞"
+            "ja": "あなた、君（二人称単数代名詞）"
           }
         }
       ]
@@ -98,11 +98,11 @@
         {
           "gloss": {
             "en": "I",
-            "ja": "わたし"
+            "ja": "I"
           },
           "definition": {
             "en": "first person singular pronoun",
-            "ja": "一人称単数代名詞"
+            "ja": "わたし（一人称単数代名詞）"
           }
         }
       ]
@@ -285,11 +285,11 @@
         {
           "gloss": {
             "en": "Takan",
-            "ja": "タカン"
+            "ja": "Takan"
           },
           "definition": {
             "en": "name of an ethnicity or a language",
-            "ja": "民族名 / 言語名"
+            "ja": "タカン（民族名 / 言語名）"
           }
         }
       ]
