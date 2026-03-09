@@ -559,7 +559,7 @@
             "(í)-",
             "(u)"
           ],
-          "gloss": "be-PTCP-NPST"
+          "gloss": "be-SPECL-NPST"
         }
       ],
       "translation": {
@@ -648,7 +648,7 @@
         {"form": "mé", "mixed_script": "此", "entry_ids": ["mé"], "gloss": "this"},
         {"form": "ja", "mixed_script": "や", "entry_ids": ["ja"], "gloss": "NOM"},
         {"form": "munsú", "mixed_script": "無銭", "entry_ids": ["munsú"], "gloss": "free.of.charge"},
-        {"form": "a", "mixed_script": "噫", "entry_ids": ["a#2"]}
+        {"form": "a", "mixed_script": "噫", "entry_ids": ["a#2"], "gloss": "DECL"}
       ],
       "translation": {"ja": "サービスだ"}
     },
