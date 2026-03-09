@@ -477,6 +477,18 @@
           }
         }
       ]
+    }, 
+    {
+      "id": "a#2",
+      "script": [
+        "噫"
+      ],
+      "pos": "sentence particle",
+      "definitions": [
+        {
+          "gloss": "DECL"
+        }
+      ]
     }
   ]
 }
