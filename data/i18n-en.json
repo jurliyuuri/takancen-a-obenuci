@@ -23,6 +23,7 @@
         "Dictionary": "Dictionary",
         "Corpus": "Corpus",
         "Lemma": "Lemma",
+        "Script": "Script [write the (u) form when it is a verb]",
         "POS": "POS",
         "conjugation class": "conjugation class",
         "Definitions": "Definitions",

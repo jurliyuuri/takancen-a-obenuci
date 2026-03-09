@@ -435,13 +435,26 @@
       ]
     }, {
       "id": "écilo",
-      "script": "",
+      "script": "えしろ",
       "pos": "noun",
       "definitions": [
         {
           "gloss": {
             "en": "appetite",
             "ja": "食欲"
+          }
+        }
+      ]
+    }, {
+      "id": "moŕ-",
+      "script": "行る",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "definitions": [
+        {
+          "gloss": {
+            "en": "go",
+            "ja": "行く"
           }
         }
       ]

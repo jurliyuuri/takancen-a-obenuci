@@ -632,8 +632,8 @@
         {"form": "a", "mixed_script": "之", "entry_ids": ["a"], "gloss": "GEN"},
         {"form": "écilo", "mixed_script": "えしろ", "entry_ids": ["écilo"], "gloss": "appetite"},
         {"form": "ja", "mixed_script": "や", "entry_ids": ["ja"], "gloss": "NOM"},
-        {"form": "ámama", "mixed_script": "大"},
-        {"form": "émaci", "mixed_script": "在し", "entry_ids": ["éma-", "(i)"]}
+        {"form": "ámama", "mixed_script": "大", "entry_ids": ["ámama"], "gloss": "greatly"},
+        {"form": "émaci", "mixed_script": "在し", "entry_ids": ["éma-", "(i)"], "gloss": "exist-IMP"}
       ],
       "translation": {
         "ja": "おう、いい食いっぷりだ！"
@@ -643,11 +643,11 @@
       "id": "s013.1",
       "source": "ヤマタ！",
       "tokens": [
-        {"form": "ká", "mixed_script": "此", "entry_ids": ["ká"]},
+        {"form": "ká", "mixed_script": "此", "entry_ids": ["ká"], "gloss": "this"},
         {"form": "ja", "mixed_script": "や", "entry_ids": ["ja"], "gloss": "NOM"},
-        {"form": "ká", "mixed_script": "此", "entry_ids": ["ká"]},
+        {"form": "ká", "mixed_script": "此", "entry_ids": ["ká"], "gloss": "this"},
         {"form": "ja", "mixed_script": "や", "entry_ids": ["ja"], "gloss": "NOM"},
-        {"form": "munsú", "mixed_script": "無銭", "entry_ids": ["munsú"]},
+        {"form": "munsú", "mixed_script": "無銭", "entry_ids": ["munsú"], "gloss": "free.of.charge"},
         {"form": "a", "mixed_script": "噫", "entry_ids": ["a#2"]}
       ],
       "translation": {"ja": "サービスだ"}
@@ -656,8 +656,8 @@
       "id": "s013.2",
       "source": "ヤマタ！",
       "tokens": [
-        {"form": "jámi", "mixed_script": "口み", "entry_ids": ["jám-", "(i)"]},
-        {"form": "jámi", "mixed_script": "口み", "entry_ids": ["jám-", "(i)"]}
+        {"form": "jámi", "mixed_script": "口み", "entry_ids": ["jám-", "(i)"], "gloss": "eat-IMP"},
+        {"form": "jámi", "mixed_script": "口み", "entry_ids": ["jám-", "(i)"], "gloss": "eat-IMP"}
       ],
       "translation": {"ja": "食え食え"}
     },
