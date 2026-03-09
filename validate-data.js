@@ -43,7 +43,6 @@ const tokenSchema = z.object({
 });
 const corpusDataSchema = z.object({
     sentences: z.array(z.object({
-        id: z.string(),
         source: z.string().optional(),
         tokens: z.array(tokenSchema),
         translation: localizedStringSchema,

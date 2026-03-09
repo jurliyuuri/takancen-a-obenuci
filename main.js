@@ -89,7 +89,7 @@ async function init() {
     ]);
     i18n = i18nData;
     dictionary = dictData.entries;
-    corpus = corpusData.sentences;
+    corpus = corpusData.sentences.map((s, i) => ({ ...s, id: String(i) }));
     for (const entry of dictionary)
         entryMap.set(entry.id, entry);
     setupControls();

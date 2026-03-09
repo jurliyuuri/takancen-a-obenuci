@@ -44,15 +44,18 @@ export interface Token {
   gloss?: string;
 }
 
-export interface CorpusSentence {
-  id: string;
+export interface CorpusSentenceData {
   source?: string;
   tokens: Token[];
   translation: LocalizedString;
 }
 
+export interface CorpusSentence extends CorpusSentenceData {
+  id: string;
+}
+
 export interface CorpusData {
-  sentences: CorpusSentence[];
+  sentences: CorpusSentenceData[];
 }
 
 export interface I18nData {
