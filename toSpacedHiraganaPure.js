@@ -17,6 +17,11 @@ export const CV_TABLE = {
     'wa': 'わ', 'wi': 'ゐ', 'we': 'ゑ', 'wo': 'を',
 };
 export const VOWELS = new Set('aeiou');
+// Small vowel kana for 拗音 (contracted sounds): CjV → Ci-kana + small-V-kana
+// e.g. kja → きぁ, kju → きぅ, kjo → きぉ (distinct from Japanese kya/kyu/kyo)
+const SMALL_VOWEL = {
+    'a': 'ぁ', 'i': 'ぃ', 'u': 'ぅ', 'e': 'ぇ', 'o': 'ぉ',
+};
 export function latinToSyllabary(token) {
     // Strip accent marks (acute etc.) then morpheme-boundary markers
     let text = token.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -27,7 +32,16 @@ export function latinToSyllabary(token) {
     let result = '';
     let i = 0;
     while (i < text.length) {
-        // Try CV pair first
+        // Try CjV (3-char contracted sound) before anything else
+        // e.g. kja → きぁ, nja → にぁ (must precede syllabic-n rule)
+        const ciKana = text[i + 1] === 'j' ? CV_TABLE[text[i] + 'i'] : undefined;
+        const smallV = ciKana ? SMALL_VOWEL[text[i + 2] ?? ''] : undefined;
+        if (ciKana && smallV) {
+            result += ciKana + smallV;
+            i += 3;
+            continue;
+        }
+        // Try CV pair
         const cv2 = text[i] + (text[i + 1] ?? '');
         if (CV_TABLE[cv2]) {
             result += CV_TABLE[cv2];
