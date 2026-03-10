@@ -336,13 +336,19 @@ function buildSentenceEl(sentence) {
     copyScript.type = 'button';
     copyScript.textContent = t('ui', 'Copy script');
     copyScript.addEventListener('click', () => {
-        navigator.clipboard.writeText(sentence.tokens.map(tok => tok.mixed_script ?? '').join(''));
+        navigator.clipboard.writeText(sentence.tokens.map(tok => tok.mixed_script ?? '').join('')).then(() => {
+            copyScript.textContent = t('ui', 'Copied!');
+            setTimeout(() => { copyScript.textContent = t('ui', 'Copy script'); }, 1500);
+        });
     });
     const copyLatin = document.createElement('button');
     copyLatin.type = 'button';
     copyLatin.textContent = t('ui', 'Copy latin');
     copyLatin.addEventListener('click', () => {
-        navigator.clipboard.writeText(sentence.tokens.map(tok => tok.form).join(' '));
+        navigator.clipboard.writeText(sentence.tokens.map(tok => tok.form).join(' ')).then(() => {
+            copyLatin.textContent = t('ui', 'Copied!');
+            setTimeout(() => { copyLatin.textContent = t('ui', 'Copy latin'); }, 1500);
+        });
     });
     copyRow.append(copyScript, copyLatin);
     div.appendChild(copyRow);
