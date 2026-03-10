@@ -1,45 +1,45 @@
 {
-    "pos": {
-        "noun": "noun",
-        "noun suffix": "noun suffix",
-        "verb": "verb",
-        "noun particle": "noun particle",
-        "auxiliary verb": "auxiliary verb",
-        "verb particle": "verb particle",
-        "sentence particle": "sentence particle",
-        "All parts of speech": "All parts of speech" 
-    },
-    "conj": {
-        "vowel-stem": "vowel-stem",
-        "consonant-stem": "consonant-stem",
-        "c-irregular": "c-irregular"
-    },
-    "count-in-corpus": {
-        "other": "${COUNT} sentences in corpus",
-        "one": "1 sentence in corpus"
-    },
-    "ui": {
-        "components": "components",
-        "Dictionary": "Dictionary",
-        "Corpus": "Corpus",
-        "Lemma": "Lemma",
-        "Script": "Script [write the (u) form when it is a verb]",
-        "+ Add script": "+ Add script",
-        "POS": "POS",
-        "conjugation class": "conjugation class",
-        "Definitions": "Definitions",
-        "+ Add definition": "+ Add definition",
-        "Notes": "Notes",
-        "(optional)": "(optional)",
-        "JSON output": "JSON output",
-        "Copy": "Copy",
-        "Copy script": "Copy script",
-        "Copy latin": "Copy latin",
-        "Copy Hiragana": "Copy Hiragana",
-        "Copied!": "Copied!",
-        "New entry:": "New entry:",
-        "gloss": "gloss",
-        "definition": "definition",
-        "Search\u2026": "Search lemma or definition\u2026"
-    }
+  "pos": {
+    "noun": "noun",
+    "noun suffix": "noun suffix",
+    "verb": "verb",
+    "noun particle": "noun particle",
+    "auxiliary verb": "auxiliary verb",
+    "verb particle": "verb particle",
+    "sentence particle": "sentence particle",
+    "All parts of speech": "All parts of speech"
+  },
+  "conj": {
+    "vowel-stem": "vowel-stem",
+    "consonant-stem": "consonant-stem",
+    "c-irregular": "c-irregular"
+  },
+  "count-in-corpus": {
+    "other": "${COUNT} sentences in corpus",
+    "one": "1 sentence in corpus"
+  },
+  "ui": {
+    "components": "components",
+    "Dictionary": "Dictionary",
+    "Corpus": "Corpus",
+    "Lemma": "Lemma",
+    "Script": "Script [write the (u) form when it is a verb]",
+    "+ Add script": "+ Add script",
+    "POS": "POS",
+    "conjugation class": "conjugation class",
+    "Definitions": "Definitions",
+    "+ Add definition": "+ Add definition",
+    "Notes": "Notes",
+    "(optional)": "(optional)",
+    "JSON output": "JSON output",
+    "Copy": "Copy",
+    "Copy script": "Copy script",
+    "Copy latin": "Copy latin",
+    "Copy Hiragana": "Copy Hiragana",
+    "Copied!": "Copied!",
+    "New entry:": "New entry:",
+    "gloss": "gloss",
+    "definition": "definition",
+    "Search…": "Search lemma or definition…"
+  }
 }

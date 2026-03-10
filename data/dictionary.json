@@ -2,12 +2,16 @@
   "entries": [
     {
       "id": "=cen",
-      "script": ["言"],
+      "script": [
+        "言"
+      ],
       "pos": "noun suffix",
       "definitions": [
         {
           "gloss": "language",
-          "translations": { "ja": "〜語" }
+          "translations": {
+            "ja": "〜語"
+          }
         }
       ],
       "notes": {
@@ -17,23 +21,31 @@
     },
     {
       "id": "kága",
-      "script": ["時"],
+      "script": [
+        "時"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "time",
-          "translations": { "ja": "時" }
+          "translations": {
+            "ja": "時"
+          }
         }
       ]
     },
     {
       "id": "kijákaga",
-      "script": ["日時"],
+      "script": [
+        "日時"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "daytime",
-          "translations": { "ja": "昼間" }
+          "translations": {
+            "ja": "昼間"
+          }
         }
       ],
       "components": [
@@ -43,29 +55,39 @@
     },
     {
       "id": "ácijo",
-      "script": ["石"],
+      "script": [
+        "石"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "stone",
-          "translations": { "ja": "石" }
+          "translations": {
+            "ja": "石"
+          }
         }
       ]
     },
     {
       "id": "ná",
-      "script": ["水"],
+      "script": [
+        "水"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "water",
-          "translations": { "ja": "水" }
+          "translations": {
+            "ja": "水"
+          }
         }
       ]
     },
     {
       "id": "má",
-      "script": ["汝"],
+      "script": [
+        "汝"
+      ],
       "pos": "noun",
       "definitions": [
         {
@@ -79,7 +101,9 @@
     },
     {
       "id": "nó",
-      "script": ["我"],
+      "script": [
+        "我"
+      ],
       "pos": "noun",
       "definitions": [
         {
@@ -93,65 +117,87 @@
     },
     {
       "id": "áku",
-      "script": ["書"],
+      "script": [
+        "書"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "book",
-          "translations": { "ja": "本、書籍" }
+          "translations": {
+            "ja": "本、書籍"
+          }
         }
       ]
     },
     {
       "id": "nán",
-      "script": ["何"],
+      "script": [
+        "何"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "what?",
-          "translations": { "ja": "何" }
+          "translations": {
+            "ja": "何"
+          }
         }
       ]
     },
     {
       "id": "céma-",
-      "script": ["言る"],
+      "script": [
+        "言る"
+      ],
       "pos": "verb",
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
           "gloss": "speak",
-          "translations": { "ja": "話す" }
+          "translations": {
+            "ja": "話す"
+          }
         }
       ]
     },
     {
       "id": "cák-",
-      "script": ["来く"],
+      "script": [
+        "来く"
+      ],
       "pos": "verb",
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
           "gloss": "come",
-          "translations": { "ja": "来る" }
+          "translations": {
+            "ja": "来る"
+          }
         }
       ]
     },
     {
       "id": "áta-",
-      "script": ["目る"],
+      "script": [
+        "目る"
+      ],
       "pos": "verb",
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
           "gloss": "see",
-          "translations": { "ja": "見る" }
+          "translations": {
+            "ja": "見る"
+          }
         }
       ]
     },
     {
       "id": "ja",
-      "script": ["や"],
+      "script": [
+        "や"
+      ],
       "pos": "noun particle",
       "definitions": [
         {
@@ -165,7 +211,9 @@
     },
     {
       "id": "ki",
-      "script": ["き"],
+      "script": [
+        "き"
+      ],
       "pos": "noun particle",
       "definitions": [
         {
@@ -179,7 +227,9 @@
     },
     {
       "id": "kí",
-      "script": ["那"],
+      "script": [
+        "那"
+      ],
       "pos": "noun",
       "definitions": [
         {
@@ -193,7 +243,9 @@
     },
     {
       "id": "mu",
-      "script": ["む"],
+      "script": [
+        "む"
+      ],
       "pos": "sentence particle",
       "definitions": [
         {
@@ -207,7 +259,9 @@
     },
     {
       "id": "oca",
-      "script": ["耒"],
+      "script": [
+        "耒"
+      ],
       "pos": "noun particle",
       "definitions": [
         {
@@ -221,7 +275,9 @@
     },
     {
       "id": "kan",
-      "script": ["処"],
+      "script": [
+        "処"
+      ],
       "pos": "noun particle",
       "definitions": [
         {
@@ -235,7 +291,9 @@
     },
     {
       "id": "tákan",
-      "script": ["皇"],
+      "script": [
+        "皇"
+      ],
       "pos": "noun",
       "definitions": [
         {
@@ -249,18 +307,24 @@
     },
     {
       "id": "obénuci",
-      "script": ["海"],
+      "script": [
+        "海"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "ocean",
-          "translations": { "ja": "海" }
+          "translations": {
+            "ja": "海"
+          }
         }
       ]
     },
     {
       "id": "(a)ta",
-      "script": ["終"],
+      "script": [
+        "終"
+      ],
       "pos": "verb particle",
       "definitions": [
         {
@@ -274,7 +338,9 @@
     },
     {
       "id": "(e)nít-",
-      "script": ["入つ"],
+      "script": [
+        "入つ"
+      ],
       "pos": "auxiliary verb",
       "conjugation_class": "consonant-stem",
       "definitions": [
@@ -308,27 +374,35 @@
       "definitions": [
         {
           "gloss": "can",
-          "translations": { "ja": "〜できる、〜しうる" }
+          "translations": {
+            "ja": "〜できる、〜しうる"
+          }
         }
       ]
     },
     {
       "id": "cík-",
       "lemma": "cík-",
-      "script": ["席く"],
+      "script": [
+        "席く"
+      ],
       "pos": "verb",
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
           "gloss": "sit",
-          "translations": { "ja": "座る" }
+          "translations": {
+            "ja": "座る"
+          }
         }
       ]
     },
     {
       "id": "a",
       "lemma": "a",
-      "script": ["之"],
+      "script": [
+        "之"
+      ],
       "pos": "noun particle",
       "definitions": [
         {
@@ -343,46 +417,62 @@
     {
       "id": "címa",
       "lemma": "címa",
-      "script": ["国"],
+      "script": [
+        "国"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "country",
-          "translations": { "ja": "国" }
+          "translations": {
+            "ja": "国"
+          }
         }
       ]
     },
     {
       "id": "áika",
-      "script": ["光"],
+      "script": [
+        "光"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "light",
-          "translations": { "ja": "光" }
+          "translations": {
+            "ja": "光"
+          }
         }
       ]
     },
     {
       "id": "écilo",
-      "script": ["えしろ"],
+      "script": [
+        "えしろ"
+      ],
       "pos": "noun",
       "definitions": [
         {
           "gloss": "appetite",
-          "translations": { "ja": "食欲" }
+          "translations": {
+            "ja": "食欲"
+          }
         }
       ]
     },
     {
       "id": "moŕ-",
-      "script": ["行る"],
+      "script": [
+        "行る"
+      ],
       "pos": "verb",
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
           "gloss": "go",
-          "translations": { "ja": "行く" }
+          "translations": {
+            "ja": "行く"
+          }
         }
       ]
     },
@@ -401,19 +491,25 @@
     },
     {
       "id": "jám-",
-      "script": ["口む"],
+      "script": [
+        "口む"
+      ],
       "pos": "verb",
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
           "gloss": "eat",
-          "translations": {"ja": "食べる"}
+          "translations": {
+            "ja": "食べる"
+          }
         }
       ]
     },
     {
       "id": "éma-",
-      "script": ["在る"],
+      "script": [
+        "在る"
+      ],
       "pos": "verb",
       "conjugation_class": "vowel-stem",
       "definitions": [
@@ -427,7 +523,9 @@
     },
     {
       "id": "wác-",
-      "script": ["無す"],
+      "script": [
+        "無す"
+      ],
       "pos": "verb",
       "conjugation_class": "consonant-stem",
       "definitions": [
@@ -441,7 +539,9 @@
     },
     {
       "id": "méma",
-      "script": ["地"],
+      "script": [
+        "地"
+      ],
       "pos": "noun",
       "definitions": [
         {
@@ -454,7 +554,9 @@
     },
     {
       "id": "takamácuka",
-      "script": ["皇人"],
+      "script": [
+        "皇人"
+      ],
       "pos": "noun",
       "definitions": [
         {
@@ -467,7 +569,10 @@
     },
     {
       "id": "mé",
-      "script": ["此", "茲"],
+      "script": [
+        "此",
+        "茲"
+      ],
       "pos": "noun",
       "definitions": [
         {
@@ -477,7 +582,7 @@
           }
         }
       ]
-    }, 
+    },
     {
       "id": "a#2",
       "script": [

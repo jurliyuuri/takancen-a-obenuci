@@ -1,44 +1,44 @@
 {
-    "pos": {
-        "noun": "名詞",
-        "noun suffix": "名詞接尾辞",
-        "verb": "動詞",
-        "noun particle": "名詞につく助詞",
-        "auxiliary verb": "助動詞",
-        "verb particle": "接続助詞",
-        "sentence particle": "終助詞",
-        "All parts of speech": "全ての品詞から検索" 
-    },
-    "conj": {
-        "vowel-stem": "母音幹",
-        "consonant-stem": "子音幹",
-        "c-irregular": "特殊幹"
-    },
-    "count-in-corpus": {
-        "other": "コーパス内に ${COUNT} 文あります"
-    },
-    "ui": {
-        "components": "構成要素",
-        "Dictionary": "辞書",
-        "Corpus": "コーパス",
-        "Lemma": "見出し語",
-        "Script": "交ぜ書き表記（動詞の場合は終止形で書く）",
-        "+ Add script": "+ 交ぜ書きを追加",
-        "POS": "品詞",
-        "conjugation class": "活用の型",
-        "Definitions": "定義",
-        "+ Add definition": "+ 定義を追加",
-        "Notes": "備考",
-        "(optional)": "(任意)",
-        "JSON output": "JSON出力",
-        "Copy": "コピー",
-        "Copy script": "交ぜ書きをコピー",
-        "Copy latin": "ラテン字をコピー",
-        "Copy Hiragana": "タカン文字の平仮名転写をコピー",
-        "Copied!": "コピーしました！",
-        "New entry:": "新規エントリ:",
-        "gloss": "グロス",
-        "definition": "定義文",
-        "Search\u2026": "見出し語・定義で検索\u2026"
-    }
+  "pos": {
+    "noun": "名詞",
+    "noun suffix": "名詞接尾辞",
+    "verb": "動詞",
+    "noun particle": "名詞につく助詞",
+    "auxiliary verb": "助動詞",
+    "verb particle": "接続助詞",
+    "sentence particle": "終助詞",
+    "All parts of speech": "全ての品詞から検索"
+  },
+  "conj": {
+    "vowel-stem": "母音幹",
+    "consonant-stem": "子音幹",
+    "c-irregular": "特殊幹"
+  },
+  "count-in-corpus": {
+    "other": "コーパス内に ${COUNT} 文あります"
+  },
+  "ui": {
+    "components": "構成要素",
+    "Dictionary": "辞書",
+    "Corpus": "コーパス",
+    "Lemma": "見出し語",
+    "Script": "交ぜ書き表記（動詞の場合は終止形で書く）",
+    "+ Add script": "+ 交ぜ書きを追加",
+    "POS": "品詞",
+    "conjugation class": "活用の型",
+    "Definitions": "定義",
+    "+ Add definition": "+ 定義を追加",
+    "Notes": "備考",
+    "(optional)": "(任意)",
+    "JSON output": "JSON出力",
+    "Copy": "コピー",
+    "Copy script": "交ぜ書きをコピー",
+    "Copy latin": "ラテン字をコピー",
+    "Copy Hiragana": "タカン文字の平仮名転写をコピー",
+    "Copied!": "コピーしました！",
+    "New entry:": "新規エントリ:",
+    "gloss": "グロス",
+    "definition": "定義文",
+    "Search…": "見出し語・定義で検索…"
+  }
 }
