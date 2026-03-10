@@ -1264,10 +1264,10 @@
           "gloss": "NOM"
         },
         {
-          "form": "mańmatu",
+          "form": "max́matu",
           "mixed_script": "奮々",
           "entry_ids": [
-            "mańmatu"
+            "max́matu"
           ],
           "gloss": "rage"
         },
@@ -1844,10 +1844,10 @@
           "gloss": "GEN"
         },
         {
-          "form": "mokámeko",
+          "form": "móxpor",
           "mixed_script": "行道",
           "entry_ids": [
-            "mokámeko"
+            "móxpor"
           ]
         }
       ]
@@ -2036,6 +2036,259 @@
             "(ú)"
           ],
           "gloss": "do-NPST"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "【A】 食べる！"
+      },
+      "tokens": [
+        {
+          "form": "á",
+          "mixed_script": "「あ」",
+          "entry_ids": [
+            "á"
+          ],
+          "gloss": "the.first.alphabet"
+        },
+        {
+          "form": "jámu",
+          "mixed_script": "口む",
+          "entry_ids": [
+            "jám-",
+            "(u)"
+          ],
+          "gloss": "eat-NPST"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "（カードを出す）"
+      },
+      "tokens": [
+        {
+          "form": "nínco",
+          "mixed_script": "紙片",
+          "entry_ids": [
+            "nínco"
+          ],
+          "gloss": "card"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "jáni",
+          "mixed_script": "生に",
+          "entry_ids": [
+            "ján-",
+            "(i)"
+          ],
+          "gloss": "submit-IMP"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "場に出ているカードの組合せよりも強く、同じ枚数・同じ種類の組み合せ（後述）を出し、すでに場にあるカードの上に重ねて置きます。"
+      },
+      "tokens": [
+        {
+          "form": "kéxke",
+          "mixed_script": "戦処",
+          "entry_ids": [
+            "kéxke"
+          ],
+          "gloss": "fighting.place"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "códatu",
+          "mixed_script": "片集",
+          "entry_ids": [
+            "códatu"
+          ],
+          "gloss": "combination.of.cards"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "méki",
+          "mixed_script": "硬",
+          "entry_ids": [
+            "méki"
+          ],
+          "gloss": "strong"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "báxmaku",
+          "mixed_script": "同値",
+          "entry_ids": [
+            "báxmaku"
+          ],
+          "gloss": "same.number"
+        },
+        {
+          "form": "báxso",
+          "mixed_script": "同類",
+          "entry_ids": [
+            "báxso"
+          ],
+          "gloss": "same.kind"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "dátu",
+          "mixed_script": "集",
+          "entry_ids": [
+            "dátu"
+          ],
+          "gloss": "combination"
+        },
+        {
+          "form": "útagi kan ká ki kálu",
+          "mixed_script": "（於下筆此）",
+          "entry_ids": [
+            "útagi kan ká ki kálu"
+          ],
+          "gloss": "as.will.be.explained.below"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "jáne",
+          "mixed_script": "生",
+          "entry_ids": [
+            "ján-",
+            "(e)"
+          ],
+          "gloss": "submit-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "tíkaga",
+          "mixed_script": "其時",
+          "entry_ids": [
+            "tíkaga"
+          ],
+          "gloss": "that.time"
+        },
+        {
+          "form": "kéxke",
+          "mixed_script": "戦処",
+          "entry_ids": [
+            "kéxke"
+          ],
+          "gloss": "fighting.place"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "émala",
+          "mixed_script": "在ら",
+          "entry_ids": [
+            "éma-",
+            "(a)"
+          ],
+          "gloss": "exist-PTCP"
+        },
+        {
+          "form": "túo",
+          "mixed_script": "片",
+          "entry_ids": [
+            "túo"
+          ],
+          "gloss": "card"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "có",
+          "mixed_script": "上",
+          "entry_ids": [
+            "có"
+          ],
+          "gloss": "on.top"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "kúgi",
+          "mixed_script": "付ぎ",
+          "entry_ids": [
+            "kúg-",
+            "(i)"
+          ],
+          "gloss": "put-IMP"
         }
       ]
     }
