@@ -1371,10 +1371,10 @@
       "source": "ヤマタ！",
       "tokens": [
         {
-          "form": "nińtuo",
+          "form": "nínco",
           "mixed_script": "紙片",
           "entry_ids": [
-            "nińtuo"
+            "nínco"
           ],
           "gloss": "card"
         },
@@ -1420,10 +1420,10 @@
           "gloss": "GEN"
         },
         {
-          "form": "nińtuo",
+          "form": "nínco",
           "mixed_script": "紙片",
           "entry_ids": [
-            "nińtuo"
+            "nínco"
           ],
           "gloss": "card"
         },
@@ -1444,11 +1444,11 @@
           "gloss": "each"
         },
         {
-          "form": "ún=tuo",
+          "form": "ún=co",
           "mixed_script": "五片",
           "entry_ids": [
             "ún",
-            "=tuo"
+            "=co"
           ],
           "gloss": "five-pieces"
         }
@@ -1473,18 +1473,18 @@
         },
         {
           "mixed_script": "(歪片)",
-          "form": "buńtuo",
+          "form": "búnco",
           "entry_ids": [
-            "buńtuo"
+            "búnco"
           ],
           "gloss": "wildcard"
         },
         {
           "mixed_script": "十五片",
-          "form": "mitácuna=tuo",
+          "form": "mitún=co",
           "entry_ids": [
-            "mitácuna",
-            "=tuo"
+            "mitún",
+            "=co"
           ],
           "gloss": "fifteen-pieces"
         }
@@ -1514,10 +1514,10 @@
         },
         {
           "mixed_script": "六十五片",
-          "form": "cunasimitácuna=tuo",
+          "form": "netumitún=co",
           "entry_ids": [
-            "cunasimitácuna",
-            "=tuo"
+            "netumitún",
+            "=co"
           ],
           "gloss": "65-pieces"
         }
@@ -1554,11 +1554,11 @@
           "gloss": "each"
         },
         {
-          "form": "ón=tuo",
+          "form": "ón=co",
           "mixed_script": "三片",
           "entry_ids": [
             "ón",
-            "=tuo"
+            "=co"
           ],
           "gloss": "three-pieces"
         },
@@ -1597,10 +1597,10 @@
           "gloss": "NOM"
         },
         {
-          "form": "comátuo",
+          "form": "cómaco",
           "mixed_script": "積片",
           "entry_ids": [
-            "comátuo"
+            "cómaco"
           ],
           "gloss": "pile.of.cards"
         },
