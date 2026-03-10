@@ -1366,14 +1366,14 @@
           "gloss": "GEN"
         },
         {"form": "nińtuo", "mixed_script": "紙片", "entry_ids": ["nińtuo"], "gloss": "card"},
-        {"form": "mún oca nór", "mixed_script": "（無耒九）", "entry_ids": ["mún oca nór"], "gloss": "0.to.9"},
+        {"form": "mún oca nór", "mixed_script": "(無耒九)", "entry_ids": ["mún oca nór"], "gloss": "0.to.9"},
         {"form": "túce", "mixed_script": "毎", "entry_ids": ["túce"], "gloss": "each"},
         {"form": "ún=tuo", "mixed_script": "五片", "entry_ids": ["ún", "=tuo"], "gloss": "five-pieces"}
   ], "translation": {"ja":"数字札（0〜9）各5枚"}
       },{"source":"ヤマタ！", "translation":{"ja":"調味料（ワイルド）15枚"},
       "tokens":[
          {"mixed_script": "味油", "form": "tikéoli", "entry_ids": ["tikéoli"], "gloss": "condiment"},
-         {"mixed_script": "（歪片）", "form": "buńtuo", "entry_ids": ["buńtuo"], "gloss": "wildcard"},
+         {"mixed_script": "(歪片)", "form": "buńtuo", "entry_ids": ["buńtuo"], "gloss": "wildcard"},
          {"mixed_script": "十五片", "form": "mitácuna=tuo", "entry_ids": ["mitácuna", "=tuo"], "gloss":"fifteen-pieces"}
        ]
     },{"source":"ヤマタ！","translation":{"ja":"計65枚"},"tokens":[
@@ -1393,7 +1393,162 @@
           "gloss": "NOM"
         },
          {"mixed_script": "六十五片", "form": "cunasimitácuna=tuo", "entry_ids": ["cunasimitácuna", "=tuo"], "gloss":"65-pieces"}
-     ]}
+     ]},{
+      "source":"ヤマタ！","translation":{"ja":"全員に3枚ずつ配る"},"tokens":[
+        {
+          "form": "bécuku",
+          "mixed_script": "全人",
+          "entry_ids": ["bécuku"],
+          "gloss": "everyone"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {"form": "túce", "mixed_script": "毎", "entry_ids": ["túce"], "gloss": "each"},
+        {"form": "ón=tuo", "mixed_script": "三片", "entry_ids": ["ón", "=tuo"], "gloss": "three-pieces"},
+       {
+          "form": "momemóki",
+          "mixed_script": "与き",
+          "entry_ids": [
+            "móm-",
+            "(e)mók-",
+            "(i)"
+          ],
+          "gloss": "give-IMP"
+        }
+       ]
+     }, {
+      "source":"ヤマタ！", "translation": {"ja":"残りは山札にする。"}, "tokens": [
+        {
+          "form": "téko",
+          "mixed_script": "残",
+          "entry_ids": [
+            "téko"
+          ],
+          "gloss": "leftover"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "comátuo",
+          "mixed_script": "積片",
+          "entry_ids": ["comátuo"],
+          "gloss": "pile.of.cards"
+        },
+        {"form":"únuni", "mixed_script":"うぬに","entry_ids":["únun-", "(i)"], "gloss":"exist-IMP"}
+      ]
+     },{
+      "source":"ヤマタ！",
+      "translation":{"ja":"適当な方法でスタートプレイヤーを決める。"},
+      "tokens":[
+         {
+          "form": "kíja",
+          "mixed_script": "心",
+          "entry_ids": [
+            "kíja"
+          ],
+          "gloss": "mind"
+        }, {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+{
+          "form": "méko",
+          "mixed_script": "道",
+          "entry_ids": [
+            "méko"
+          ],
+          "gloss": "way"
+        },{
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        }, {
+          "form": "moŕ",
+          "mixed_script": "行",
+          "entry_ids": [
+            "moŕ-",
+            "(e)"
+          ],
+          "gloss": "go-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },{
+          "form": "lácuka",
+          "mixed_script": "軸人",
+          "entry_ids": [
+            "lácuka"
+          ],
+          "gloss": "starting.player"
+        }
+
+,{
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "bélepici",
+          "mixed_script": "遊術",
+          "entry_ids": [
+            "bélepici"
+          ],
+          "gloss": "game"
+        },
+         {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        }, {
+          "form": "cajúmoka",
+          "mixed_script": "周行",
+          "entry_ids": [
+            "cajúmoka"
+          ],
+          "gloss": "rotational.direction"
+        } ,
+        
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },{"form":"mámi", "mixed_script": "定み", "entry_ids": ["mám-", "(i)"], "gloss":"determine-IMP"}
+      ]
+     }
+
     ]
 }
 
