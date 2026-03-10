@@ -32,6 +32,8 @@
         "(optional)": "(任意)",
         "JSON output": "JSON出力",
         "Copy": "コピー",
+        "Copy script": "交ぜ書きをコピー",
+        "Copy latin": "ラテン字をコピー",
         "New entry:": "新規エントリ:",
         "gloss": "グロス",
         "definition": "定義文",

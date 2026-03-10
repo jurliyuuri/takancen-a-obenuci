@@ -329,6 +329,23 @@ function buildSentenceEl(sentence) {
     translation.className = 'translation';
     translation.textContent = '\u201C' + localize(sentence.translation) + '\u201D';
     div.appendChild(translation);
+    // Copy buttons
+    const copyRow = document.createElement('div');
+    copyRow.className = 'sentence-copy-row';
+    const copyScript = document.createElement('button');
+    copyScript.type = 'button';
+    copyScript.textContent = t('ui', 'Copy script');
+    copyScript.addEventListener('click', () => {
+        navigator.clipboard.writeText(sentence.tokens.map(tok => tok.mixed_script ?? '').join(''));
+    });
+    const copyLatin = document.createElement('button');
+    copyLatin.type = 'button';
+    copyLatin.textContent = t('ui', 'Copy latin');
+    copyLatin.addEventListener('click', () => {
+        navigator.clipboard.writeText(sentence.tokens.map(tok => tok.form).join(' '));
+    });
+    copyRow.append(copyScript, copyLatin);
+    div.appendChild(copyRow);
     return div;
 }
 function buildScriptElWithRuby(o) {
