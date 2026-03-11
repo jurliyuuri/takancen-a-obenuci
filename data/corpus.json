@@ -2790,11 +2790,26 @@
       },
       "tokens": [
         {
-          "form": "aaaaa",
-          "mixed_script": "其下全新処",
+          "form": "céutu",
+          "mixed_script": "其下",
           "entry_ids": [
-            "iiiii"
+            "céutu"
           ]
+        },
+        {
+          "form": "bélu",
+          "mixed_script": "全新",
+          "entry_ids": [
+            "bélu"
+          ]
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
         },
         {
           "form": "nínco",
@@ -2880,7 +2895,7 @@
         },
         {
           "form": "utejáni",
-          "mixed_script": "始",
+          "mixed_script": "始に",
           "entry_ids": [
             "uteján-",
             "(i)"
@@ -3026,6 +3041,192 @@
             "(i)"
           ],
           "gloss": "go-IMP"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "得点獲得:"
+      },
+      "tokens": [
+        {
+          "form": "kinínsu",
+          "mixed_script": "銭",
+          "entry_ids": [
+            "kinínsu"
+          ],
+          "gloss": "money"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "mómi",
+          "mixed_script": "手み",
+          "entry_ids": [
+            "móm-",
+            "(i)"
+          ],
+          "gloss": "obtain-IMP"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "捨て札1枚を自分の前に裏返して置く。"
+      },
+      "tokens": [
+        {
+          "form": "ooooo",
+          "entry_ids": [
+            "uuuu"
+          ],
+          "mixed_script": "斥片"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ási",
+          "mixed_script": "一",
+          "entry_ids": [
+            "ási"
+          ],
+          "gloss": "one"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "tína",
+          "mixed_script": "己",
+          "entry_ids": [
+            "tína"
+          ],
+          "gloss": "oneself"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ooooo",
+          "entry_ids": [
+            "uuuu"
+          ],
+          "mixed_script": "前"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "inekúgi",
+          "entry_ids": [
+            "inekúg-",
+            "(i)"
+          ],
+          "mixed_script": "閉付ぎ",
+          "gloss": "place.something.face.down-IMP"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "（ゲーム終了時に得点になります）"
+      },
+      "tokens": [
+        {
+          "form": "bélepici",
+          "mixed_script": "遊術",
+          "entry_ids": [
+            "bélepici"
+          ],
+          "gloss": "game"
+        },
+        {
+          "form": "tála",
+          "entry_ids": [
+            "tá-",
+            "(a)"
+          ],
+          "mixed_script": "終",
+          "gloss": "end-PTCP"
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "time"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "mé",
+          "mixed_script": "此",
+          "entry_ids": [
+            "mé"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "kinínsu",
+          "mixed_script": "銭",
+          "entry_ids": [
+            "kinínsu"
+          ],
+          "gloss": "money"
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
         }
       ]
     }
