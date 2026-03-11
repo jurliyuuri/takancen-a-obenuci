@@ -43,6 +43,7 @@ async function init() {
     setupSettings();
     setupModal();
     renderDictionary(dictionary);
+    renderMissingHighFreq(computeHighFreqMissing());
     renderCorpus(corpus);
     const initialTab = new URLSearchParams(location.search).get('tab');
     if (initialTab === 'dictionary' || initialTab === 'corpus')
@@ -119,6 +120,54 @@ function applyFilter() {
         return matchQuery && matchPos;
     });
     renderDictionary(filtered);
+}
+// ── Frequent missing words ─────────────────────────────────────────────────
+function computeHighFreqMissing() {
+    const counts = new Map();
+    for (const sentence of corpus) {
+        const seenInSentence = new Set();
+        for (const token of sentence.tokens) {
+            for (const id of (token.entry_ids ?? [])) {
+                if (!entryMap.has(id) && !seenInSentence.has(id)) {
+                    seenInSentence.add(id);
+                    counts.set(id, (counts.get(id) ?? 0) + 1);
+                }
+            }
+        }
+    }
+    const result = new Map();
+    for (const [id, count] of counts) {
+        if (count >= 4)
+            result.set(id, count);
+    }
+    return result;
+}
+function renderMissingHighFreq(entries) {
+    const list = document.getElementById('missing-list');
+    list.innerHTML = '';
+    if (entries.size === 0)
+        return;
+    const heading = document.createElement('div');
+    heading.className = 'missing-section-heading';
+    heading.textContent = t('ui', 'Frequent undocumented words');
+    list.appendChild(heading);
+    for (const [id, count] of [...entries].sort((a, b) => b[1] - a[1])) {
+        const div = document.createElement('div');
+        div.className = 'entry missing-frequent';
+        div.addEventListener('click', () => openEntryModal(id));
+        const header = document.createElement('div');
+        header.className = 'entry-header';
+        const lemma = document.createElement('span');
+        lemma.className = 'lemma';
+        lemma.textContent = id;
+        header.appendChild(lemma);
+        const countBadge = document.createElement('span');
+        countBadge.className = 'pos';
+        countBadge.textContent = tCount(count);
+        header.appendChild(countBadge);
+        div.appendChild(header);
+        list.appendChild(div);
+    }
 }
 // ── Dictionary rendering ───────────────────────────────────────────────────
 function renderDictionary(entries) {

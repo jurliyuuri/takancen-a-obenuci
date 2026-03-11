@@ -96,6 +96,21 @@ main {
   border-color: #3498db;
   background: #eaf4fc;
 }
+.entry.missing-frequent {
+  background: #fdf0f0;
+  border-color: #e8b4b8;
+  cursor: pointer;
+}
+.entry.missing-frequent:hover {
+  background: #fde3e3;
+  border-color: #d98a90;
+}
+.missing-section-heading {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #c0392b;
+  margin-bottom: 8px;
+}
 
 .entry-header {
   display: flex;
