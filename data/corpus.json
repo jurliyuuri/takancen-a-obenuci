@@ -3229,6 +3229,45 @@
           "gloss": "be-ADV"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "まれな場合として捨て札がない場合があります"
+      },
+      "tokens": [
+        {
+          "form": "ououo",
+          "entry_ids": [
+            "uouou"
+          ],
+          "mixed_script": "妙時"
+        },
+        {
+          "form": "ooooo",
+          "entry_ids": [
+            "uuuu"
+          ],
+          "mixed_script": "斥片"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "wácu",
+          "mixed_script": "無す",
+          "entry_ids": [
+            "wác-",
+            "(u)"
+          ],
+          "gloss": "not.exist-NPST"
+        }
+      ]
     }
   ]
 }

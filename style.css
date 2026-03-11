@@ -111,6 +111,13 @@ main {
   color: #c0392b;
   margin-bottom: 8px;
 }
+.entry-list-heading {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
 
 .entry-header {
   display: flex;

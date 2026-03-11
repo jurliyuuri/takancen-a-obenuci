@@ -93,6 +93,10 @@ function setupControls() {
     document.getElementById('tab-dictionary').textContent = t('ui', 'Dictionary');
     document.getElementById('tab-corpus').textContent = t('ui', 'Corpus');
     document.getElementById('search-input').placeholder = t('ui', 'Search\u2026');
+    const enlistedHeading = document.createElement('div');
+    enlistedHeading.className = 'entry-list-heading';
+    enlistedHeading.textContent = t('ui', 'Enlisted words');
+    document.getElementById('entry-list').before(enlistedHeading);
     // Create the "All parts of speech" option first
     const sel = document.getElementById('pos-filter');
     const allOpt = document.createElement('option');
