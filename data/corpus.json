@@ -3755,6 +3755,45 @@
           "gloss": "combination"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "tokens": [
+        {
+          "form": "méxko",
+          "mixed_script": "硬軟",
+          "entry_ids": [
+            "méxko"
+          ],
+          "gloss": "strength"
+        }
+      ],
+      "translation": {
+        "ja": "強さ"
+      }
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "弱　強"
+      },
+      "tokens": [
+        {
+          "mixed_script": "軟",
+          "form": "kéma",
+          "entry_ids": [
+            "kém-",
+            "(a)"
+          ]
+        },
+        {
+          "mixed_script": "硬",
+          "form": "méki",
+          "entry_ids": [
+            "méki"
+          ]
+        }
+      ]
     }
   ]
 }
