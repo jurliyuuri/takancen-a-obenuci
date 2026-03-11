@@ -3865,7 +3865,7 @@
           "entry_ids": [
             "íku"
           ],
-          "gloss": "one"
+          "gloss": "two"
         },
         {
           "form": "úmu",
@@ -4054,6 +4054,93 @@
           ],
           "gloss": "five",
           "mixed_script": "五"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "セット　同じ数字の組み合わせ　8-8 , 2-2-2"
+      },
+      "tokens": [
+        {
+          "mixed_script": "友集",
+          "form": "okítadu",
+          "entry_ids": [
+            "okítadu"
+          ]
+        },
+        {
+          "form": "báxmaku",
+          "mixed_script": "同値",
+          "entry_ids": [
+            "báxmaku"
+          ],
+          "gloss": "same.number"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "dátu",
+          "mixed_script": "集",
+          "entry_ids": [
+            "dátu"
+          ],
+          "gloss": "combination"
+        },
+        {
+          "form": "nómu",
+          "entry_ids": [
+            "nómu"
+          ],
+          "gloss": "eight",
+          "mixed_script": "八"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "nómu",
+          "entry_ids": [
+            "nómu"
+          ],
+          "gloss": "eight",
+          "mixed_script": "八"
+        },
+        {
+          "form": "íku",
+          "mixed_script": "二",
+          "entry_ids": [
+            "íku"
+          ],
+          "gloss": "two"
+        },
+        {
+          "form": "íku",
+          "mixed_script": "二",
+          "entry_ids": [
+            "íku"
+          ],
+          "gloss": "two"
+        },
+        {
+          "form": "íku",
+          "mixed_script": "二",
+          "entry_ids": [
+            "íku"
+          ],
+          "gloss": "two"
         }
       ]
     }
