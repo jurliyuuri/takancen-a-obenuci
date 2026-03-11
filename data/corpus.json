@@ -3268,6 +3268,96 @@
           "gloss": "not.exist-NPST"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "その場合は今出したカード1枚を得点にします"
+      },
+      "tokens": [
+        {
+          "form": "tíkaga",
+          "mixed_script": "其時",
+          "entry_ids": [
+            "tíkaga"
+          ],
+          "gloss": "that.time"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "jána",
+          "mixed_script": "生な",
+          "entry_ids": [
+            "ján-",
+            "(a)"
+          ],
+          "gloss": "submit-PTCP"
+        },
+        {
+          "form": "nínco",
+          "mixed_script": "紙片",
+          "entry_ids": [
+            "nínco"
+          ],
+          "gloss": "card"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ási",
+          "mixed_script": "一",
+          "entry_ids": [
+            "ási"
+          ],
+          "gloss": "one"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kinínsu",
+          "mixed_script": "銭",
+          "entry_ids": [
+            "kinínsu"
+          ],
+          "gloss": "money"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "moŕci",
+          "mixed_script": "行し",
+          "entry_ids": [
+            "moŕ-",
+            "(i)"
+          ],
+          "gloss": "go-IMP"
+        }
+      ]
     }
   ]
 }
