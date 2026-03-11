@@ -3769,10 +3769,19 @@
       "source": "ヤマタ！",
       "tokens": [
         {
-          "form": "méxko",
+          "multiple-standard-pronunciation": true,
+          "forms": [
+            "méxko",
+            "méxkor"
+          ],
           "mixed_script": "硬軟",
-          "entry_ids": [
-            "méxko"
+          "entry_ids_of_each_form": [
+            [
+              "méxko"
+            ],
+            [
+              "méxkor"
+            ]
           ],
           "gloss": "strength"
         }
@@ -3867,12 +3876,29 @@
           "gloss": "three"
         },
         {
-          "form": "aaa",
-          "entry_ids": [
-            "iii"
+          "multiple-standard-pronunciation": true,
+          "forms": [
+            "nága",
+            "nágamu",
+            "nágan",
+            "kámu"
           ],
-          "gloss": "four",
-          "mixed_script": "四"
+          "mixed_script": "四",
+          "entry_ids_of_each_form": [
+            [
+              "nága"
+            ],
+            [
+              "nágamu"
+            ],
+            [
+              "nágan"
+            ],
+            [
+              "kámu"
+            ]
+          ],
+          "gloss": "four"
         },
         {
           "form": "cúna",
