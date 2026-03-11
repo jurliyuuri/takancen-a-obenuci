@@ -81,13 +81,13 @@ gloss        string    interlinear gloss label, e.g. "sun", "NOM", "speak-PST"
 
 **Multi-pronunciation token** (for logograms with multiple equally-valid readings, e.g. "四"):
 ```
-multiple-standard-pronunciation  true      discriminant field
+multiple-standard-pronunciations  true      discriminant field
 forms                            string[]  all equally-valid romanized readings
 mixed_script                     string    logogram (optional, displayed with LinzklarRounded font)
 gloss                            string    interlinear gloss label
 entry_ids_of_each_form           string[][]  entry ids per form (parallel array with `forms`)
 ```
-Example: `{"multiple-standard-pronunciation": true, "forms": ["méxko", "méxkor"], "gloss": "strength", "entry_ids_of_each_form": [["méxko"], ["méxkor"]]}`
+Example: `{"multiple-standard-pronunciations": true, "forms": ["méxko", "méxkor"], "gloss": "strength", "entry_ids_of_each_form": [["méxko"], ["méxkor"]]}`
 
 ## Romanization conventions
 

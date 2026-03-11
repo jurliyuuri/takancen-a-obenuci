@@ -45,7 +45,7 @@ export interface SingleFormToken {
 }
 
 export interface MultiPronunciationToken {
-  'multiple-standard-pronunciation': true;
+  'multiple-standard-pronunciations': true;
   forms: string[];
   mixed_script?: string;
   gloss: string;

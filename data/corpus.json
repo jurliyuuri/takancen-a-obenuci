@@ -3731,7 +3731,7 @@
           "gloss": "card"
         },
         {
-          "multiple-standard-pronunciation": true,
+          "multiple-standard-pronunciations": true,
           "forms": [
             "méxko",
             "méxkor"
@@ -3769,7 +3769,7 @@
       "source": "ヤマタ！",
       "tokens": [
         {
-          "multiple-standard-pronunciation": true,
+          "multiple-standard-pronunciations": true,
           "forms": [
             "méxko",
             "méxkor"
@@ -3876,7 +3876,7 @@
           "gloss": "three"
         },
         {
-          "multiple-standard-pronunciation": true,
+          "multiple-standard-pronunciations": true,
           "forms": [
             "nága",
             "nágamu",

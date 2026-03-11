@@ -51,7 +51,7 @@ const singleFormTokenSchema = z.object({
 });
 
 const multiPronunciationTokenSchema = z.object({
-  'multiple-standard-pronunciation': z.literal(true),
+  'multiple-standard-pronunciations': z.literal(true),
   forms: z.array(z.string()),
   mixed_script: z.string().optional(),
   gloss: z.string(),
