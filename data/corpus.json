@@ -3538,6 +3538,110 @@
           "gloss": "go-NPST"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "山札が足りない場合はできる限り引きます。"
+      },
+      "tokens": [
+        {
+          "form": "cómaco",
+          "mixed_script": "積片",
+          "entry_ids": [
+            "cómaco"
+          ],
+          "gloss": "pile.of.cards"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "téko",
+          "mixed_script": "残",
+          "entry_ids": [
+            "téko"
+          ],
+          "gloss": "leftover"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "eee",
+          "mixed_script": "少",
+          "entry_ids": [
+            "iií-",
+            "(e)"
+          ]
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "case"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "momátomo",
+          "mixed_script": "手端",
+          "entry_ids": [
+            "momátomo"
+          ]
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "méko",
+          "mixed_script": "道",
+          "entry_ids": [
+            "méko"
+          ],
+          "gloss": "way"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "moŕci",
+          "mixed_script": "行し",
+          "entry_ids": [
+            "moŕ-",
+            "(i)"
+          ],
+          "gloss": "go-IMP"
+        }
+      ]
     }
   ]
 }
