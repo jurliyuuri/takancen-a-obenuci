@@ -2442,7 +2442,8 @@
           "mixed_script": "（無行）",
           "entry_ids": [
             "muńmoku"
-          ]
+          ],
+          "gloss": "passing.one’s.turn"
         }
       ]
     },
@@ -2538,7 +2539,8 @@
           "mixed_script": "無行",
           "entry_ids": [
             "muńmoku"
-          ]
+          ],
+          "gloss": "passing.one’s.turn"
         },
         {
           "form": "cóla",
@@ -2546,7 +2548,8 @@
           "entry_ids": [
             "ć-",
             "(a)"
-          ]
+          ],
+          "gloss": "do-PTCP"
         },
         {
           "form": "ja",
@@ -2573,6 +2576,65 @@
             "(u)"
           ],
           "gloss": "exist-NPST"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "山札がない場合は引かずに終了します。"
+      },
+      "tokens": [
+        {
+          "form": "cómaco",
+          "mixed_script": "積片",
+          "entry_ids": [
+            "cómaco"
+          ],
+          "gloss": "pile.of.cards"
+        },
+        {
+          "form": "wáca",
+          "mixed_script": "無",
+          "entry_ids": [
+            "wác-",
+            "(a)"
+          ],
+          "gloss": "not.exist-PTCP"
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "case"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "móme",
+          "mixed_script": "手",
+          "entry_ids": [
+            "móm-",
+            "(e)"
+          ],
+          "gloss": "take-ADV"
+        },
+        {
+          "form": "wáci",
+          "mixed_script": "無し",
+          "entry_ids": [
+            "wác-",
+            "(i)"
+          ],
+          "gloss": "not.exist-IMP"
         }
       ]
     }
