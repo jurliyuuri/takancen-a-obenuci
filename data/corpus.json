@@ -3981,6 +3981,39 @@
           ]
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "種類　内容　例"
+      },
+      "tokens": [
+        {
+          "form": "míso",
+          "mixed_script": "類",
+          "gloss": "kind",
+          "entry_ids": [
+            "míso"
+          ]
+        },
+        {
+          "form": "aiaai",
+          "entry_ids": [
+            "iaiia"
+          ],
+          "mixed_script": "内",
+          "gloss": "content"
+        },
+        {
+          "form": "ému",
+          "mixed_script": "如",
+          "entry_ids": [
+            "ému-",
+            "(e)"
+          ],
+          "gloss": "be.similar-ADV"
+        }
+      ]
     }
   ]
 }
