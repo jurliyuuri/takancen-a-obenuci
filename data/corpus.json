@@ -3715,6 +3715,46 @@
           "gloss": "go-IMP"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "カードの強さと組合せ"
+      },
+      "tokens": [
+        {
+          "form": "nínco",
+          "mixed_script": "紙片",
+          "entry_ids": [
+            "nínco"
+          ],
+          "gloss": "card"
+        },
+        {
+          "form": "méxko",
+          "mixed_script": "硬軟",
+          "entry_ids": [
+            "méxko"
+          ],
+          "gloss": "strength"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "dátu",
+          "mixed_script": "集",
+          "entry_ids": [
+            "dátu"
+          ],
+          "gloss": "combination"
+        }
+      ]
     }
   ]
 }
