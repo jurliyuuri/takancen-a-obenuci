@@ -5393,6 +5393,165 @@
           "gloss": "be.victorious-NPST"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "枚数が同じなら、同じ組み合わせ（セットならセット、連番なら連番）で、かつ強ければ出せます。"
+      },
+      "tokens": [
+        {
+          "form": "nínco",
+          "mixed_script": "紙片",
+          "entry_ids": [
+            "nínco"
+          ],
+          "gloss": "card"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "momomo",
+          "mixed_script": "多少",
+          "entry_ids": [
+            "wewewe"
+          ]
+        },
+        {
+          "form": "méme",
+          "mixed_script": "同",
+          "entry_ids": [
+            "méme-",
+            "(e)"
+          ],
+          "gloss": "be.same-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "báxso",
+          "mixed_script": "同類",
+          "entry_ids": [
+            "báxso"
+          ],
+          "gloss": "same.kind"
+        },
+        {
+          "form": "dátu",
+          "mixed_script": "集",
+          "entry_ids": [
+            "dátu"
+          ],
+          "gloss": "combination"
+        },
+        {
+          "mixed_script": "(友",
+          "form": "óki",
+          "entry_ids": [
+            "óki"
+          ]
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "mixed_script": "友",
+          "form": "óki",
+          "entry_ids": [
+            "óki"
+          ]
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "mixed_script": "連",
+          "form": "néka",
+          "entry_ids": [
+            "néka"
+          ]
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "mixed_script": "連)",
+          "form": "néka",
+          "entry_ids": [
+            "néka"
+          ]
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "méki",
+          "mixed_script": "硬",
+          "entry_ids": [
+            "méki"
+          ],
+          "gloss": "strong"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "janácu",
+          "mixed_script": "生能す",
+          "entry_ids": [
+            "ján-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "submit-can-NPST"
+        }
+      ]
     }
   ]
 }
