@@ -5334,6 +5334,65 @@
           "gloss": "submit-can-NPST"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "強さで勝つ: "
+      },
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "méxko",
+            "méxkor"
+          ],
+          "mixed_script": "硬軟",
+          "entry_ids_of_each_form": [
+            [
+              "méxko"
+            ],
+            [
+              "méxkor"
+            ]
+          ],
+          "gloss": "strength"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "áta",
+          "mixed_script": "目",
+          "entry_ids": [
+            "áta-",
+            "(e)"
+          ],
+          "gloss": "see-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "comóku",
+          "mixed_script": "上行",
+          "entry_ids": [
+            "comók-",
+            "(u)"
+          ],
+          "gloss": "be.victorious-NPST"
+        }
+      ]
     }
   ]
 }
