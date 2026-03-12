@@ -4964,6 +4964,154 @@
           "gloss": "exist-IMP"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "特殊コンボ：爆盛（ばくもり）"
+      },
+      "tokens": [
+        {
+          "form": "munkaídatu",
+          "mixed_script": "妙集",
+          "entry_ids": [
+            "munkaídatu"
+          ],
+          "gloss": "special.combination"
+        },
+        {
+          "form": "gógowi",
+          "mixed_script": "ごゝ皿",
+          "entry_ids": [
+            "gógowi"
+          ],
+          "gloss": "extra.large.serving"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "4枚以上の組合せは「爆盛」となり、場の出し方に関係なく出すことができます。"
+      },
+      "tokens": [
+        {
+          "form": "kakakakaka",
+          "mixed_script": "多少四亦加多",
+          "entry_ids": [
+            "kukuku"
+          ]
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "dátu",
+          "mixed_script": "集",
+          "entry_ids": [
+            "dátu"
+          ],
+          "gloss": "combination"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "gógowi",
+          "mixed_script": "ごゝ皿",
+          "entry_ids": [
+            "gógowi"
+          ],
+          "gloss": "extra.large.serving"
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
+        },
+        {
+          "form": "kéxke",
+          "mixed_script": "戦処",
+          "entry_ids": [
+            "kéxke"
+          ],
+          "gloss": "fighting.place"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "dátu",
+          "mixed_script": "集",
+          "entry_ids": [
+            "dátu"
+          ],
+          "gloss": "combination"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "íja",
+          "mixed_script": "心",
+          "entry_ids": [
+            "íja-",
+            "(e)"
+          ],
+          "gloss": "consider-ADV"
+        },
+        {
+          "form": "wáce",
+          "mixed_script": "無せ",
+          "entry_ids": [
+            "wác-",
+            "(e)"
+          ],
+          "gloss": "not.exist-ADV"
+        },
+        {
+          "form": "jáne",
+          "mixed_script": "生",
+          "entry_ids": [
+            "ján-",
+            "(e)"
+          ],
+          "gloss": "submit-ADV"
+        },
+        {
+          "form": "wáci",
+          "mixed_script": "無し",
+          "entry_ids": [
+            "wác-",
+            "(i)"
+          ],
+          "gloss": "not.exist-IMP"
+        }
+      ]
     }
   ]
 }
