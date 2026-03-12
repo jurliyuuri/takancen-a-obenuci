@@ -5846,6 +5846,65 @@
           "gloss": "be.victorious-IMP"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "複数いる場合は勝利を分かち合います。"
+      },
+      "tokens": [
+        {
+          "form": "aaaaaama",
+          "mixed_script": "多ま",
+          "entry_ids": [
+            "iiiiiim-",
+            "(a)"
+          ],
+          "gloss": "be.many-PTCP"
+        },
+        {
+          "form": "éma",
+          "mixed_script": "在",
+          "entry_ids": [
+            "éma-",
+            "(e)"
+          ],
+          "gloss": "exist-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "tí",
+          "mixed_script": "其",
+          "entry_ids": [
+            "tí"
+          ],
+          "gloss": "such.kind.of"
+        },
+        {
+          "form": "bécuku",
+          "mixed_script": "全人",
+          "entry_ids": [
+            "bécuku"
+          ],
+          "gloss": "everyone"
+        },
+        {
+          "form": "comóku",
+          "mixed_script": "上行",
+          "entry_ids": [
+            "comók-",
+            "(u)"
+          ],
+          "gloss": "be.victorious-NPST"
+        }
+      ]
     }
   ]
 }
