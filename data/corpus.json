@@ -5291,6 +5291,49 @@
           "gloss": "be.victorious-NPST"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "枚数が多いなら、出すことができます。"
+      },
+      "tokens": [
+        {
+          "form": "nínco",
+          "mixed_script": "紙片",
+          "entry_ids": [
+            "nínco"
+          ],
+          "gloss": "card"
+        },
+        {
+          "form": "aaaaaame",
+          "mixed_script": "多",
+          "entry_ids": [
+            "iiiiiim-",
+            "(e)"
+          ],
+          "gloss": "be.many-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "janácu",
+          "mixed_script": "生能す",
+          "entry_ids": [
+            "ján-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "submit-can-NPST"
+        }
+      ]
     }
   ]
 }
