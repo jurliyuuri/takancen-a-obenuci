@@ -4420,6 +4420,169 @@
           "gloss": "be.similar-IMP"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "3-4-5 の場には、4-5-6 以上の連番が出せます。"
+      },
+      "tokens": [
+        {
+          "form": "úmu",
+          "mixed_script": "三",
+          "entry_ids": [
+            "úmu"
+          ],
+          "gloss": "three"
+        },
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "nága",
+            "nágamu",
+            "nágan",
+            "kámu"
+          ],
+          "mixed_script": "四",
+          "entry_ids_of_each_form": [
+            [
+              "nága"
+            ],
+            [
+              "nágamu"
+            ],
+            [
+              "nágan"
+            ],
+            [
+              "kámu"
+            ]
+          ],
+          "gloss": "four"
+        },
+        {
+          "form": "cúna",
+          "entry_ids": [
+            "cúna"
+          ],
+          "gloss": "five",
+          "mixed_script": "五"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "kéxke",
+          "mixed_script": "戦処",
+          "entry_ids": [
+            "kéxke"
+          ],
+          "gloss": "fighting.place"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "nága",
+            "nágamu",
+            "nágan",
+            "kámu"
+          ],
+          "mixed_script": "四",
+          "entry_ids_of_each_form": [
+            [
+              "nága"
+            ],
+            [
+              "nágamu"
+            ],
+            [
+              "nágan"
+            ],
+            [
+              "kámu"
+            ]
+          ],
+          "gloss": "four"
+        },
+        {
+          "form": "cúna",
+          "entry_ids": [
+            "cúna"
+          ],
+          "gloss": "five",
+          "mixed_script": "五"
+        },
+        {
+          "form": "cúnasi",
+          "entry_ids": [
+            "cúnasi"
+          ],
+          "gloss": "six",
+          "mixed_script": "六"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "ámama",
+          "mixed_script": "大",
+          "entry_ids": [
+            "ámama"
+          ],
+          "gloss": "great"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "mixed_script": "連集",
+          "form": "nekátadu",
+          "entry_ids": [
+            "nekátadu"
+          ]
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "janáci",
+          "mixed_script": "生能し",
+          "entry_ids": [
+            "ján-",
+            "(á)c-",
+            "(i)"
+          ],
+          "gloss": "submit-can-IMP"
+        }
+      ]
     }
   ]
 }
