@@ -4395,6 +4395,31 @@
           "gloss": "judge-IMP"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "例："
+      },
+      "tokens": [
+        {
+          "form": "mé",
+          "mixed_script": "此",
+          "entry_ids": [
+            "mé"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "émuci",
+          "mixed_script": "如し",
+          "entry_ids": [
+            "ému-",
+            "(i)"
+          ],
+          "gloss": "be.similar-IMP"
+        }
+      ]
     }
   ]
 }
