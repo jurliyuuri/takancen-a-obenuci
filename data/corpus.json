@@ -4143,6 +4143,96 @@
           "gloss": "two"
         }
       ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "連番　3枚以上の連続した数字　3-4-5"
+      },
+      "tokens": [
+        {
+          "mixed_script": "連集",
+          "form": "nekátadu",
+          "entry_ids": [
+            "nekátadu"
+          ]
+        },
+        {
+          "form": "ón=co",
+          "mixed_script": "三片",
+          "entry_ids": [
+            "ón",
+            "=co"
+          ],
+          "gloss": "three-pieces"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "aaaaaama",
+          "mixed_script": "多ま",
+          "entry_ids": [
+            "iiiiiim-",
+            "(a)"
+          ],
+          "gloss": "be.many-PTCP"
+        },
+        {
+          "mixed_script": "連値",
+          "form": "nekámaka",
+          "entry_ids": [
+            "nekámaka"
+          ],
+          "gloss": "consecutive.number"
+        },
+        {
+          "form": "úmu",
+          "mixed_script": "三",
+          "entry_ids": [
+            "úmu"
+          ],
+          "gloss": "three"
+        },
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "nága",
+            "nágamu",
+            "nágan",
+            "kámu"
+          ],
+          "mixed_script": "四",
+          "entry_ids_of_each_form": [
+            [
+              "nága"
+            ],
+            [
+              "nágamu"
+            ],
+            [
+              "nágan"
+            ],
+            [
+              "kámu"
+            ]
+          ],
+          "gloss": "four"
+        },
+        {
+          "form": "cúna",
+          "entry_ids": [
+            "cúna"
+          ],
+          "gloss": "five",
+          "mixed_script": "五"
+        }
+      ]
     }
   ]
 }
