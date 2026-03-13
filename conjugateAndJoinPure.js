@@ -37,7 +37,7 @@ console.assert(conjugateAndJoinPure(["ć-", "(a)"]) === "cóla");
 console.assert(conjugateAndJoinPure(["ć-", "(u)"]) === "cú");
 console.assert(conjugateAndJoinPure(["ć-", "(i)"]) === "cí");
 export function getStemClassFromId(id) {
-    if (["ć-", "ác-", "(á)c-"].includes(id)) {
+    if (["ć-", "ác-", "(á)c-"].includes(id) || id.endsWith(" ć-")) {
         return "c-irregular";
     }
     const base = id.replace(/#\d+$/, '');

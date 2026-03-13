@@ -45,7 +45,7 @@ console.assert(conjugateAndJoinPure(["ć-", "(u)"]) === "cú");
 console.assert(conjugateAndJoinPure(["ć-", "(i)"]) === "cí");
 
 export function getStemClassFromId(id: string): "vowel-stem" | "consonant-stem" | "c-irregular" {
-  if (["ć-", "ác-", "(á)c-"].includes(id)) {
+  if (["ć-", "ác-", "(á)c-"].includes(id) || id.endsWith(" ć-")) {
     return "c-irregular";
   }
 
