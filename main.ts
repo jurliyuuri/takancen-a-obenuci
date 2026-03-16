@@ -36,8 +36,8 @@ function tCount(count: number): string {
 async function init() {
   lang = detectLang();
   const [dictData, corpusData, i18nData] = await Promise.all([
-    fetch('data/dictionary.json',   { cache: 'no-store' }).then(r => r.json() as Promise<DictionaryData>),
-    fetch('data/corpus.json',       { cache: 'no-store' }).then(r => r.json() as Promise<CorpusData>),
+    fetch('data/dictionary.json', { cache: 'no-store' }).then(r => r.json() as Promise<DictionaryData>),
+    fetch('data/corpus.json', { cache: 'no-store' }).then(r => r.json() as Promise<CorpusData>),
     fetch(`data/i18n-${lang}.json`, { cache: 'no-store' }).then(r => r.json() as Promise<I18nData>),
   ]);
   i18n = i18nData;
@@ -92,9 +92,9 @@ function applyScriptFont(enabled: boolean) {
 
 function switchTab(name: 'dictionary' | 'corpus') {
   document.getElementById('panel-dictionary')!.hidden = name !== 'dictionary';
-  document.getElementById('panel-corpus')!.hidden    = name !== 'corpus';
+  document.getElementById('panel-corpus')!.hidden = name !== 'corpus';
   document.getElementById('tab-dictionary')!.classList.toggle('active', name === 'dictionary');
-  document.getElementById('tab-corpus')!.classList.toggle('active',     name === 'corpus');
+  document.getElementById('tab-corpus')!.classList.toggle('active', name === 'corpus');
   const params = new URLSearchParams(location.search);
   params.set('tab', name);
   history.replaceState(null, '', '?' + params.toString());
@@ -104,9 +104,9 @@ function switchTab(name: 'dictionary' | 'corpus') {
 
 function setupControls() {
   document.getElementById('tab-dictionary')!.addEventListener('click', () => switchTab('dictionary'));
-  document.getElementById('tab-corpus')!.addEventListener('click',     () => switchTab('corpus'));
-  document.getElementById('search-input')!.addEventListener('input',   applyFilter);
-  document.getElementById('pos-filter')!.addEventListener('change',    applyFilter);
+  document.getElementById('tab-corpus')!.addEventListener('click', () => switchTab('corpus'));
+  document.getElementById('search-input')!.addEventListener('input', applyFilter);
+  document.getElementById('pos-filter')!.addEventListener('change', applyFilter);
 
   document.getElementById('tab-dictionary')!.textContent = t('ui', 'Dictionary');
   document.getElementById('tab-corpus')!.textContent = t('ui', 'Corpus');
@@ -136,14 +136,14 @@ function setupControls() {
 
 function applyFilter() {
   const query = (document.getElementById('search-input') as HTMLInputElement).value.trim().toLowerCase();
-  const pos   = (document.getElementById('pos-filter') as HTMLSelectElement).value;
+  const pos = (document.getElementById('pos-filter') as HTMLSelectElement).value;
 
   const filtered = dictionary.filter(entry => {
     const matchQuery = !query
       || entry.id.toLowerCase().includes(query)
       || entry.definitions.some(d =>
-           d.gloss.toLowerCase().includes(query) ||
-           (d.translations ? localize(d.translations) : '').toLowerCase().includes(query));
+        d.gloss.toLowerCase().includes(query) ||
+        (d.translations ? localize(d.translations) : '').toLowerCase().includes(query));
     const matchPos = !pos || entry.pos === pos;
     return matchQuery && matchPos;
   });
@@ -158,9 +158,11 @@ function computeHighFreqMissing(): Map<string, number> {
   for (const sentence of corpus) {
     const seenInSentence = new Set<string>();
     for (const token of sentence.tokens) {
-      const ids = 'multiple-standard-pronunciations' in token
-        ? token.entry_ids_of_each_form.flat()
-        : (token.entry_ids ?? []);
+      const ids = 'punctuation' in token
+        ? []
+        : 'multiple-standard-pronunciations' in token
+          ? token.entry_ids_of_each_form.flat()
+          : (token.entry_ids ?? []);
       for (const id of ids) {
         if (!entryMap.has(id) && !seenInSentence.has(id)) {
           seenInSentence.add(id);
@@ -254,10 +256,10 @@ function buildEntryEl(entry: DictionaryEntry): HTMLDivElement {
 
   const lemma = document.createElement('span');
   lemma.className = 'lemma';
-  const headword  = getLemma(entry);
-  const stemPart  = stripHomophoneDisambiguator(entry.id);
-  const homNum    = entry.id.match(/#(\d+)$/);
-  const sup       = homNum ? superscript(homNum[1]!) : '';
+  const headword = getLemma(entry);
+  const stemPart = stripHomophoneDisambiguator(entry.id);
+  const homNum = entry.id.match(/#(\d+)$/);
+  const sup = homNum ? superscript(homNum[1]!) : '';
   lemma.appendChild(document.createTextNode(`${headword}${sup}`));
   if (headword !== stemPart) {
     const stemLabel = document.createElement('span');
@@ -338,9 +340,11 @@ function buildEntryEl(entry: DictionaryEntry): HTMLDivElement {
 
   // Link to corpus sentences that use this entry
   const linked = corpus.filter(s => s.tokens.some(t =>
-    'multiple-standard-pronunciations' in t
-      ? t.entry_ids_of_each_form.some(ids => ids.includes(entry.id))
-      : t.entry_ids?.includes(entry.id)
+    'punctuation' in t
+      ? false
+      : 'multiple-standard-pronunciations' in t
+        ? t.entry_ids_of_each_form.some(ids => ids.includes(entry.id))
+        : t.entry_ids?.includes(entry.id)
   ));
   if (linked.length > 0) {
     const link = document.createElement('div');
@@ -395,7 +399,10 @@ function buildSentenceEl(sentence: CorpusSentence): HTMLDivElement {
   copyScript.type = 'button';
   copyScript.textContent = t('ui', 'Copy script');
   copyScript.addEventListener('click', () => {
-    navigator.clipboard.writeText(sentence.tokens.map(tok => tok.mixed_script ?? '').join('')).then(() => {
+    const text = sentence.tokens.map(tok =>
+      'punctuation' in tok ? '\u3002' : (tok.mixed_script ?? '')
+    ).join('');
+    navigator.clipboard.writeText(text).then(() => {
       copyScript.textContent = t('ui', 'Copied!');
       setTimeout(() => { copyScript.textContent = t('ui', 'Copy script'); }, 1500);
     });
@@ -404,7 +411,20 @@ function buildSentenceEl(sentence: CorpusSentence): HTMLDivElement {
   copyHiragana.type = 'button';
   copyHiragana.textContent = t('ui', 'Copy Hiragana');
   copyHiragana.addEventListener('click', () => {
-    navigator.clipboard.writeText(toSpacedHiraganaPure(sentence.tokens.map(tok => 'multiple-standard-pronunciations' in tok ? '{' + tok.forms.join('/') + '}' : tok.form))).then(() => {
+    let hiragana = '';
+    let batch: string[] = [];
+    for (const tok of sentence.tokens) {
+      if ('punctuation' in tok) {
+        if (batch.length > 0) { hiragana += toSpacedHiraganaPure(batch); batch = []; }
+        hiragana += '\u3002';
+      } else if ('multiple-standard-pronunciations' in tok) {
+        batch.push('{' + tok.forms.join('/') + '}');
+      } else {
+        batch.push(tok.form);
+      }
+    }
+    if (batch.length > 0) hiragana += toSpacedHiraganaPure(batch);
+    navigator.clipboard.writeText(hiragana).then(() => {
       copyHiragana.textContent = t('ui', 'Copied!');
       setTimeout(() => { copyHiragana.textContent = t('ui', 'Copy Hiragana'); }, 1500);
     });
@@ -413,7 +433,19 @@ function buildSentenceEl(sentence: CorpusSentence): HTMLDivElement {
   copyLatin.type = 'button';
   copyLatin.textContent = t('ui', 'Copy latin');
   copyLatin.addEventListener('click', () => {
-    navigator.clipboard.writeText(sentence.tokens.map(tok => 'multiple-standard-pronunciations' in tok ? tok.forms.join('/') : tok.form).join(' ')).then(() => {
+    let latin = '';
+    let needSpace = false;
+    for (const tok of sentence.tokens) {
+      if ('punctuation' in tok) {
+        latin += '. ';
+        needSpace = false;
+      } else {
+        if (needSpace) latin += ' ';
+        latin += 'multiple-standard-pronunciations' in tok ? tok.forms.join('/') : tok.form;
+        needSpace = true;
+      }
+    }
+    navigator.clipboard.writeText(latin).then(() => {
       copyLatin.textContent = t('ui', 'Copied!');
       setTimeout(() => { copyLatin.textContent = t('ui', 'Copy latin'); }, 1500);
     });
@@ -424,10 +456,10 @@ function buildSentenceEl(sentence: CorpusSentence): HTMLDivElement {
   return div;
 }
 
-function buildScriptElWithRuby(o: {mixed_script: string, latin_form: string}): HTMLElement {
+function buildScriptElWithRuby(o: { mixed_script: string, latin_form: string }): HTMLElement {
   const mixedText = o.mixed_script || '';
-  const syllText  = latinToSyllabary(o.latin_form);
-  const coincide  = !mixedText || mixedText === syllText;
+  const syllText = latinToSyllabary(o.latin_form);
+  const coincide = !mixedText || mixedText === syllText;
 
   const scriptEl = document.createElement('ruby');
   scriptEl.className = 'token-script';
@@ -460,6 +492,20 @@ function buildEntryLinks(ids: string[]): HTMLDivElement {
 
 function buildTokenEl(token: import('./types.js').Token): HTMLDivElement {
   const div = document.createElement('div');
+
+  if ('punctuation' in token) {
+    div.appendChild(buildScriptElWithRuby({ mixed_script: "。", latin_form: token.punctuation }));
+    div.className = 'token';
+    const form = document.createElement('div');
+    form.className = 'token-form';
+    form.textContent = token.punctuation;
+    div.appendChild(form);
+    const gloss = document.createElement('div');
+    gloss.className = 'token-gloss';
+    gloss.textContent = '';
+    div.appendChild(gloss);
+    return div;
+  }
 
   if ('multiple-standard-pronunciations' in token) {
     div.className = 'token';
@@ -498,8 +544,8 @@ function buildTokenEl(token: import('./types.js').Token): HTMLDivElement {
   }
 
   const predicted = token.entry_ids ? conjugateAndJoinPure(token.entry_ids) : null;
-  const actual    = token.form.replace(/[-=]/g, '').normalize('NFC');
-  const mismatch  = predicted !== null && predicted !== actual;
+  const actual = token.form.replace(/[-=]/g, '').normalize('NFC');
+  const mismatch = predicted !== null && predicted !== actual;
   if (mismatch) {
     div.className = 'token mismatch';
     div.title = `expected "${predicted}" but was given "${actual}"`;
@@ -508,7 +554,7 @@ function buildTokenEl(token: import('./types.js').Token): HTMLDivElement {
     div.className = 'token';
   }
 
-  div.appendChild(buildScriptElWithRuby({mixed_script: token.mixed_script || '', latin_form: token.form}));
+  div.appendChild(buildScriptElWithRuby({ mixed_script: token.mixed_script || '', latin_form: token.form }));
 
   const form = document.createElement('div');
   form.className = 'token-form';
@@ -559,14 +605,14 @@ function highlightEntry(id: string) {
 
 // ── Entry modal ────────────────────────────────────────────────────────────
 
-const modal        = document.getElementById('entry-modal') as HTMLDialogElement;
-const fieldLemma   = document.getElementById('field-lemma') as HTMLInputElement;
-const scriptList   = document.getElementById('script-list') as HTMLDivElement;
-const fieldPos     = document.getElementById('field-pos') as HTMLSelectElement;
+const modal = document.getElementById('entry-modal') as HTMLDialogElement;
+const fieldLemma = document.getElementById('field-lemma') as HTMLInputElement;
+const scriptList = document.getElementById('script-list') as HTMLDivElement;
+const fieldPos = document.getElementById('field-pos') as HTMLSelectElement;
 const fieldInflect = document.getElementById('field-conjugation') as HTMLSelectElement;
-const fieldNotes   = document.getElementById('field-notes') as HTMLInputElement;
-const defList      = document.getElementById('def-list') as HTMLDivElement;
-const jsonOutput   = document.getElementById('json-output') as HTMLTextAreaElement;
+const fieldNotes = document.getElementById('field-notes') as HTMLInputElement;
+const defList = document.getElementById('def-list') as HTMLDivElement;
+const jsonOutput = document.getElementById('json-output') as HTMLTextAreaElement;
 
 let modalEntryId = '';
 
@@ -648,9 +694,9 @@ function buildEntryObject() {
   const scripts = [...scriptList.querySelectorAll<HTMLInputElement>('.script-input')]
     .map(el => el.value.trim()).filter(s => s.length > 0);
   const entry: Record<string, unknown> = {
-    id:     modalEntryId,
+    id: modalEntryId,
     script: scripts,
-    pos:    fieldPos.value,
+    pos: fieldPos.value,
   };
   if (canInflect()) {
     entry['conjugation_class'] = fieldInflect.value;
@@ -689,17 +735,17 @@ function setupModal() {
   modal.addEventListener('click', e => { if (e.target === modal) modal.close(); });
 
   // Set localized label text
-  document.getElementById('modal-label-lemma')!.textContent       = t('ui', 'Lemma');
-  document.getElementById('modal-label-script')!.textContent      = t('ui', 'Script');
-  document.getElementById('add-script-btn')!.textContent          = t('ui', '+ Add script');
-  document.getElementById('modal-label-pos')!.textContent         = t('ui', 'POS');
-  document.getElementById('modal-label-conj')!.textContent        = t('ui', 'conjugation class');
+  document.getElementById('modal-label-lemma')!.textContent = t('ui', 'Lemma');
+  document.getElementById('modal-label-script')!.textContent = t('ui', 'Script');
+  document.getElementById('add-script-btn')!.textContent = t('ui', '+ Add script');
+  document.getElementById('modal-label-pos')!.textContent = t('ui', 'POS');
+  document.getElementById('modal-label-conj')!.textContent = t('ui', 'conjugation class');
   document.getElementById('modal-label-definitions')!.textContent = t('ui', 'Definitions');
-  document.getElementById('add-def-btn')!.textContent             = t('ui', '+ Add definition');
-  document.getElementById('modal-label-notes')!.textContent       = t('ui', 'Notes');
-  document.getElementById('modal-label-optional')!.textContent    = t('ui', '(optional)');
+  document.getElementById('add-def-btn')!.textContent = t('ui', '+ Add definition');
+  document.getElementById('modal-label-notes')!.textContent = t('ui', 'Notes');
+  document.getElementById('modal-label-optional')!.textContent = t('ui', '(optional)');
   document.getElementById('modal-label-json-output')!.textContent = t('ui', 'JSON output');
-  document.getElementById('copy-json-btn')!.textContent           = t('ui', 'Copy');
+  document.getElementById('copy-json-btn')!.textContent = t('ui', 'Copy');
 
   // Populate POS select
   const poses: Pos[] = ['noun', 'noun suffix', 'noun particle', 'verb particle', 'sentence particle', 'verb', 'auxiliary verb'];

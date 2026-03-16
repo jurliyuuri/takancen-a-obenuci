@@ -52,7 +52,11 @@ export interface MultiPronunciationToken {
   entry_ids_of_each_form: string[][];
 }
 
-export type Token = SingleFormToken | MultiPronunciationToken;
+export interface PunctuationToken {
+  punctuation: '.';
+}
+
+export type Token = SingleFormToken | MultiPronunciationToken | PunctuationToken;
 
 export interface CorpusSentenceData {
   source?: string;

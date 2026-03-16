@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 ## Project Overview
 
-A static web frontend for a searchable corpus of a fictitious language named **Takan-cen**, hosted on GitHub Pages. The language has Japanese-like grammar (simple noun declensions, complex verb conjugations) and a mixed writing system with logograms and syllabaries.
+A static web frontend for a searchable corpus of a fictitious language named **Takan-cen**, hosted on GitHub Pages. The language has Japanese-like grammar (simple noun declensions, mildly-complex verb conjugations) and a mixed writing system with logograms and syllabaries.
 
 The dictionary and the corpus are given in two separate JSON files. The frontend displays the sentences in the corpus based on the content of the dictionary.
 

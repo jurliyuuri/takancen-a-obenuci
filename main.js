@@ -131,9 +131,11 @@ function computeHighFreqMissing() {
     for (const sentence of corpus) {
         const seenInSentence = new Set();
         for (const token of sentence.tokens) {
-            const ids = 'multiple-standard-pronunciations' in token
-                ? token.entry_ids_of_each_form.flat()
-                : (token.entry_ids ?? []);
+            const ids = 'punctuation' in token
+                ? []
+                : 'multiple-standard-pronunciations' in token
+                    ? token.entry_ids_of_each_form.flat()
+                    : (token.entry_ids ?? []);
             for (const id of ids) {
                 if (!entryMap.has(id) && !seenInSentence.has(id)) {
                     seenInSentence.add(id);
@@ -296,9 +298,11 @@ function buildEntryEl(entry) {
         div.appendChild(compRow);
     }
     // Link to corpus sentences that use this entry
-    const linked = corpus.filter(s => s.tokens.some(t => 'multiple-standard-pronunciations' in t
-        ? t.entry_ids_of_each_form.some(ids => ids.includes(entry.id))
-        : t.entry_ids?.includes(entry.id)));
+    const linked = corpus.filter(s => s.tokens.some(t => 'punctuation' in t
+        ? false
+        : 'multiple-standard-pronunciations' in t
+            ? t.entry_ids_of_each_form.some(ids => ids.includes(entry.id))
+            : t.entry_ids?.includes(entry.id)));
     if (linked.length > 0) {
         const link = document.createElement('div');
         link.className = 'corpus-link';
@@ -346,7 +350,8 @@ function buildSentenceEl(sentence) {
     copyScript.type = 'button';
     copyScript.textContent = t('ui', 'Copy script');
     copyScript.addEventListener('click', () => {
-        navigator.clipboard.writeText(sentence.tokens.map(tok => tok.mixed_script ?? '').join('')).then(() => {
+        const text = sentence.tokens.map(tok => 'punctuation' in tok ? '\u3002' : (tok.mixed_script ?? '')).join('');
+        navigator.clipboard.writeText(text).then(() => {
             copyScript.textContent = t('ui', 'Copied!');
             setTimeout(() => { copyScript.textContent = t('ui', 'Copy script'); }, 1500);
         });
@@ -355,7 +360,26 @@ function buildSentenceEl(sentence) {
     copyHiragana.type = 'button';
     copyHiragana.textContent = t('ui', 'Copy Hiragana');
     copyHiragana.addEventListener('click', () => {
-        navigator.clipboard.writeText(toSpacedHiraganaPure(sentence.tokens.map(tok => 'multiple-standard-pronunciations' in tok ? '{' + tok.forms.join('/') + '}' : tok.form))).then(() => {
+        let hiragana = '';
+        let batch = [];
+        for (const tok of sentence.tokens) {
+            if ('punctuation' in tok) {
+                if (batch.length > 0) {
+                    hiragana += toSpacedHiraganaPure(batch);
+                    batch = [];
+                }
+                hiragana += '\u3002';
+            }
+            else if ('multiple-standard-pronunciations' in tok) {
+                batch.push('{' + tok.forms.join('/') + '}');
+            }
+            else {
+                batch.push(tok.form);
+            }
+        }
+        if (batch.length > 0)
+            hiragana += toSpacedHiraganaPure(batch);
+        navigator.clipboard.writeText(hiragana).then(() => {
             copyHiragana.textContent = t('ui', 'Copied!');
             setTimeout(() => { copyHiragana.textContent = t('ui', 'Copy Hiragana'); }, 1500);
         });
@@ -364,7 +388,21 @@ function buildSentenceEl(sentence) {
     copyLatin.type = 'button';
     copyLatin.textContent = t('ui', 'Copy latin');
     copyLatin.addEventListener('click', () => {
-        navigator.clipboard.writeText(sentence.tokens.map(tok => 'multiple-standard-pronunciations' in tok ? tok.forms.join('/') : tok.form).join(' ')).then(() => {
+        let latin = '';
+        let needSpace = false;
+        for (const tok of sentence.tokens) {
+            if ('punctuation' in tok) {
+                latin += '. ';
+                needSpace = false;
+            }
+            else {
+                if (needSpace)
+                    latin += ' ';
+                latin += 'multiple-standard-pronunciations' in tok ? tok.forms.join('/') : tok.form;
+                needSpace = true;
+            }
+        }
+        navigator.clipboard.writeText(latin).then(() => {
             copyLatin.textContent = t('ui', 'Copied!');
             setTimeout(() => { copyLatin.textContent = t('ui', 'Copy latin'); }, 1500);
         });
@@ -405,6 +443,19 @@ function buildEntryLinks(ids) {
 }
 function buildTokenEl(token) {
     const div = document.createElement('div');
+    if ('punctuation' in token) {
+        div.appendChild(buildScriptElWithRuby({ mixed_script: "。", latin_form: token.punctuation }));
+        div.className = 'token';
+        const form = document.createElement('div');
+        form.className = 'token-form';
+        form.textContent = token.punctuation;
+        div.appendChild(form);
+        const gloss = document.createElement('div');
+        gloss.className = 'token-gloss';
+        gloss.textContent = '';
+        div.appendChild(gloss);
+        return div;
+    }
     if ('multiple-standard-pronunciations' in token) {
         div.className = 'token';
         div.appendChild(buildScriptElWithRuby({ mixed_script: token.mixed_script || '', latin_form: token.forms.join(' / ') }));

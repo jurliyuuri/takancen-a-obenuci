@@ -48,7 +48,10 @@ const multiPronunciationTokenSchema = z.object({
     gloss: z.string(),
     entry_ids_of_each_form: z.array(z.array(z.string())),
 });
-const tokenSchema = z.union([singleFormTokenSchema, multiPronunciationTokenSchema]);
+const punctuationTokenSchema = z.object({
+    punctuation: z.literal('.'),
+});
+const tokenSchema = z.union([singleFormTokenSchema, multiPronunciationTokenSchema, punctuationTokenSchema]);
 const corpusDataSchema = z.object({
     sentences: z.array(z.object({
         source: z.string().optional(),
