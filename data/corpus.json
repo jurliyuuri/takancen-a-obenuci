@@ -4,6 +4,9 @@
       "source": "Alice in Wonderland",
       "tokens": [
         {
+          "punctuation": "「"
+        },
+        {
           "form": "kéca",
           "mixed_script": "絵",
           "entry_ids": [
@@ -43,6 +46,9 @@
             "a#2"
           ],
           "gloss": "DECL"
+        },
+        {
+          "punctuation": "」"
         }
       ],
       "translation": {
@@ -101,6 +107,9 @@
             "mu"
           ],
           "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
         }
       ],
       "translation": {
@@ -135,6 +144,9 @@
             "(a)ta"
           ],
           "gloss": "go-PST"
+        },
+        {
+          "punctuation": "。"
         }
       ],
       "translation": {
@@ -279,6 +291,9 @@
             "mu"
           ],
           "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
         }
       ],
       "translation": {
@@ -331,6 +346,9 @@
             "(u)"
           ],
           "gloss": "speak-can-NPST"
+        },
+        {
+          "punctuation": "。"
         }
       ],
       "translation": {
@@ -390,6 +408,9 @@
             "mu"
           ],
           "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
         }
       ],
       "translation": {
@@ -424,6 +445,9 @@
             "(i)"
           ],
           "gloss": "see-IMP"
+        },
+        {
+          "punctuation": "。"
         }
       ],
       "translation": {
@@ -597,6 +621,9 @@
             "(u)"
           ],
           "gloss": "exist-NPST"
+        },
+        {
+          "punctuation": "。"
         }
       ],
       "translation": {
@@ -640,6 +667,9 @@
             "(u)"
           ],
           "gloss": "be-SPECL-NPST"
+        },
+        {
+          "punctuation": "。"
         }
       ],
       "translation": {
