@@ -1993,7 +1993,8 @@
           "mixed_script": "行道",
           "entry_ids": [
             "móxpor"
-          ]
+          ],
+          "gloss": "procedure"
         }
       ]
     },
@@ -2899,7 +2900,8 @@
           "mixed_script": "新裁",
           "entry_ids": [
             "lúcju"
-          ]
+          ],
+          "gloss": "reset"
         }
       ]
     },
@@ -3023,14 +3025,16 @@
           "mixed_script": "其下",
           "entry_ids": [
             "céutu"
-          ]
+          ],
+          "gloss": "after.that"
         },
         {
           "form": "bélu",
           "mixed_script": "全新",
           "entry_ids": [
             "bélu"
-          ]
+          ],
+          "gloss": "latest"
         },
         {
           "form": "kan",
@@ -3167,7 +3171,8 @@
           "mixed_script": "手片",
           "entry_ids": [
             "kóxco"
-          ]
+          ],
+          "gloss": "cards.in.one’s.hand"
         },
         {
           "form": "ja",
@@ -3697,10 +3702,10 @@
           "form": "ukemóke",
           "mixed_script": "少行",
           "entry_ids": [
-            "úk-",
-            "(e)mók-",
+            "ukemók-",
             "(e)"
-          ]
+          ],
+          "gloss": "decrease-ADV"
         },
         {
           "form": "ken",
@@ -3880,7 +3885,8 @@
           "mixed_script": "手片",
           "entry_ids": [
             "kóxco"
-          ]
+          ],
+          "gloss": "cards.in.one’s.hand"
         },
         {
           "form": "kan",
@@ -4074,7 +4080,8 @@
           "entry_ids": [
             "út-",
             "(e)"
-          ]
+          ],
+          "gloss": "proceed.to.the.next-ADV"
         },
         {
           "form": "bélepici",
@@ -4425,7 +4432,8 @@
           "form": "okítadu",
           "entry_ids": [
             "okítadu"
-          ]
+          ],
+          "gloss": "combination.of.cards.of.equal.rank"
         },
         {
           "form": "báxmaku",
@@ -4531,7 +4539,8 @@
           "form": "nekátadu",
           "entry_ids": [
             "nekátadu"
-          ]
+          ],
+          "gloss": "combination.of.sequential.cards"
         },
         {
           "form": "ón=co",
@@ -4958,7 +4967,8 @@
           "form": "nekátadu",
           "entry_ids": [
             "nekátadu"
-          ]
+          ],
+          "gloss": "combination.of.sequential.cards"
         },
         {
           "form": "ja",
@@ -5439,7 +5449,8 @@
           "mixed_script": "多少",
           "entry_ids": [
             "tónke"
-          ]
+          ],
+          "gloss": "quantity"
         },
         {
           "multiple-standard-pronunciations": true,
@@ -5733,7 +5744,8 @@
           "mixed_script": "多少",
           "entry_ids": [
             "tónke"
-          ]
+          ],
+          "gloss": "quantity"
         },
         {
           "form": "ki",
@@ -5909,7 +5921,8 @@
           "mixed_script": "多少",
           "entry_ids": [
             "tónke"
-          ]
+          ],
+          "gloss": "quantity"
         },
         {
           "form": "méme",
@@ -5952,7 +5965,8 @@
           "form": "óki",
           "entry_ids": [
             "óki"
-          ]
+          ],
+          "gloss": "combination.of.cards.of.equal.rank"
         },
         {
           "form": "ja",
@@ -5967,7 +5981,8 @@
           "form": "óki",
           "entry_ids": [
             "óki"
-          ]
+          ],
+          "gloss": "combination.of.cards.of.equal.rank"
         },
         {
           "form": "wa",
@@ -5982,7 +5997,8 @@
           "form": "néka",
           "entry_ids": [
             "néka"
-          ]
+          ],
+          "gloss": "sequence"
         },
         {
           "form": "ja",
@@ -5997,7 +6013,8 @@
           "form": "néka",
           "entry_ids": [
             "néka"
-          ]
+          ],
+          "gloss": "sequence"
         },
         {
           "punctuation": ")"
@@ -6209,7 +6226,8 @@
           "mixed_script": "新裁",
           "entry_ids": [
             "lúcju"
-          ]
+          ],
+          "gloss": "reset"
         },
         {
           "form": "cákata",
@@ -6516,7 +6534,8 @@
           "mixed_script": "手片",
           "entry_ids": [
             "kóxco"
-          ]
+          ],
+          "gloss": "cards.in.one’s.hand"
         },
         {
           "form": "túce",
