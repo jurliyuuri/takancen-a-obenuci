@@ -2566,12 +2566,13 @@
           "gloss": "ACC"
         },
         {
-          "form": "kíja",
+          "form": "íja",
           "mixed_script": "心",
           "entry_ids": [
-            "kíja"
+            "íja-",
+            "(e)"
           ],
-          "gloss": "mind"
+          "gloss": "consider-ADV"
         },
         {
           "form": "wáci",
@@ -2608,21 +2609,13 @@
           "punctuation": "」"
         },
         {
-          "form": "nímor",
-          "mixed_script": "小止",
+          "form": "nimórlu",
+          "mixed_script": "小止る",
           "entry_ids": [
-            "nímor"
-          ],
-          "gloss": "short.break"
-        },
-        {
-          "form": "cú",
-          "mixed_script": "す",
-          "entry_ids": [
-            "ć-",
+            "nimór-",
             "(u)"
           ],
-          "gloss": "do-NPST"
+          "gloss": "take.a.short.break-NPST"
         },
         {
           "punctuation": "！"
@@ -2744,19 +2737,12 @@
       },
       "tokens": [
         {
-          "mixed_script": "術上",
-          "form": "six́sor",
+          "form": "six́sor muńmoku",
+          "mixed_script": "術上無行",
           "entry_ids": [
-            "six́sor"
-          ]
-        },
-        {
-          "form": "muńmoku",
-          "mixed_script": "無行",
-          "entry_ids": [
-            "muńmoku"
+            "six́sor muńmoku"
           ],
-          "gloss": "passing.one’s.turn"
+          "gloss": "strategic.pass"
         },
         {
           "form": "cóla",
@@ -2947,21 +2933,13 @@
           "gloss": "everyone"
         },
         {
-          "form": "nímor",
+          "form": "nimór",
           "mixed_script": "小止",
           "entry_ids": [
-            "nímor"
-          ],
-          "gloss": "short.break"
-        },
-        {
-          "form": "có",
-          "mixed_script": "そ",
-          "entry_ids": [
-            "ć-",
+            "nimór-",
             "(e)"
           ],
-          "gloss": "do-ADV"
+          "gloss": "take.a.short.break-ADV"
         },
         {
           "form": "wa",
@@ -3220,7 +3198,7 @@
         },
         {
           "form": "jámata",
-          "mixed_script": "口終！",
+          "mixed_script": "口終",
           "entry_ids": [
             "jám-",
             "(a)ta"
@@ -3347,11 +3325,21 @@
       },
       "tokens": [
         {
-          "form": "ooooo",
-          "entry_ids": [
-            "uuuu"
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "cáxco",
+            "césa"
           ],
-          "mixed_script": "斥片"
+          "mixed_script": "斥片",
+          "entry_ids_of_each_form": [
+            [
+              "cáxco"
+            ],
+            [
+              "césa"
+            ]
+          ],
+          "gloss": "discarded.card"
         },
         {
           "form": "a",
@@ -3394,11 +3382,12 @@
           "gloss": "GEN"
         },
         {
-          "form": "ooooo",
+          "form": "cóno",
           "entry_ids": [
-            "uuuu"
+            "cóno"
           ],
-          "mixed_script": "前"
+          "mixed_script": "前",
+          "gloss": "front"
         },
         {
           "form": "kan",
@@ -3523,11 +3512,21 @@
           "gloss": "rare.case"
         },
         {
-          "form": "ooooo",
-          "entry_ids": [
-            "uuuu"
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "cáxco",
+            "césa"
           ],
-          "mixed_script": "斥片"
+          "mixed_script": "斥片",
+          "entry_ids_of_each_form": [
+            [
+              "cáxco"
+            ],
+            [
+              "césa"
+            ]
+          ],
+          "gloss": "discarded.card"
         },
         {
           "form": "ja",
