@@ -89,13 +89,18 @@ function validate(label: string, schema: z.ZodSchema, data: unknown) {
   }
 }
 
+const dictionaryRaw = JSON.parse(readFileSync('data/dictionary.json', 'utf-8'));
 const corpusRaw = JSON.parse(readFileSync('data/corpus.json', 'utf-8'));
 
-validate('dictionary.json', dictionaryDataSchema, JSON.parse(readFileSync('data/dictionary.json', 'utf-8')));
+validate('dictionary.json', dictionaryDataSchema, dictionaryRaw);
 validate('corpus.json',     corpusDataSchema,     corpusRaw);
 
 if (!hasError) {
   const corpusData = corpusDataSchema.parse(corpusRaw);
+  const dictionaryData = dictionaryDataSchema.parse(dictionaryRaw);
+  const entryMap = new Map(dictionaryData.entries.map(e => [e.id, e]));
+
+  let lengthError = false;
   for (const [si, sentence] of corpusData.sentences.entries()) {
     for (const [ti, token] of sentence.tokens.entries()) {
       if ('punctuation' in token || 'multiple-standard-pronunciations' in token) continue;
@@ -104,10 +109,33 @@ if (!hasError) {
       if (parts.length !== token.entry_ids.length) {
         console.error(`❌  corpus.json cross-validation: sentences[${si}].tokens[${ti}]: gloss.split("-").length (${parts.length}) ≠ entry_ids.length (${token.entry_ids.length})`);
         hasError = true;
+        lengthError = true;
       }
     }
   }
-  if (!hasError) console.log('✅  cross-validation');
+  if (!lengthError) console.log('✅  cross-validation');
+
+  let glossError = false;
+  for (const [si, sentence] of corpusData.sentences.entries()) {
+    for (const [ti, token] of sentence.tokens.entries()) {
+      if ('punctuation' in token || 'multiple-standard-pronunciations' in token) continue;
+      if (!token.gloss || !token.entry_ids) continue;
+      const parts = token.gloss.split('-');
+      if (parts.length !== token.entry_ids.length) continue; // already reported above
+      for (let mi = 0; mi < parts.length; mi++) {
+        const entryId = token.entry_ids[mi]!;
+        const entry = entryMap.get(entryId);
+        if (!entry) continue; // missing from dictionary — flagged by red badges, not here
+        const corpusGloss = parts[mi]!.replace(/\./g, ' ');
+        if (!entry.definitions.some(d => d.gloss === corpusGloss)) {
+          console.error(`❌  gloss mismatch: sentences[${si}].tokens[${ti}] morpheme ${mi} (${entryId}): corpus says ${JSON.stringify(corpusGloss)}, dictionary has [${entry.definitions.map(d => JSON.stringify(d.gloss)).join(', ')}]`);
+          hasError = true;
+          glossError = true;
+        }
+      }
+    }
+  }
+  if (!glossError) console.log('✅  gloss consistency');
 }
 
 if (hasError) process.exit(1);
