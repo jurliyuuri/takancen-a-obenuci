@@ -772,7 +772,10 @@
       "pos": "verb particle",
       "definitions": [
         {
-          "gloss": "ADV"
+          "gloss": "ADV",
+          "translations": {
+            "ja": "副詞化；連用形"
+          }
         }
       ]
     },
@@ -787,7 +790,10 @@
         {
           "gloss": "toward us"
         }
-      ]
+      ],
+      "notes": {
+        "ja": "近づいてくる動作を示す。"
+      }
     },
     {
       "id": "(e)có-",
@@ -816,7 +822,10 @@
         {
           "gloss": "away"
         }
-      ]
+      ],
+      "notes": {
+        "ja": "離れ行く動作を示す。"
+      }
     },
     {
       "id": "(í)-",
@@ -2078,7 +2087,10 @@
       ],
       "definitions": [
         {
-          "gloss": "usage"
+          "gloss": "usage",
+          "translations": {
+            "ja": "使い方"
+          }
         }
       ]
     },
@@ -2090,7 +2102,10 @@
       ],
       "definitions": [
         {
-          "gloss": "point card"
+          "gloss": "card with a monetary value",
+          "translations": {
+            "ja": "得点札"
+          }
         }
       ]
     },
@@ -2103,7 +2118,10 @@
       ],
       "definitions": [
         {
-          "gloss": "be many"
+          "gloss": "be many",
+          "translations": {
+            "ja": "多い"
+          }
         }
       ]
     },
