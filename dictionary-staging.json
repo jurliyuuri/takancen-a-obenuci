@@ -1,0 +1,1410 @@
+[
+  {
+    "id": "(a)",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "PTCP"
+      }
+    ]
+  },
+  {
+    "id": "(e)",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "ADV"
+      }
+    ]
+  },
+  {
+    "id": "(e)cák-",
+    "pos": "auxiliary verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "toward us"
+      }
+    ]
+  },
+  {
+    "id": "(e)có-",
+    "pos": "auxiliary verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "humbly"
+      }
+    ]
+  },
+  {
+    "id": "(e)mók-",
+    "pos": "auxiliary verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "away"
+      }
+    ]
+  },
+  {
+    "id": "(í)-",
+    "pos": "auxiliary verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "SPECL"
+      }
+    ]
+  },
+  {
+    "id": "(í)ja-",
+    "pos": "auxiliary verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "want"
+      }
+    ]
+  },
+  {
+    "id": "=co",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "pieces"
+      },
+      {
+        "gloss": "piece"
+      }
+    ]
+  },
+  {
+    "id": "=su",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "points"
+      },
+      {
+        "gloss": "point"
+      }
+    ]
+  },
+  {
+    "id": "ailúcima",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "Ai’ren Republic"
+      }
+    ]
+  },
+  {
+    "id": "amamátono",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "big island"
+      }
+    ]
+  },
+  {
+    "id": "asiácuka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "one person"
+      }
+    ]
+  },
+  {
+    "id": "ata",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "and"
+      }
+    ]
+  },
+  {
+    "id": "bartádon",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "闇島"
+      }
+    ]
+  },
+  {
+    "id": "báxmaku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "same number"
+      }
+    ]
+  },
+  {
+    "id": "báxso",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "same kind"
+      }
+    ]
+  },
+  {
+    "id": "bécuku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "everyone"
+      }
+    ]
+  },
+  {
+    "id": "bélepici",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "game"
+      }
+    ]
+  },
+  {
+    "id": "bélu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "latest"
+      }
+    ]
+  },
+  {
+    "id": "béutu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "finally"
+      }
+    ]
+  },
+  {
+    "id": "búnco",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "wildcard"
+      }
+    ]
+  },
+  {
+    "id": "ceímoku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "rotational direction"
+      }
+    ]
+  },
+  {
+    "id": "cjúsu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "calculate money"
+      }
+    ]
+  },
+  {
+    "id": "comók-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "be victorious"
+      }
+    ]
+  },
+  {
+    "id": "cumácuka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "rich person"
+      }
+    ]
+  },
+  {
+    "id": "céjo",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "a certain"
+      }
+    ]
+  },
+  {
+    "id": "céutu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "after that"
+      }
+    ]
+  },
+  {
+    "id": "cíju-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "judge"
+      }
+    ]
+  },
+  {
+    "id": "cína",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "name"
+      }
+    ]
+  },
+  {
+    "id": "có",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "on top"
+      }
+    ]
+  },
+  {
+    "id": "códatu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "combination of cards"
+      }
+    ]
+  },
+  {
+    "id": "códo-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "consider important"
+      }
+    ]
+  },
+  {
+    "id": "cómasu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "sum of money"
+      }
+    ]
+  },
+  {
+    "id": "cóno",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "front"
+      }
+    ]
+  },
+  {
+    "id": "cúna",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "five"
+      }
+    ]
+  },
+  {
+    "id": "cúnasi",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "six"
+      }
+    ]
+  },
+  {
+    "id": "cúneku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "seven"
+      }
+    ]
+  },
+  {
+    "id": "dońdatu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "Republic Union of the Eastern Islands"
+      }
+    ]
+  },
+  {
+    "id": "dátu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "combination"
+      }
+    ]
+  },
+  {
+    "id": "ekádon",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "Ekadon Island"
+      }
+    ]
+  },
+  {
+    "id": "gógowi",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "extra large serving"
+      }
+    ]
+  },
+  {
+    "id": "inekúg-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "place something face down"
+      }
+    ]
+  },
+  {
+    "id": "ininátono",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "small island"
+      }
+    ]
+  },
+  {
+    "id": "jamámuta",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "cheap restaurant"
+      }
+    ]
+  },
+  {
+    "id": "ju",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "or"
+      }
+    ]
+  },
+  {
+    "id": "jáku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "rule"
+      }
+    ]
+  },
+  {
+    "id": "ján-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "submit"
+      }
+    ]
+  },
+  {
+    "id": "jánku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "kitchen"
+      }
+    ]
+  },
+  {
+    "id": "kańken",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "kitchen"
+      }
+    ]
+  },
+  {
+    "id": "ken",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "then"
+      }
+    ]
+  },
+  {
+    "id": "kinusáciju",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "money calculation"
+      }
+    ]
+  },
+  {
+    "id": "kjábetu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "oppression"
+      }
+    ]
+  },
+  {
+    "id": "kácuka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "this person"
+      }
+    ]
+  },
+  {
+    "id": "kákan",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "here"
+      }
+    ]
+  },
+  {
+    "id": "káxcen",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "conversation"
+      }
+    ]
+  },
+  {
+    "id": "kéca",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "picture"
+      }
+    ]
+  },
+  {
+    "id": "kéco",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "such as"
+      }
+    ]
+  },
+  {
+    "id": "kém-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "be weak"
+      }
+    ]
+  },
+  {
+    "id": "két-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "good"
+      }
+    ]
+  },
+  {
+    "id": "kéxke",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "fighting place"
+      }
+    ]
+  },
+  {
+    "id": "kíja",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "mind"
+      },
+      {
+        "gloss": "day"
+      }
+    ]
+  },
+  {
+    "id": "kóxco",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "cards in one’s hand"
+      }
+    ]
+  },
+  {
+    "id": "kúg-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "put"
+      }
+    ]
+  },
+  {
+    "id": "lácuka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "starting player"
+      }
+    ]
+  },
+  {
+    "id": "láneme",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "Lanerme"
+      }
+    ]
+  },
+  {
+    "id": "lúcju",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "reset"
+      }
+    ]
+  },
+  {
+    "id": "makamóm-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "count"
+      }
+    ]
+  },
+  {
+    "id": "mananádon",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "Manmana Island"
+      }
+    ]
+  },
+  {
+    "id": "max́matu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "rage"
+      }
+    ]
+  },
+  {
+    "id": "mitún",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "fifteen"
+      }
+    ]
+  },
+  {
+    "id": "moŕmaku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "another number"
+      }
+    ]
+  },
+  {
+    "id": "munkaídatu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "special combination"
+      }
+    ]
+  },
+  {
+    "id": "munkaíkaga",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "rare case"
+      }
+    ]
+  },
+  {
+    "id": "muńcan",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "subconsciousness"
+      }
+    ]
+  },
+  {
+    "id": "muńmoku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "passing one’s turn"
+      }
+    ]
+  },
+  {
+    "id": "máka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "number"
+      }
+    ]
+  },
+  {
+    "id": "mákaco",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "number card"
+      }
+    ]
+  },
+  {
+    "id": "mám-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "determine"
+      }
+    ]
+  },
+  {
+    "id": "méki",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "strong"
+      }
+    ]
+  },
+  {
+    "id": "méko",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "way"
+      }
+    ]
+  },
+  {
+    "id": "méme-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "be same"
+      }
+    ]
+  },
+  {
+    "id": "míso",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "kind"
+      }
+    ]
+  },
+  {
+    "id": "móm-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "take"
+      },
+      {
+        "gloss": "obtain"
+      }
+    ]
+  },
+  {
+    "id": "mórwa",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "but"
+      }
+    ]
+  },
+  {
+    "id": "móxpor",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "procedure"
+      }
+    ]
+  },
+  {
+    "id": "mún",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "0"
+      },
+      {
+        "gloss": "zero"
+      }
+    ]
+  },
+  {
+    "id": "múnbo a tó",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "insatiable"
+      }
+    ]
+  },
+  {
+    "id": "múnsu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "free of charge"
+      }
+    ]
+  },
+  {
+    "id": "nekámaka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "consecutive number"
+      }
+    ]
+  },
+  {
+    "id": "nekátadu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "combination of sequential cards"
+      }
+    ]
+  },
+  {
+    "id": "netumitún",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "65"
+      }
+    ]
+  },
+  {
+    "id": "nimálane",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "Linepāine"
+      }
+    ]
+  },
+  {
+    "id": "nimór-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "take a short break"
+      }
+    ]
+  },
+  {
+    "id": "néka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "sequence"
+      }
+    ]
+  },
+  {
+    "id": "néme-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "work"
+      }
+    ]
+  },
+  {
+    "id": "nínco",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "card"
+      }
+    ]
+  },
+  {
+    "id": "nít-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "disappear"
+      }
+    ]
+  },
+  {
+    "id": "nómu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "eight"
+      }
+    ]
+  },
+  {
+    "id": "nón-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "bad"
+      }
+    ]
+  },
+  {
+    "id": "nóu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "9"
+      },
+      {
+        "gloss": "nine"
+      }
+    ]
+  },
+  {
+    "id": "okítadu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "combination of cards of equal rank"
+      }
+    ]
+  },
+  {
+    "id": "six́sor muńmoku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "strategic pass"
+      }
+    ]
+  },
+  {
+    "id": "sukelácuka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "shopkeeper"
+      }
+    ]
+  },
+  {
+    "id": "sísitu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "usage"
+      }
+    ]
+  },
+  {
+    "id": "súco",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "point card"
+      }
+    ]
+  },
+  {
+    "id": "tacám-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "be many"
+      }
+    ]
+  },
+  {
+    "id": "takańdon",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "Atalam Island"
+      }
+    ]
+  },
+  {
+    "id": "tetu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "only"
+      }
+    ]
+  },
+  {
+    "id": "tikéoli",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "condiment"
+      }
+    ]
+  },
+  {
+    "id": "tomábeko",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "as much as possible"
+      }
+    ]
+  },
+  {
+    "id": "tá-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "end"
+      }
+    ]
+  },
+  {
+    "id": "téko",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "leftover"
+      },
+      {
+        "gloss": "remaining"
+      }
+    ]
+  },
+  {
+    "id": "tén-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "mix"
+      }
+    ]
+  },
+  {
+    "id": "tí",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "such kind of"
+      }
+    ]
+  },
+  {
+    "id": "tí a",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "such kind of"
+      }
+    ]
+  },
+  {
+    "id": "tíkaga",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "that time"
+      }
+    ]
+  },
+  {
+    "id": "tína",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "oneself"
+      }
+    ]
+  },
+  {
+    "id": "tónke",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "quantity"
+      }
+    ]
+  },
+  {
+    "id": "túce",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "each"
+      }
+    ]
+  },
+  {
+    "id": "túmoku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "go again"
+      }
+    ]
+  },
+  {
+    "id": "túo",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "card"
+      }
+    ]
+  },
+  {
+    "id": "tútu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "repeatedly"
+      },
+      {
+        "gloss": "again"
+      }
+    ]
+  },
+  {
+    "id": "ukemók-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "decrease"
+      }
+    ]
+  },
+  {
+    "id": "uteján-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "begin"
+      }
+    ]
+  },
+  {
+    "id": "wa",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "and also"
+      }
+    ]
+  },
+  {
+    "id": "á",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "the first alphabet"
+      }
+    ]
+  },
+  {
+    "id": "ácuka",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "person"
+      }
+    ]
+  },
+  {
+    "id": "ámama",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "greatly"
+      },
+      {
+        "gloss": "great"
+      }
+    ]
+  },
+  {
+    "id": "áno",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "all"
+      }
+    ]
+  },
+  {
+    "id": "ási",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "one"
+      }
+    ]
+  },
+  {
+    "id": "átawi",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "another helping"
+      }
+    ]
+  },
+  {
+    "id": "é",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "the second alphabet"
+      }
+    ]
+  },
+  {
+    "id": "ée",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "hey"
+      }
+    ]
+  },
+  {
+    "id": "éka-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "shine"
+      }
+    ]
+  },
+  {
+    "id": "émo",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "other"
+      }
+    ]
+  },
+  {
+    "id": "ému-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "be similar"
+      }
+    ]
+  },
+  {
+    "id": "éti",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "content"
+      }
+    ]
+  },
+  {
+    "id": "éx",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "one"
+      }
+    ]
+  },
+  {
+    "id": "íja-",
+    "pos": "verb",
+    "conjugation_class": "vowel-stem",
+    "definitions": [
+      {
+        "gloss": "consider"
+      }
+    ]
+  },
+  {
+    "id": "íku",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "two"
+      }
+    ]
+  },
+  {
+    "id": "óki",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "combination of cards of equal rank"
+      }
+    ]
+  },
+  {
+    "id": "ón",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "three"
+      }
+    ]
+  },
+  {
+    "id": "úk-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "be few"
+      }
+    ]
+  },
+  {
+    "id": "úla",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "wildcard"
+      }
+    ]
+  },
+  {
+    "id": "úmu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "three"
+      }
+    ]
+  },
+  {
+    "id": "ún",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "five"
+      }
+    ]
+  },
+  {
+    "id": "út-",
+    "pos": "verb",
+    "conjugation_class": "consonant-stem",
+    "definitions": [
+      {
+        "gloss": "proceed to the next"
+      }
+    ]
+  },
+  {
+    "id": "útagi",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "below"
+      }
+    ]
+  },
+  {
+    "id": "útagi kan ká ki kálu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "as will be explained below"
+      }
+    ]
+  },
+  {
+    "id": "útu",
+    "pos": "noun",
+    "definitions": [
+      {
+        "gloss": "negative"
+      }
+    ]
+  }
+]
