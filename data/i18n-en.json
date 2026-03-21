@@ -27,6 +27,7 @@
   },
   "ui": {
     "components": "components",
+    "All sources": "All sources",
     "Dictionary": "Dictionary",
     "Corpus": "Corpus",
     "Lemma": "Lemma",

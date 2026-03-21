@@ -26,6 +26,7 @@
   },
   "ui": {
     "components": "構成要素",
+    "All sources": "全て表示",
     "Dictionary": "辞書",
     "Corpus": "コーパス",
     "Lemma": "見出し語",

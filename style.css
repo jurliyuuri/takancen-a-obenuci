@@ -183,6 +183,7 @@ main {
 }
 
 /* ── Entry filter banner ── */
+#entry-filter-banner[hidden] { display: none; }
 #entry-filter-banner {
   display: flex;
   align-items: center;
