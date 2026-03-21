@@ -153,7 +153,15 @@ function updateEntryFilterUI() {
     const banner = document.getElementById('entry-filter-banner');
     const label = document.getElementById('entry-filter-label');
     banner.hidden = !entryFilter;
-    label.textContent = t('ui', 'entry filter') + ' ' + entryFilter;
+    label.textContent = '';
+    if (entryFilter) {
+        label.appendChild(document.createTextNode(t('ui', 'entry filter') + ' '));
+        const badge = document.createElement('span');
+        badge.className = 'entry-link found';
+        badge.textContent = entryFilter;
+        badge.addEventListener('click', () => navigateToEntry(entryFilter));
+        label.appendChild(badge);
+    }
 }
 function applyAllFilters() {
     const source = document.getElementById('source-filter').value;
