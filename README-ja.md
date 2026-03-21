@@ -41,7 +41,7 @@ python3 extract-staging.py
 このスクリプトは `data/corpus.json` をスキャンし、`data/dictionary.json` に存在しない見出し語IDをすべて抽出して、`dictionary-staging.json` に下書きエントリとして書き出します。各下書きには以下の情報が自動的に入力されます：
 
 - **`id`** — コーパス中に現れる見出し語ID
-- **`pos`** / **`conjugation_class`** — IDの形から推定（末尾が `-` → 動詞または補助動詞、母音幹・子音幹の別も推定；末尾が `-` でない → 名詞）
+- **`pos`** / **`conjugation_class`** — IDの形から推定（末尾が `-` → 動詞または助動詞、母音幹・子音幹の別も推定；末尾が `-` でない → 名詞）
 - **`script`** — コーパス内でこのIDに対して使われた `mixed_script` の値をすべて列挙（手動で正しい字形に絞り込む）
 - **`definitions`** — コーパス中に現れた固有の語義ラベルを列挙（コーパス上のピリオドをスペースに戻したもの。例：`not.exist` → `not exist`）
 

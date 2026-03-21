@@ -31,6 +31,12 @@
           "translations": {
             "ja": "時"
           }
+        },
+        {
+          "gloss": "case",
+          "translations": {
+            "ja": "場合"
+          }
         }
       ]
     },
@@ -732,7 +738,10 @@
       "pos": "verb particle",
       "definitions": [
         {
-          "gloss": "PTCP"
+          "gloss": "PTCP",
+          "translations": {
+            "ja": "分詞；連体形"
+          }
         }
       ]
     },
@@ -1447,7 +1456,7 @@
       ],
       "definitions": [
         {
-          "gloss": "good"
+          "gloss": "be good"
         }
       ]
     },
@@ -1495,7 +1504,10 @@
       ],
       "definitions": [
         {
-          "gloss": "cards in one’s hand"
+          "gloss": "cards in one’s hand",
+          "translations": {
+            "ja": "手札"
+          }
         }
       ]
     },
@@ -1808,6 +1820,11 @@
         {
           "gloss": "insatiable"
         }
+      ],
+      "components": [
+        "múnbo",
+        "a",
+        "tó"
       ]
     },
     {
@@ -1916,7 +1933,10 @@
       ],
       "definitions": [
         {
-          "gloss": "card"
+          "gloss": "card",
+          "translations": {
+            "ja": "カード"
+          }
         }
       ]
     },
@@ -2054,7 +2074,10 @@
       ],
       "definitions": [
         {
-          "gloss": "Atalam Island"
+          "gloss": "Atalam Island",
+          "translations": {
+            "ja": "アタラム島"
+          }
         }
       ]
     },
@@ -2078,7 +2101,10 @@
       ],
       "definitions": [
         {
-          "gloss": "condiment"
+          "gloss": "condiment",
+          "translations": {
+            "ja": "調味料"
+          }
         }
       ]
     },
@@ -2256,8 +2282,15 @@
       ],
       "definitions": [
         {
-          "gloss": "decrease"
+          "gloss": "decrease",
+          "translations": {
+            "ja": "減る"
+          }
         }
+      ],
+      "components": [
+        "úk-",
+        "(e)mók-"
       ]
     },
     {
@@ -2271,6 +2304,11 @@
         {
           "gloss": "begin"
         }
+      ],
+      "components": [
+        "út-",
+        "(e)",
+        "ján-"
       ]
     },
     {
@@ -2595,7 +2633,10 @@
       ],
       "definitions": [
         {
-          "gloss": "proceed to the next"
+          "gloss": "proceed to the next",
+          "translations": {
+            "ja": "次に進む"
+          }
         }
       ]
     },
@@ -2619,13 +2660,23 @@
       ],
       "definitions": [
         {
-          "gloss": "as will be explained below"
+          "gloss": "as will be explained below",
+          "translations": {
+            "ja": "後述、後に述べる"
+          }
         }
+      ],
+      "components": [
+        "útagi",
+        "kan",
+        "ká",
+        "ki",
+        "kálu"
       ]
     },
     {
       "id": "útu",
-      "pos": "noun",
+      "pos": "prenominal",
       "script": [
         "下"
       ],
