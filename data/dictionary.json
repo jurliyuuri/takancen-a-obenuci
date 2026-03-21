@@ -590,6 +590,24 @@
       ]
     },
     {
+      "id": "ká",
+      "script": [
+        "此"
+      ],
+      "pos": "noun",
+      "definitions": [
+        {
+          "gloss": "this",
+          "translations": {
+            "ja": "これ"
+          }
+        }
+      ],
+      "notes": {
+        "ja": "単体で用いるのは文語のみ。口語では専ら修飾語として用いる。"
+      }
+    },
+    {
       "id": "a#2",
       "script": [
         "噫"
@@ -1375,6 +1393,22 @@
       ]
     },
     {
+      "id": "ká-",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "script": [
+        "筆る"
+      ],
+      "definitions": [
+        {
+          "gloss": "write",
+          "translations": {
+            "ja": "書く"
+          }
+        }
+      ]
+    },
+    {
       "id": "kácuka",
       "pos": "noun",
       "script": [
@@ -1708,7 +1742,7 @@
     },
     {
       "id": "méki",
-      "pos": "noun",
+      "pos": "adjectival noun",
       "script": [
         "硬"
       ],
@@ -2671,7 +2705,8 @@
         "kan",
         "ká",
         "ki",
-        "kálu"
+        "ká-",
+        "(u)"
       ]
     },
     {
