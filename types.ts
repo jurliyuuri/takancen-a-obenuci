@@ -33,8 +33,14 @@ export type DictionaryEntry = {
   components?: string[];
 }
 
+export interface AlternativeFormGroup {
+  script?: string;
+  entry_ids: string[];
+}
+
 export interface DictionaryData {
   entries: DictionaryEntry[];
+  alternative_form_groups?: AlternativeFormGroup[];
 }
 
 export interface SingleFormToken {

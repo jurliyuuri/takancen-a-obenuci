@@ -1660,6 +1660,18 @@
       ]
     },
     {
+      "id": "mituun≡",
+      "pos": "bound morpheme",
+      "script": [
+        "十五"
+      ],
+      "definitions": [
+        {
+          "gloss": "fifteen"
+        }
+      ]
+    },
+    {
       "id": "moŕmaku",
       "pos": "noun",
       "script": [
@@ -2744,6 +2756,15 @@
         {
           "gloss": "negative"
         }
+      ]
+    }
+  ],
+  "alternative_form_groups": [
+    {
+      "script": "十五",
+      "entry_ids": [
+        "mitun≡",
+        "mituun≡"
       ]
     }
   ]

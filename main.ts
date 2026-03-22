@@ -5,6 +5,8 @@ import type { DictionaryEntry, CorpusSentence, DictionaryData, CorpusData, I18nD
 let dictionary: DictionaryEntry[] = [];
 let corpus: CorpusSentence[] = [];
 const entryMap = new Map<string, DictionaryEntry>();
+// Maps each entry id to the sibling ids in its alternative-form group (excluding itself).
+const alternativesMap = new Map<string, string[]>();
 let i18n: I18nData = {};
 let lang = 'en';
 let entryFilter = '';
@@ -46,6 +48,11 @@ async function init() {
   dictionary = dictData.entries;
   corpus = corpusData.sentences.map((s, i) => ({ ...s, id: String(i) }));
   for (const entry of dictionary) entryMap.set(entry.id, entry);
+  for (const group of dictData.alternative_form_groups ?? []) {
+    for (const id of group.entry_ids) {
+      alternativesMap.set(id, group.entry_ids.filter(other => other !== id));
+    }
+  }
 
   setupControls();
   setupSettings();
@@ -406,6 +413,30 @@ function buildEntryEl(entry: DictionaryEntry): HTMLDivElement {
       compRow.appendChild(badge);
     }
     div.appendChild(compRow);
+  }
+
+  // Alternative forms
+  const alternatives = alternativesMap.get(entry.id);
+  if (alternatives?.length) {
+    const altRow = document.createElement('div');
+    altRow.className = 'entry-components';
+    const label = document.createElement('span');
+    label.className = 'components-label';
+    label.textContent = t('ui', 'alternative forms') + ':';
+    altRow.appendChild(label);
+    for (const id of alternatives) {
+      const badge = document.createElement('span');
+      if (entryMap.has(id)) {
+        badge.className = 'entry-link found';
+        badge.textContent = id;
+        badge.addEventListener('click', () => navigateToEntry(id));
+      } else {
+        badge.className = 'entry-link missing';
+        badge.textContent = id;
+      }
+      altRow.appendChild(badge);
+    }
+    div.appendChild(altRow);
   }
 
   // Link to corpus sentences that use this entry

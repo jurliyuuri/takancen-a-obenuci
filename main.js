@@ -3,6 +3,8 @@ import { toSpacedHiraganaPure, latinToSyllabary } from "./toSpacedHiraganaPure.j
 let dictionary = [];
 let corpus = [];
 const entryMap = new Map();
+// Maps each entry id to the sibling ids in its alternative-form group (excluding itself).
+const alternativesMap = new Map();
 let i18n = {};
 let lang = 'en';
 let entryFilter = '';
@@ -40,6 +42,11 @@ async function init() {
     corpus = corpusData.sentences.map((s, i) => ({ ...s, id: String(i) }));
     for (const entry of dictionary)
         entryMap.set(entry.id, entry);
+    for (const group of dictData.alternative_form_groups ?? []) {
+        for (const id of group.entry_ids) {
+            alternativesMap.set(id, group.entry_ids.filter(other => other !== id));
+        }
+    }
     setupControls();
     setupSettings();
     setupModal();
@@ -366,6 +373,30 @@ function buildEntryEl(entry) {
             compRow.appendChild(badge);
         }
         div.appendChild(compRow);
+    }
+    // Alternative forms
+    const alternatives = alternativesMap.get(entry.id);
+    if (alternatives?.length) {
+        const altRow = document.createElement('div');
+        altRow.className = 'entry-components';
+        const label = document.createElement('span');
+        label.className = 'components-label';
+        label.textContent = t('ui', 'alternative forms') + ':';
+        altRow.appendChild(label);
+        for (const id of alternatives) {
+            const badge = document.createElement('span');
+            if (entryMap.has(id)) {
+                badge.className = 'entry-link found';
+                badge.textContent = id;
+                badge.addEventListener('click', () => navigateToEntry(id));
+            }
+            else {
+                badge.className = 'entry-link missing';
+                badge.textContent = id;
+            }
+            altRow.appendChild(badge);
+        }
+        div.appendChild(altRow);
     }
     // Link to corpus sentences that use this entry
     const linked = corpus.filter(s => s.tokens.some(t => 'punctuation' in t

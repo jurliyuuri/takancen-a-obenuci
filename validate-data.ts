@@ -39,8 +39,14 @@ const entrySchema = z.union([
   }),
 ]);
 
+const alternativeFormGroupSchema = z.object({
+  script: z.string().optional(),
+  entry_ids: z.array(z.string()).min(2),
+});
+
 const dictionaryDataSchema = z.object({
   entries: z.array(entrySchema),
+  alternative_form_groups: z.array(alternativeFormGroupSchema).optional(),
 });
 
 const singleFormTokenSchema = z.object({
