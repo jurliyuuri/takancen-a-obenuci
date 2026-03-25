@@ -8,7 +8,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "I",
           "translations": {
             "ja": "わたし、私"
           }
@@ -31,7 +31,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "you",
           "translations": {
             "ja": "あなた、貴方"
           }
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "a",
+      "id": "a#2",
       "script": [
         "あ",
         "噫"
@@ -61,7 +61,7 @@
       "pos": "sentence particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "DECL",
           "translations": {
             "ja": "ああ、えっと"
           }
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "a#2",
+      "id": "a",
       "script": [
         "あ",
         "之"
@@ -86,7 +86,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "GEN",
           "translations": {
             "ja": "～の"
           }
@@ -116,7 +116,7 @@
       "conjugation_class": "c-irregular",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "can",
           "translations": {
             "ja": "～できる、～される"
           }
@@ -143,7 +143,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "see",
           "translations": {
             "ja": "見る"
           }
@@ -187,7 +187,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "shine",
           "translations": {
             "ja": "光る"
           }
@@ -218,7 +218,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "one",
           "translations": {
             "ja": "一、いち、1"
           }
@@ -233,7 +233,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "and",
           "translations": {
             "ja": "～と"
           }
@@ -278,7 +278,7 @@
       "conjugation_class": "c-irregular",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "do",
           "translations": {
             "ja": "する"
           }
@@ -359,7 +359,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "speak",
           "translations": {
             "ja": "言う、話す"
           }
@@ -414,7 +414,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "sit",
           "translations": {
             "ja": "座る"
           }
@@ -465,7 +465,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "come",
           "translations": {
             "ja": "来る"
           }
@@ -558,7 +558,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "fill",
           "translations": {
             "ja": "満ちる"
           }
@@ -622,7 +622,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "five",
           "translations": {
             "ja": "五、5"
           }
@@ -710,7 +710,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "existence",
           "translations": {
             "ja": "存在"
           }
@@ -791,7 +791,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "SPECL",
           "translations": {
             "ja": "～したい、～だろう、～させる"
           }
@@ -827,7 +827,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "consider",
           "translations": {
             "ja": "思う"
           }
@@ -877,7 +877,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "two",
           "translations": {
             "ja": "二"
           }
@@ -1062,7 +1062,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "picture",
           "translations": {
             "ja": "絵"
           }
@@ -1095,14 +1095,19 @@
       }
     },
     {
-      "id": "kíja",
+      "id": "kíja#2",
       "script": [
         "日"
       ],
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "day",
+          "translations": {
+            "ja": "日"
+          }
+        },{
+          "gloss": "sun",
           "translations": {
             "ja": "太陽、日"
           }
@@ -1166,7 +1171,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "this",
           "translations": {
             "ja": "これ"
           }
@@ -1199,7 +1204,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "LOC",
           "translations": {
             "ja": "〜で、〜に、処格"
           }
@@ -1217,7 +1222,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "land",
           "translations": {
             "ja": "土地、世界"
           }
@@ -1300,7 +1305,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "water",
           "translations": {
             "ja": "水"
           }
@@ -1323,7 +1328,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "six",
           "translations": {
             "ja": "六"
           }
@@ -1381,7 +1386,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "eight",
           "translations": {
             "ja": "八"
           }
@@ -1427,9 +1432,14 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "nine",
           "translations": {
             "ja": "九"
+          }
+        },{
+          "gloss": "9",
+          "translations": {
+            "ja": "9"
           }
         }
       ],
@@ -1503,7 +1513,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "Takan",
           "translations": {
             "ja": "皇神"
           }
@@ -1589,7 +1599,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "three",
           "translations": {
             "ja": "三"
           }
@@ -1604,7 +1614,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "seven",
           "translations": {
             "ja": "七"
           }
@@ -1714,10 +1724,12 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "take",
           "translations": {
             "ja": "取る"
           }
+        }, {
+          "gloss": "obtain"
         }
       ],
       "cognates": {
@@ -1735,7 +1747,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "not exist",
           "translations": {
             "ja": "無い"
           }
@@ -1846,7 +1858,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "on top",
           "translations": {
             "ja": "上"
           }
@@ -1872,7 +1884,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "light",
           "translations": {
             "ja": "光"
           }
@@ -2036,7 +2048,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "3sg",
           "translations": {
             "ja": "あれ、かれ、彼、あの人、彼女"
           }
@@ -2051,7 +2063,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "such kind",
           "translations": {
             "ja": "それ"
           }
@@ -2123,12 +2135,12 @@
       "id": "oca",
       "script": [
         "来さ",
-        "耒 "
+        "耒"
       ],
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "ABL",
           "translations": {
             "ja": "〜から"
           }
@@ -2143,7 +2155,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "or",
           "translations": {
             "ja": "列挙、〜もまた"
           }
@@ -2176,7 +2188,7 @@
       "pos": "verb particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "and also",
           "translations": {
             "ja": "〜して"
           }
@@ -2191,7 +2203,7 @@
       "pos": "verb particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "then",
           "translations": {
             "ja": "〜したら"
           }
@@ -2209,7 +2221,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "NOM",
           "translations": {
             "ja": "主題の副助詞、〜は"
           }
@@ -2239,7 +2251,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "only",
           "translations": {
             "ja": "〜だけ"
           }
@@ -2254,7 +2266,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "PST",
           "translations": {
             "ja": "〜した"
           }
@@ -2273,9 +2285,14 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "lower",
           "translations": {
             "ja": "下がる、下げる"
+          }
+        }, {
+          "gloss": "proceed to the next",
+          "translations": {
+            "ja": "次に進む"
           }
         }
       ],
@@ -2353,7 +2370,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "away",
           "translations": {
             "ja": "移動隔離の助動詞"
           }
@@ -2369,7 +2386,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "toward us",
           "translations": {
             "ja": "移動接近の助動詞"
           }
@@ -2415,7 +2432,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "Q",
           "translations": {
             "ja": "疑問助詞、〜か？"
           }
@@ -2571,7 +2588,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "exist",
           "translations": {
             "ja": "在る"
           }
@@ -2641,10 +2658,12 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "time",
           "translations": {
             "ja": "時、〜回"
           }
+        },{
+          "gloss": "case"
         }
       ]
     },
@@ -2656,7 +2675,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "book",
           "translations": {
             "ja": "本、書籍"
           }
@@ -2732,7 +2751,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "usage",
           "translations": {
             "ja": "使い方"
           }
@@ -2856,7 +2875,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "oppression",
           "translations": {
             "ja": "心が圧されること、ヒャーベッ"
           }
@@ -3028,7 +3047,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "obtain",
           "translations": {
             "ja": "もらう、得る、受ける"
           }
@@ -3044,7 +3063,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(未訳)"
+          "gloss": "give"
         }
       ]
     },
@@ -3135,7 +3154,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "be good",
           "translations": {
             "ja": "良い"
           }
@@ -3158,7 +3177,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "number",
           "translations": {
             "ja": "数、値"
           }
@@ -3251,7 +3270,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "country",
           "translations": {
             "ja": "国"
           }
@@ -3311,7 +3330,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "want",
           "translations": {
             "ja": "～したい、～するつもりだ"
           }
@@ -3368,7 +3387,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "put",
           "translations": {
             "ja": "付ける"
           }
@@ -3450,7 +3469,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "learn",
           "translations": {
             "ja": "学ぶ"
           }
@@ -3481,7 +3500,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "daytime",
           "translations": {
             "ja": "日中、昼"
           }
@@ -3531,7 +3550,7 @@
       "pos": "prenominal",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "Linepāine",
           "translations": {
             "ja": "リパライン語の、リパラオネの"
           }
@@ -3546,7 +3565,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "person of Takan ethnicity",
           "translations": {
             "ja": "タカン人"
           }
