@@ -1,0 +1,1 @@
+python3 migrate-2021.py > migrated-dictionary.json 2> migrate-2021-warnings.txt
