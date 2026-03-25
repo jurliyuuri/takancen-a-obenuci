@@ -53,7 +53,9 @@ def ameliorate_consonant_stem(stem):
     vi = n - 1
     return accent_nth_vowel(stem, vi)
 
-def ameliorate_id(entry_id, conj_class):
+PARTICLE_POS = {'noun particle', 'verb particle', 'sentence particle'}
+
+def ameliorate_id(entry_id, pos, conj_class):
     """Return the accented lemma form for a single entry id."""
     # Split off the homophone suffix (#2, #3, …) — process the base only.
     if '#' in entry_id:
@@ -85,8 +87,12 @@ def ameliorate_id(entry_id, conj_class):
         stem = base[:-2]          # strip '-u'
         return ameliorate_consonant_stem(stem) + '-' + homo
 
+    elif pos in PARTICLE_POS:
+        # Particles are not accented.
+        return entry_id
+
     else:
-        # Noun, particle, prenominal, etc. — accent as a noun.
+        # Noun, prenominal — accent as a noun.
         return ameliorate_noun(base) + homo
 
 
@@ -96,8 +102,9 @@ def ameliorate_lemma(src):
 
     for entry in data['entries']:
         old_id = entry['id']
+        pos = entry.get('pos', '')
         conj_class = entry.get('conjugation_class')   # None for non-declinables
-        new_id = ameliorate_id(old_id, conj_class)
+        new_id = ameliorate_id(old_id, pos, conj_class)
         entry['id'] = new_id
         if new_id == old_id:
             print(f"INFO: id unchanged: {old_id!r}", file=sys.stderr)
