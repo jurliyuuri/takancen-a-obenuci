@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": "áta#2",
+      "id": "áta",
       "script": [
         "目"
       ],
@@ -852,7 +852,7 @@
       }
     },
     {
-      "id": "méccuku",
+      "id": "méxcuku",
       "script": [
         "牌人"
       ],
@@ -939,7 +939,7 @@
       }
     },
     {
-      "id": "ká",
+      "id": "ká#2",
       "script": [
         "筆"
       ],
@@ -1776,15 +1776,15 @@
       }
     },
     {
-      "id": "mór-",
+      "id": "moŕ-",
       "script": [
         "行る"
-      ],
+      ],  
       "pos": "verb",
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "go",
           "translations": {
             "ja": "行く"
           }
@@ -2099,7 +2099,7 @@
       }
     },
     {
-      "id": "cóncitu",
+      "id": "cońcitu",
       "script": [
         "周故"
       ],
@@ -2117,14 +2117,14 @@
       }
     },
     {
-      "id": "ki#2",
+      "id": "ki",
       "script": [
         "於"
       ],
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "ACC",
           "translations": {
             "ja": "〜を、対格"
           }
@@ -2263,7 +2263,7 @@
       "script": [
         "終"
       ],
-      "pos": "noun particle",
+      "pos": "verb particle",
       "definitions": [
         {
           "gloss": "PST",
@@ -2303,7 +2303,7 @@
       }
     },
     {
-      "id": "(é)co-",
+      "id": "(e)có-",
       "script": [
         "上る"
       ],
@@ -2311,7 +2311,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "humbly",
           "translations": {
             "ja": "～させていただく"
           }
@@ -2394,7 +2394,7 @@
       ]
     },
     {
-      "id": "munconciccícuku",
+      "id": "munconcixcícuku",
       "script": [
         "無周故し人"
       ],
@@ -2409,7 +2409,7 @@
       ]
     },
     {
-      "id": "unún-",
+      "id": "únun-",
       "script": [
         "うぬぬ"
       ],
@@ -2417,7 +2417,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "be",
           "translations": {
             "ja": "〜である"
           }
@@ -2440,14 +2440,14 @@
       ]
     },
     {
-      "id": "cén",
+      "id": "=cen",
       "script": [
         "言"
       ],
-      "pos": "noun",
+      "pos": "noun suffix",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "language",
           "translations": {
             "ja": "〜語"
           }
@@ -2611,14 +2611,14 @@
       }
     },
     {
-      "id": "mouwa",
+      "id": "mórwa",
       "script": [
         "別而"
       ],
       "pos": "verb particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "but",
           "translations": {
             "ja": "しかし"
           }
@@ -2629,7 +2629,7 @@
       }
     },
     {
-      "id": "mórmor-",
+      "id": "mormoŕ-",
       "script": [
         "行行る"
       ],
@@ -2686,14 +2686,14 @@
       }
     },
     {
-      "id": "káccen",
+      "id": "káxcen",
       "script": [
         "互言"
       ],
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "conversation",
           "translations": {
             "ja": "会話"
           }
@@ -2729,7 +2729,7 @@
       }
     },
     {
-      "id": "ká#2",
+      "id": "ká",
       "script": [
         "此"
       ],
@@ -3123,14 +3123,14 @@
       }
     },
     {
-      "id": "belépisi",
+      "id": "bélepici",
       "script": [
         "べれぴし"
       ],
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "game",
           "translations": {
             "ja": "遊び、ゲーム"
           }
@@ -3289,7 +3289,7 @@
       }
     },
     {
-      "id": "línman",
+      "id": "lińman",
       "script": [
         "清字"
       ],
@@ -3573,7 +3573,7 @@
       ]
     },
     {
-      "id": "sórnike",
+      "id": "soŕnike",
       "script": [
         "上学処"
       ],
@@ -3591,7 +3591,7 @@
       }
     },
     {
-      "id": "bepicasórnike",
+      "id": "bepicasoŕnike",
       "script": [
         "淮上学処"
       ],
