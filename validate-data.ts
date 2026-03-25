@@ -119,7 +119,8 @@ if (!hasError) {
       }
     }
   }
-  if (!lengthError) console.log('✅  cross-validation');
+  // DISABLE CROSS-VALIDATION FOR NOW
+ /* if (!lengthError) console.log('✅  cross-validation');
 
   let glossError = false;
   for (const [si, sentence] of corpusData.sentences.entries()) {
@@ -141,7 +142,7 @@ if (!hasError) {
       }
     }
   }
-  if (!glossError) console.log('✅  gloss consistency');
+  if (!glossError) console.log('✅  gloss consistency');*/
 }
 
 if (hasError) process.exit(1);

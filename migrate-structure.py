@@ -116,8 +116,7 @@ def migrate(src_path: str) -> dict:
         definitions: list[dict] = []
         for t in pos_translations:
             ja_translations = '、'.join(t['forms'])
-            definitions.append({'gloss': '(TODO)'})
-            definitions.append({'translations': {'ja': ja_translations}})
+            definitions.append({'gloss': '(TODO)','translations': {'ja': ja_translations}})
 
         if not definitions:
             definitions = [{'gloss': '(未訳)'}]
