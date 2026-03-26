@@ -21,6 +21,8 @@ export interface Cognates {
   bt?: string[],
   ar?: string[],
   ln?: string[],
+  li?: string[],
+  pm?: string[],
 }
 
 export type DictionaryEntry = {

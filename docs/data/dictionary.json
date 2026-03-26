@@ -767,7 +767,7 @@
       "script": [
         "等"
       ],
-      "pos": "noun particle",
+      "pos": "noun suffix",
       "definitions": [
         {
           "gloss": "(TODO)",
@@ -993,7 +993,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "four",
           "translations": {
             "ja": "四"
           }
@@ -1016,7 +1016,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "four",
           "translations": {
             "ja": "四"
           }
@@ -1039,7 +1039,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "four",
           "translations": {
             "ja": "四"
           }
@@ -1293,8 +1293,13 @@
           }
         }
       ],
-      "notes": {
-        "ja": "用法:pua2.pk\nbhára.bt"
+      "cognates": {
+        "pk": [
+          "pua2"
+        ],
+        "bt": [
+          "bhára"
+        ]
       }
     },
     {
@@ -1457,14 +1462,14 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "four",
           "translations": {
             "ja": "四"
           }
         }
       ],
       "notes": {
-        "ja": "同根語:cuna + nagamu の縮約である、死語cunagamuからの逆成。"
+        "ja": "語源:cuna + nagamu の縮約である、死語cunagamuからの逆成。"
       }
     },
     {
@@ -2467,7 +2472,7 @@
         {
           "gloss": "(TODO)",
           "translations": {
-            "ja": "キヤスカ"
+            "ja": "キヤスカ（人名）"
           }
         }
       ]
@@ -2556,7 +2561,7 @@
         {
           "gloss": "(TODO)",
           "translations": {
-            "ja": "ウオムカ"
+            "ja": "ウオムカ（人名）"
           }
         }
       ],
@@ -2956,7 +2961,7 @@
       },
       "cognates": {
         "ar": [
-          "zunaii.ar zuhio"
+          "zunaii","zuhio"
         ],
         "pk": [
           "zui2"
@@ -3137,11 +3142,11 @@
         }
       ],
       "cognates": {
-        "pk": [
+        "pm": [
           "belpic"
         ],
         "li": [
-          "belfez"
+          "velfez"
         ]
       }
     },
@@ -3281,7 +3286,7 @@
           "sip1"
         ],
         "bt": [
-          "síbha.bt, ṣibhai"
+          "síbha","ṣibhai"
         ],
         "ar": [
           "sip'ui"
@@ -3438,7 +3443,7 @@
       "script": [
         "為ら"
       ],
-      "pos": "noun",
+      "pos": "unclassified",
       "definitions": [
         {
           "gloss": "(未訳)"
@@ -3450,7 +3455,7 @@
     },
     {
       "id": "ácula",
-      "pos": "noun",
+      "pos": "unclassified",
       "definitions": [
         {
           "gloss": "(未訳)"
@@ -3538,8 +3543,8 @@
       ],
       "cognates": {
         "pk": [
-          "asíjaúḷ.bt, asiu.ar, sy2"
-        ]
+          "sy2"
+        ],"bt":["asíjaúḷ"],"ar":["asiu"] 
       }
     },
     {
@@ -3720,7 +3725,7 @@
         {
           "gloss": "(TODO)",
           "translations": {
-            "ja": "ターフ"
+            "ja": "ターフ（人名）"
           }
         }
       ]
@@ -3737,7 +3742,16 @@
           "translations": {
             "ja": "リナエスト・オルス共和国"
           }
-        },
+        }
+      ]
+    },
+     {
+      "id": "linécita#2",
+      "script": [
+        "清た"
+      ],
+      "pos": "prenominal",
+      "definitions": [
         {
           "gloss": "(TODO)",
           "translations": {
@@ -3756,7 +3770,7 @@
         {
           "gloss": "(TODO)",
           "translations": {
-            "ja": "カジカ"
+            "ja": "カジカ（人名）"
           }
         }
       ]
@@ -3771,7 +3785,7 @@
         {
           "gloss": "(TODO)",
           "translations": {
-            "ja": "クワ"
+            "ja": "クワ（人名）"
           }
         }
       ]
@@ -3787,7 +3801,7 @@
         {
           "gloss": "(TODO)",
           "translations": {
-            "ja": "タカマ"
+            "ja": "タカマ（人名）"
           }
         }
       ]

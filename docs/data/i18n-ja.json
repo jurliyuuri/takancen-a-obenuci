@@ -14,6 +14,7 @@
     "sentence conjunction": "文接続詞",
     "adjectival noun": "形容詞性名詞",
     "interjection": "間投詞",
+    "unclassified": "(未分類)",
     "All parts of speech": "全ての品詞から検索"
   },
   "conj": {
@@ -32,7 +33,9 @@
   "pk": "パイグ語",
   "bt": "バート語",
   "ar": "アイル語",
-  "ln": "ラネーメ祖語"
+  "ln": "ラネーメ祖語",
+  "li": "リパライン語",
+  "pm": "東島通商語"
 
   },
   "ui": {

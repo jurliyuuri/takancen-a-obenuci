@@ -1150,7 +1150,7 @@
     } ],
     "tags" : [ ],
     "contents" : [ {
-      "title" : "用法",
+      "title" : "同根語",
       "text" : "pua2.pk\nbhára.bt"
     } ],
     "variations" : [ ]
@@ -2837,7 +2837,7 @@
       "text" : "takama cune （皇論）"
     }, {
       "title" : "同根語",
-      "text" : "zunaii.ar zuhio.ar\nzui2.pk"
+      "text" : "zunaii.ar\nzuhio.ar\nzui2.pk"
     } ],
     "variations" : [ ]
   }, {
@@ -3008,7 +3008,7 @@
   }, {
     "entry" : {
       "id" : 147,
-      "form" : "belepisi"
+      "form" : "belepici"
     },
     "translations" : [ {
       "title" : "漢字仮名混じり転写",
@@ -3020,7 +3020,7 @@
     "tags" : [ ],
     "contents" : [ {
       "title" : "同根語",
-      "text" : "belpic.pk\nbelfez.li"
+      "text" : "belpic.pm\nvelfez.li"
     } ],
     "variations" : [ ]
   }, {
@@ -3158,7 +3158,7 @@
     "tags" : [ ],
     "contents" : [ {
       "title" : "同根語",
-      "text" : "sip1.pk\nsíbha.bt, ṣibhai.bt\nsip'ui.ar"
+      "text" : "sip1.pk\nsíbha.bt\nṣibhai.bt\nsip'ui.ar"
     } ],
     "variations" : [ ]
   }, {
@@ -3464,7 +3464,7 @@
     "tags" : [ ],
     "contents" : [ {
       "title" : "同根語",
-      "text" : "asíjaúḷ.bt, asiu.ar, sy2.pk"
+      "text" : "asíjaúḷ.bt\nasiu.ar\nsy2.pk"
     } ],
     "variations" : [ ]
   }, {

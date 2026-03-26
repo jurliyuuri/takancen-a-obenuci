@@ -14,6 +14,7 @@
     "sentence conjunction": "sentence conjunction",
     "adjectival noun": "adjectival noun",
     "interjection": "interjection",
+    "unclassified": "(not yet classified)",
     "All parts of speech": "All parts of speech"
   },
   "conj": {
@@ -34,7 +35,9 @@
   "pk": "Pēgvīle / Pekzep",
   "bt": "Phētāsvīle",
   "ar": "Ai’r",
-  "ln": "Proto-Lanermic"
+  "ln": "Proto-Lanermic",
+  "li": "Linepāine",
+  "pm": "Pemecepe Creole"
 
   },
   "ui": {

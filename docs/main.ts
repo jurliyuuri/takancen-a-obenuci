@@ -407,7 +407,7 @@ function buildEntryEl(entry: DictionaryEntry): HTMLDivElement {
 
   // Cognates
   if (entry.cognates) {
-    const cognateKeys = (['pk', 'bt', 'ar', 'ln'] as const).filter(k => entry.cognates![k]?.length);
+    const cognateKeys = (['pk', 'bt', 'ar', 'ln', 'li', 'pm'] as const).filter(k => entry.cognates![k]?.length);
     if (cognateKeys.length) {
       const notes = document.createElement('div');
       notes.className = 'notes';

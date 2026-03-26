@@ -363,7 +363,7 @@ function buildEntryEl(entry) {
     }
     // Cognates
     if (entry.cognates) {
-        const cognateKeys = ['pk', 'bt', 'ar', 'ln'].filter(k => entry.cognates[k]?.length);
+        const cognateKeys = ['pk', 'bt', 'ar', 'ln', 'li', 'pm'].filter(k => entry.cognates[k]?.length);
         if (cognateKeys.length) {
             const notes = document.createElement('div');
             notes.className = 'notes';
