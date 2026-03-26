@@ -92,8 +92,10 @@ def migrate(src_path: str) -> dict:
         for t in pos_translations:
             mapped = POS_MAP.get(t['title'])
             if mapped is not None:
+                if pos is not None and pos != mapped:
+                    print(f"WARNING [{entry_id}] multiple pos: {t['title']!r}", file=sys.stderr)
                 pos = mapped
-                break
+                
             else:
                 print(f"WARNING [{entry_id}] unknown pos title: {t['title']!r}", file=sys.stderr)
 
