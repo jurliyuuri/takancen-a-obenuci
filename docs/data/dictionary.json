@@ -1532,6 +1532,21 @@
       ]
     },
     {
+      "id": "tákan#2",
+      "script": [
+        "皇"
+      ],
+      "pos": "prenominal",
+      "definitions": [
+        {
+          "gloss": "(TODO)",
+          "translations": {
+            "ja": "タカン民族の"
+          }
+        }
+      ]
+    },
+    {
       "id": "tákamu",
       "script": [
         "皇"
