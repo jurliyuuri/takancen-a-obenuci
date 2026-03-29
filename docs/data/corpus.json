@@ -1762,6 +1762,52 @@
       "source": "タカン語概論",
       "tokens": [
         {
+          "form": "ná",
+          "mixed_script": "水",
+          "entry_ids": [
+            "ná"
+          ],
+          "gloss": "water"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "momemoketácu",
+          "mixed_script": "与下能す",
+          "entry_ids": [
+            "momemók-",
+            "(é)t-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "give-RESPECT-can-NPST"
+        },
+        {
+          "form": "mu",
+          "mixed_script": "む",
+          "entry_ids": [
+            "mu"
+          ],
+          "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
+        }
+      ],
+      "translation": {
+        "ja": "水を下されますか？（普通の依頼）"
+      }
+    },
+    {
+      "source": "タカン語概論",
+      "tokens": [
+        {
           "form": "má",
           "mixed_script": "汝",
           "entry_ids": [
