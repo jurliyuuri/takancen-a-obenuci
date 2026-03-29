@@ -1709,6 +1709,59 @@
       "source": "タカン語概論",
       "tokens": [
         {
+          "form": "ailúcuka",
+          "mixed_script": "冠人",
+          "entry_ids": [
+            "ailúcuka"
+          ],
+          "gloss": "person.of.Ai’r.ethnicity"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "mekácuka",
+          "mixed_script": "牌人",
+          "entry_ids": [
+            "mekácuka"
+          ],
+          "gloss": "person.of.Paige.ethnicity"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "tadílata",
+          "mixed_script": "集心ら終",
+          "entry_ids": [
+            "tád-",
+            "(í)-",
+            "(a)ta"
+          ],
+          "gloss": "gather-SPECL-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ],
+      "translation": {
+        "ja": "アイル人がパイグ人を集めさせた。"
+      }
+    },
+    {
+      "source": "タカン語概論",
+      "tokens": [
+        {
           "form": "má",
           "mixed_script": "汝",
           "entry_ids": [
