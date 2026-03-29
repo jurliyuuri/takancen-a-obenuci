@@ -1906,6 +1906,84 @@
     },
     {
       "source": "タカン語概論",
+      "translation": {
+        "ja": "この本は私が書かせていただいたものでございます。"
+      },
+      "tokens": [
+        {
+          "form": "ká",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "kacóla",
+          "mixed_script": "筆上ら",
+          "entry_ids": [
+            "ká-",
+            "(e)có-",
+            "(a)"
+          ],
+          "gloss": "write-humbly-PTCP"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
       "tokens": [
         {
           "form": "cikecóla",
