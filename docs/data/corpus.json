@@ -57,7 +57,7 @@
       }
     },
     {
-      "source": "Spoonfed Takancen, sample #10",
+      "source": "Spoonfed Takancen",
       "tokens": [
         {
           "form": "má",
@@ -7670,6 +7670,39 @@
           ],
           "gloss": "feel-IMP"
         }
+      ]
+    }
+  ],
+  "source_urls": [
+    {
+      "source_name": "アイル共和国国歌「冠光」総まとめ",
+      "urls": [
+        "https://docs.google.com/document/d/1qQPTA4_dgnG9LMkYJUSx1HuN0XebK4WiBsurS6lL468/edit?tab=t.0#heading=h.x6lcxvnkhjzx"
+      ]
+    },
+    {
+      "source_name": "ヤマタ！",
+      "urls": [
+        "https://docs.google.com/document/d/1Q6j764CWGGcm2YGcZgvRlHl8v7ovsM90N5kieX0uBUI/edit?tab=t.0#heading=h.pkxk6nh5unf3"
+      ]
+    },
+    {
+      "source_name": "Alice in Wonderland",
+      "urls": [
+        "https://docs.google.com/document/d/1yl-bOpI0DL9vZQQHtYiZ-t0NWH9cN_8UUXumWMgPrFc/edit?tab=t.0",
+        "https://youtu.be/RWUayszPnis?si=BsmgEv_m98rFBHu9&t=141"
+      ]
+    },
+    {
+      "source_name": "タカン語概論",
+      "urls": [
+        "https://docs.google.com/document/d/177W7j0XBNpRmlJ3UKcf-oWTIIqwZRYWJxkPL_VaH-1E/edit?tab=t.0#heading=h.3a0p5hm98hu7"
+      ]
+    },
+    {
+      "source_name": "Spoonfed Takancen",
+      "urls": [
+        "https://docs.google.com/spreadsheets/d/1ToBqXDt6pWIv0C33GjmcfLtkBs7htlLj0TwLHZPFkOE/edit?gid=24700208#gid=24700208"
       ]
     }
   ]

@@ -63,6 +63,10 @@ const corpusDataSchema = z.object({
         tokens: z.array(tokenSchema),
         translation: localizedStringSchema,
     })),
+    source_urls: z.array(z.object({
+        source_name: z.string(),
+        urls: z.array(z.string().url()),
+    })).optional(),
 });
 // ── Validate ───────────────────────────────────────────────────────────────
 let hasError = false;

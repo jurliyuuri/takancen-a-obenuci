@@ -85,8 +85,14 @@ export interface CorpusSentence extends CorpusSentenceData {
   id: string;
 }
 
+export interface SourceUrl {
+  source_name: string;
+  urls: string[];
+}
+
 export interface CorpusData {
   sentences: CorpusSentenceData[];
+  source_urls?: SourceUrl[];
 }
 
 export interface I18nData {

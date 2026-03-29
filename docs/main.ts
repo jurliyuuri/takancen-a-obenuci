@@ -4,6 +4,7 @@ import type { DictionaryEntry, CorpusSentence, DictionaryData, CorpusData, I18nD
 
 let dictionary: DictionaryEntry[] = [];
 let corpus: CorpusSentence[] = [];
+const sourceUrlMap = new Map<string, string[]>();
 const entryMap = new Map<string, DictionaryEntry>();
 // Maps each entry id to the sibling ids in its alternative-form group (excluding itself).
 const alternativesMap = new Map<string, string[]>();
@@ -47,6 +48,9 @@ async function init() {
 
   dictionary = dictData.entries;
   corpus = corpusData.sentences.map((s, i) => ({ ...s, id: String(i) }));
+  for (const { source_name, urls } of corpusData.source_urls ?? []) {
+    sourceUrlMap.set(source_name, urls);
+  }
   for (const entry of dictionary) entryMap.set(entry.id, entry);
   for (const group of dictData.alternative_form_groups ?? []) {
     for (const id of group.entry_ids) {
@@ -526,7 +530,21 @@ function buildSentenceEl(sentence: CorpusSentence): HTMLDivElement {
   if (sentence.source) {
     const src = document.createElement('div');
     src.className = 'source';
-    src.textContent = sentence.source;
+    const urls = sourceUrlMap.get(sentence.source);
+    if (urls?.length) {
+      src.textContent = sentence.source + ' ';
+      urls.forEach((url, i) => {
+        const a = document.createElement('a');
+        a.href = url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = `[${i + 1}]`;
+        src.appendChild(a);
+        if (i < urls.length - 1) src.appendChild(document.createTextNode(' '));
+      });
+    } else {
+      src.textContent = sentence.source;
+    }
     div.appendChild(src);
   }
 

@@ -2,6 +2,7 @@ import { conjugateAndJoinPure, getStemClassFromId, stripHomophoneDisambiguator }
 import { toSpacedHiraganaPure, latinToSyllabary } from "./toSpacedHiraganaPure.js";
 let dictionary = [];
 let corpus = [];
+const sourceUrlMap = new Map();
 const entryMap = new Map();
 // Maps each entry id to the sibling ids in its alternative-form group (excluding itself).
 const alternativesMap = new Map();
@@ -40,6 +41,9 @@ async function init() {
     i18n = i18nData;
     dictionary = dictData.entries;
     corpus = corpusData.sentences.map((s, i) => ({ ...s, id: String(i) }));
+    for (const { source_name, urls } of corpusData.source_urls ?? []) {
+        sourceUrlMap.set(source_name, urls);
+    }
     for (const entry of dictionary)
         entryMap.set(entry.id, entry);
     for (const group of dictData.alternative_form_groups ?? []) {
@@ -475,7 +479,23 @@ function buildSentenceEl(sentence) {
     if (sentence.source) {
         const src = document.createElement('div');
         src.className = 'source';
-        src.textContent = sentence.source;
+        const urls = sourceUrlMap.get(sentence.source);
+        if (urls?.length) {
+            src.textContent = sentence.source + ' ';
+            urls.forEach((url, i) => {
+                const a = document.createElement('a');
+                a.href = url;
+                a.target = '_blank';
+                a.rel = 'noopener noreferrer';
+                a.textContent = `[${i + 1}]`;
+                src.appendChild(a);
+                if (i < urls.length - 1)
+                    src.appendChild(document.createTextNode(' '));
+            });
+        }
+        else {
+            src.textContent = sentence.source;
+        }
         div.appendChild(src);
     }
     // Interlinear gloss block
