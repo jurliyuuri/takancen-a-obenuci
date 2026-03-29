@@ -1762,52 +1762,6 @@
       "source": "タカン語概論",
       "tokens": [
         {
-          "form": "ná",
-          "mixed_script": "水",
-          "entry_ids": [
-            "ná"
-          ],
-          "gloss": "water"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "momemoketácu",
-          "mixed_script": "与下能す",
-          "entry_ids": [
-            "momemók-",
-            "(é)t-",
-            "(á)c-",
-            "(u)"
-          ],
-          "gloss": "give-RESPECT-can-NPST"
-        },
-        {
-          "form": "mu",
-          "mixed_script": "む",
-          "entry_ids": [
-            "mu"
-          ],
-          "gloss": "Q"
-        },
-        {
-          "punctuation": "？"
-        }
-      ],
-      "translation": {
-        "ja": "水を下されますか？（普通の依頼）"
-      }
-    },
-    {
-      "source": "タカン語概論",
-      "tokens": [
-        {
           "form": "má",
           "mixed_script": "汝",
           "entry_ids": [
@@ -1865,6 +1819,90 @@
         "en": "Do you want water?",
         "ja": "あなたは水が欲しいですか？"
       }
+    },
+    {
+      "source": "タカン語概論",
+      "tokens": [
+        {
+          "form": "ná",
+          "mixed_script": "水",
+          "entry_ids": [
+            "ná"
+          ],
+          "gloss": "water"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "momemoketácu",
+          "mixed_script": "与下能す",
+          "entry_ids": [
+            "momemók-",
+            "(é)t-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "give-RESPECT-can-NPST"
+        },
+        {
+          "form": "mu",
+          "mixed_script": "む",
+          "entry_ids": [
+            "mu"
+          ],
+          "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
+        }
+      ],
+      "translation": {
+        "ja": "水を下されますか？（普通の依頼）"
+      }
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "大学からお越しください。"
+      },
+      "tokens": [
+        {
+          "form": "soŕnike",
+          "mixed_script": "上学処",
+          "entry_ids": [
+            "soŕnike"
+          ],
+          "gloss": "university"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "おさ",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "cakacóti",
+          "mixed_script": "来能下ち",
+          "entry_ids": [
+            "cák-",
+            "(á)c-",
+            "(é)t-",
+            "(i)"
+          ],
+          "gloss": "come-can-RESPECT-IMP"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
     },
     {
       "source": "タカン語概論",
