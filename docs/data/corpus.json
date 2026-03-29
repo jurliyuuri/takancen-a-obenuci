@@ -694,6 +694,24 @@
     },
     {
       "source": "タカン語概論",
+      "translation": {
+        "ja": "取りに行きたい"
+      },
+      "tokens": [
+        {
+          "form": "momemokíjalu",
+          "mixed_script": "手め行き心る",
+          "entry_ids": [
+            "momemók-",
+            "(í)ja-",
+            "(u)"
+          ],
+          "gloss": "give-want-NPST"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
       "tokens": [
         {
           "form": "ailúcima",
@@ -1024,6 +1042,34 @@
       "source": "タカン語概論",
       "tokens": [
         {
+          "form": "címa",
+          "mixed_script": "国",
+          "entry_ids": [
+            "címa"
+          ],
+          "gloss": "country"
+        },
+        {
+          "form": "émalu",
+          "mixed_script": "在る",
+          "entry_ids": [
+            "éma-",
+            "(u)"
+          ],
+          "gloss": "exist-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ],
+      "translation": {
+        "ja": "国がある。"
+      }
+    },
+    {
+      "source": "タカン語概論",
+      "tokens": [
+        {
           "form": "mé",
           "mixed_script": "茲",
           "entry_ids": [
@@ -1055,6 +1101,35 @@
       "translation": {
         "en": "Watch this.",
         "ja": "これを見よ。"
+      }
+    },
+    {
+      "source": "タカン語概論",
+      "tokens": [
+        {
+          "form": "morcílu",
+          "mixed_script": "行しる",
+          "entry_ids": [
+            "moŕ-",
+            "(í)-",
+            "(u)"
+          ],
+          "gloss": "go-SPECL-NPST"
+        },
+        {
+          "form": "mu",
+          "mixed_script": "む",
+          "entry_ids": [
+            "mu"
+          ],
+          "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
+        }
+      ],
+      "translation": {
+        "ja": "行きたいのか？。"
       }
     },
     {

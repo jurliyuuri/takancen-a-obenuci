@@ -1506,6 +1506,22 @@
       ]
     },
     {
+      "id": "cóm-",
+      "pos": "verb",
+      "conjugation_class": "consonant-stem",
+      "script": [
+        "積む"
+      ],
+      "definitions": [
+        {
+          "gloss": "pile up",
+          "translations": {
+            "ja": "積む"
+          }
+        }
+      ]
+    },
+    {
       "id": "cóno",
       "pos": "noun",
       "script": [
@@ -5381,7 +5397,7 @@
       }
     },
     {
-      "id": "kónna",
+      "id": "kóxna",
       "script": [
         "豆水"
       ],
