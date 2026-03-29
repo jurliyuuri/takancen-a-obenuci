@@ -1231,9 +1231,150 @@
     {
       "source": "タカン語概論",
       "translation": {
-        "ja": ""
+        "ja": "集まったものである。"
       },
-      "tokens": []
+      "tokens": [
+        {
+          "form": "tadeníta",
+          "mixed_script": "集で入た",
+          "entry_ids": [
+            "tád-",
+            "(e)nít-",
+            "(a)"
+          ],
+          "gloss": "gather-CMPL-PTCP"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "集まった。"
+      },
+      "tokens": [
+        {
+          "form": "tádata",
+          "mixed_script": "集だ終",
+          "entry_ids": [
+            "tád-",
+            "(a)ta"
+          ],
+          "gloss": "gather-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "彼らは見ることができる。|彼らには見える。"
+      },
+      "tokens": [
+        {
+          "form": "kí",
+          "mixed_script": "彼",
+          "entry_ids": [
+            "kí"
+          ],
+          "gloss": "3sg"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "átala",
+          "mixed_script": "目ら",
+          "entry_ids": [
+            "áta-",
+            "(a)"
+          ],
+          "gloss": "see-PTCP"
+        },
+        {
+          "form": "colácu",
+          "mixed_script": "為す",
+          "entry_ids": [
+            "ć-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "do-can-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "彼らは見ることが可能である。|彼らには見えるかもしれない。"
+      },
+      "tokens": [
+        {
+          "form": "kí",
+          "mixed_script": "彼",
+          "entry_ids": [
+            "kí"
+          ],
+          "gloss": "3sg"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
     },
     {
       "source": "タカン語概論",
