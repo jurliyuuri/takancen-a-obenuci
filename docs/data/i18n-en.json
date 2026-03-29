@@ -30,12 +30,10 @@
     "one": "1 word"
   },
   "cognate-source": {
-
-  "pk": "Pēgvīle / Pekzep",
-  "bt": "Phētāsvīle",
-  "ar": "Ai’r",
-  "ln": "Proto-Lanermic"
-
+    "pk": "Pēgvīle / Pekzep",
+    "bt": "Phētāsvīle",
+    "ar": "Ai’r",
+    "ln": "Proto-Lanermic"
   },
   "ui": {
     "components": "components",

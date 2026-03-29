@@ -197,6 +197,200 @@
       }
     },
     {
+      "source": "アイル共和国国歌「冠光」総まとめ",
+      "translation": {
+        "ja": "冠の光"
+      },
+      "tokens": [
+        {
+          "form": "ái",
+          "mixed_script": "冠",
+          "entry_ids": [
+            "ái"
+          ],
+          "gloss": "crown"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "éka",
+          "mixed_script": "光",
+          "entry_ids": [
+            "éka"
+          ],
+          "gloss": "light"
+        }
+      ]
+    },
+    {
+      "source": "アイル共和国国歌「冠光」総まとめ",
+      "translation": {
+        "ja": "王冠を光が満たす"
+      },
+      "tokens": [
+        {
+          "form": "ái ki",
+          "mixed_script": "於冠",
+          "entry_ids": [
+            "ái",
+            "ki"
+          ],
+          "gloss": "crown-ACC"
+        },
+        {
+          "form": "éka",
+          "mixed_script": "光",
+          "entry_ids": [
+            "éka"
+          ],
+          "gloss": "light"
+        },
+        {
+          "form": "mólu",
+          "mixed_script": "満",
+          "entry_ids": [
+            "mó-",
+            "(u)"
+          ],
+          "gloss": "fill-NPST"
+        }
+      ]
+    },
+    {
+      "source": "アイル共和国国歌「冠光」総まとめ",
+      "translation": {
+        "ja": "そして私たちは思いを巡らせる"
+      },
+      "tokens": [
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "íjalu",
+          "mixed_script": "心",
+          "entry_ids": [
+            "íja-",
+            "(u)"
+          ],
+          "gloss": "consider-NPST"
+        }
+      ]
+    },
+    {
+      "source": "アイル共和国国歌「冠光」総まとめ",
+      "translation": {
+        "ja": "光や闇は神、"
+      },
+      "tokens": [
+        {
+          "form": "ekámedu",
+          "mixed_script": "光闇",
+          "entry_ids": [
+            "ekámedu"
+          ],
+          "gloss": "light.and.dark"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "生",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "túna",
+          "mixed_script": "神",
+          "entry_ids": [
+            "túna"
+          ],
+          "gloss": "deity"
+        }
+      ]
+    },
+    {
+      "source": "アイル共和国国歌「冠光」総まとめ",
+      "translation": {
+        "ja": "皇力は永遠であれ。ああ！"
+      },
+      "tokens": [
+        {
+          "form": "takámeku",
+          "mixed_script": "皇光",
+          "entry_ids": [
+            "takámeku"
+          ],
+          "gloss": "Tam’s.grace"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "生",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "cáci",
+          "mixed_script": "恒",
+          "entry_ids": [
+            "các-",
+            "(i)"
+          ],
+          "gloss": "be.eternal-IMP"
+        },
+        {
+          "punctuation": "。"
+        },
+        {
+          "form": "a",
+          "mixed_script": "噫",
+          "entry_ids": [
+            "a#2"
+          ],
+          "gloss": "DECL"
+        },
+        {
+          "punctuation": "！"
+        }
+      ]
+    },
+    {
       "source": "タカン語概論",
       "tokens": [
         {

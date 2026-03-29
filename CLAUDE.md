@@ -89,6 +89,8 @@ entry_ids_of_each_form           string[][]  entry ids per form (parallel array 
 ```
 Example: `{"multiple-standard-pronunciations": true, "forms": ["méxko", "méxkor"], "gloss": "strength", "entry_ids_of_each_form": [["méxko"], ["méxkor"]]}`
 
+Special case: when you want to specify the empty string as mixed_script, use "\u3000" (IDEOGRAPHIC SPACE) instead.
+
 ## Romanization conventions
 
 - `c` = サ行 (sa-row), `s` = ザ行, `j` = ヤ行, `l` = ラ行

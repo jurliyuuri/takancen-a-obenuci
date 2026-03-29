@@ -1410,7 +1410,10 @@
       ],
       "definitions": [
         {
-          "gloss": "after that","translations":{"ja":"その後"}
+          "gloss": "after that",
+          "translations": {
+            "ja": "その後"
+          }
         }
       ]
     },
@@ -1575,7 +1578,10 @@
       ],
       "definitions": [
         {
-          "gloss": "Republic Union of the Eastern Islands","translations":{"ja":"東諸島共和国連合"}
+          "gloss": "Republic Union of the Eastern Islands",
+          "translations": {
+            "ja": "東諸島共和国連合"
+          }
         }
       ]
     },
@@ -2728,7 +2734,10 @@
       ],
       "definitions": [
         {
-          "gloss": "mix","translations":{"ja":"混ぜる"}
+          "gloss": "mix",
+          "translations": {
+            "ja": "混ぜる"
+          }
         }
       ]
     },
@@ -2784,7 +2793,10 @@
       ],
       "definitions": [
         {
-          "gloss": "oneself","translations":{"ja":"自分、自身"}
+          "gloss": "oneself",
+          "translations": {
+            "ja": "自分、自身"
+          }
         }
       ]
     },
@@ -3237,7 +3249,10 @@
       ],
       "definitions": [
         {
-          "gloss": "wildcard","translations":{"ja":"ワイルドカード"}
+          "gloss": "wildcard",
+          "translations": {
+            "ja": "ワイルドカード"
+          }
         }
       ]
     },
@@ -3621,7 +3636,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "crown",
           "translations": {
             "ja": "冠、かんむり"
           }
@@ -4391,7 +4406,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "Tam’s grace",
           "translations": {
             "ja": "皇光、WP"
           }
@@ -4456,7 +4471,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "deity",
           "translations": {
             "ja": "神"
           }
@@ -4471,7 +4486,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "deity",
           "translations": {
             "ja": "神"
           }
@@ -4487,7 +4502,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "be eternal",
           "translations": {
             "ja": "永遠である"
           }
@@ -4732,7 +4747,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "light",
           "translations": {
             "ja": "光"
           }
@@ -5895,6 +5910,13 @@
       "entry_ids": [
         "bélu",
         "bélur"
+      ]
+    },
+    {
+      "script": "神",
+      "entry_ids": [
+        "túnu",
+        "tuna"
       ]
     }
   ]

@@ -496,7 +496,9 @@ function buildSentenceEl(sentence) {
     copyScript.type = 'button';
     copyScript.textContent = t('ui', 'Copy script');
     copyScript.addEventListener('click', () => {
-        const text = sentence.tokens.map(tok => 'punctuation' in tok ? tok.punctuation : (tok.mixed_script ?? '')).join('');
+        const text = sentence.tokens.map(tok => 'punctuation' in tok ? tok.punctuation :
+            tok.mixed_script === "\u3000" ? "" : // special case handling for \u3000
+                (tok.mixed_script ?? '')).join('');
         navigator.clipboard.writeText(text).then(() => {
             copyScript.textContent = t('ui', 'Copied!');
             setTimeout(() => { copyScript.textContent = t('ui', 'Copy script'); }, 1500);
