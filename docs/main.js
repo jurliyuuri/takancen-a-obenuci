@@ -642,7 +642,7 @@ function buildTokenEl(token) {
         return div;
     }
     const predicted = token.entry_ids ? conjugateAndJoinPure(token.entry_ids) : null;
-    const actual = token.form.replace(/[-=]/g, '').normalize('NFC');
+    const actual = token.form.normalize('NFC');
     const mismatch = predicted !== null && predicted !== actual;
     if (mismatch) {
         div.className = 'token mismatch';

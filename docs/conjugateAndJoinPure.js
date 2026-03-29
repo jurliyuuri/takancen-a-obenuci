@@ -50,6 +50,8 @@ export function getStemClassFromId(id) {
         throw new Error(`Invalid input ${id} passed to `);
     }
 }
+console.assert(conjugateAndJoinPure(["tákan", "=cen"]) === "tákan=cen");
+console.assert(conjugateAndJoinPure(["ái", "ki"]) === "ái ki");
 export function conjugateAndJoinPure(entry_ids) {
     const ids = entry_ids;
     if (ids[0].slice(0, 1) === "(") {
@@ -61,9 +63,14 @@ export function conjugateAndJoinPure(entry_ids) {
     if (ids[0].slice(-1) === "≡") {
         return conjugateAndJoinBoundMorphemes(entry_ids);
     }
-    // otherwise it should be a noun; just combine all the components
-    // but don't forget to strip the homophone disambiguators
-    return ids.map(id => stripHomophoneDisambiguator(id).replace(/=/g, "")).join("");
+    // Otherwise it should be a noun.
+    // Don't forget to strip the homophone disambiguators.
+    // The entries should be delimited with spaces, but "=" removes the surrounding spaces.
+    // conjugateAndJoinPure(["tákan", "=cen"]) should be "tákan=cen"
+    // conjugateAndJoinPure(["ái", "ki"]) should be "ái ki"
+    // conjugateAndJoinPure(["kíja#2", "ki"]) should be "kíja ki"
+    // just combine all the components
+    return ids.map(id => stripHomophoneDisambiguator(id)).join(" ").replaceAll(/\s?=\s?/g, "=");
 }
 // Accent falls on the third-from-last mora
 console.assert(conjugateAndJoinBoundMorphemes(["on≡", "≡co"]) === "ón≡co");
