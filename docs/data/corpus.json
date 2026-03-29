@@ -992,13 +992,14 @@
           "gloss": "ACC"
         },
         {
-          "form": "céma",
-          "mixed_script": "言ま",
+          "form": "cémale",
+          "mixed_script": "言れ",
           "entry_ids": [
             "céma-",
+            "(e)l-",
             "(e)"
           ],
-          "gloss": "speak-ADV"
+          "gloss": "speak-ZERO-ADV"
         },
         {
           "form": "kácuka",
@@ -1242,7 +1243,7 @@
             "(e)nít-",
             "(a)"
           ],
-          "gloss": "gather-CMPL-PTCP"
+          "gloss": "gather-CESSATIVE-PTCP"
         },
         {
           "form": "únunu",
@@ -2035,6 +2036,908 @@
         "en": "a place where it is possible to sit",
         "ja": "座ることができる土地"
       }
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "あっ、燃え始めた（=火が出た）。"
+      },
+      "tokens": [
+        {
+          "form": "a",
+          "mixed_script": "噫",
+          "entry_ids": [
+            "a#2"
+          ],
+          "gloss": "DECL"
+        },
+        {
+          "punctuation": "。"
+        },
+        {
+          "form": "kanejánata",
+          "mixed_script": "火ね生終",
+          "entry_ids": [
+            "kán-",
+            "(e)ján-",
+            "(a)ta"
+          ],
+          "gloss": "burn-INCHO-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "私はあなたが来るのに気づいた"
+      },
+      "tokens": [
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "má",
+          "mixed_script": "汝",
+          "entry_ids": [
+            "má"
+          ],
+          "gloss": "you"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "cáka",
+          "mixed_script": "来か",
+          "entry_ids": [
+            "cák-",
+            "(a)"
+          ],
+          "gloss": "come-PTCP"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "canejánata",
+          "mixed_script": "識ね生な終",
+          "entry_ids": [
+            "caneján-",
+            "(a)ta"
+          ],
+          "gloss": "become.aware-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "私は机戦を理解する。"
+      },
+      "tokens": [
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "cetágeka",
+          "mixed_script": "机戦",
+          "entry_ids": [
+            "cetágeka"
+          ],
+          "gloss": "Cetkaik"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "canenítu",
+          "mixed_script": "識ね入つ",
+          "entry_ids": [
+            "canenít-",
+            "(u)"
+          ],
+          "gloss": "learn-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "あっ、燃え終わった（=火が消えた）。"
+      },
+      "tokens": [
+        {
+          "form": "a",
+          "mixed_script": "噫",
+          "entry_ids": [
+            "a#2"
+          ],
+          "gloss": "DECL"
+        },
+        {
+          "punctuation": "。"
+        },
+        {
+          "form": "kanenítata",
+          "mixed_script": "火ね入終",
+          "entry_ids": [
+            "kán-",
+            "(e)nít-",
+            "(a)ta"
+          ],
+          "gloss": "burn-CESSATIVE-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "この川はイヌサリタへ流れていっていますか？"
+      },
+      "tokens": [
+        {
+          "form": "ká",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ínuci",
+          "mixed_script": "川",
+          "entry_ids": [
+            "ínuci"
+          ],
+          "gloss": "river"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "inucálita",
+          "mixed_script": "川入",
+          "entry_ids": [
+            "inucálita"
+          ],
+          "gloss": "Inusalita(toponym)"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "かん",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "mormokému",
+          "mixed_script": "行行けむ",
+          "entry_ids": [
+            "moŕ-",
+            "(e)mók-",
+            "(é)m-",
+            "(u)"
+          ],
+          "gloss": "go-away-PROG-NPST"
+        },
+        {
+          "form": "mu",
+          "mixed_script": "む",
+          "entry_ids": [
+            "mu"
+          ],
+          "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "この道を辿ると、天神に来ることができます。"
+      },
+      "tokens": [
+        {
+          "form": "ká",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "mó",
+          "mixed_script": "道",
+          "entry_ids": [
+            "mó"
+          ],
+          "gloss": "road"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "acicáke",
+          "mixed_script": "辿来け",
+          "entry_ids": [
+            "áci-",
+            "(e)cák-",
+            "(e)"
+          ],
+          "gloss": "trace-toward.us-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "mákati",
+          "mixed_script": "天神",
+          "entry_ids": [
+            "mákati"
+          ],
+          "gloss": "Makati(toponym)"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "かん",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "cakácu",
+          "mixed_script": "来能す",
+          "entry_ids": [
+            "cák-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "come-can-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "彼は刺すように話したので、団体は醜くなった。"
+      },
+      "tokens": [
+        {
+          "form": "kí",
+          "mixed_script": "那",
+          "entry_ids": [
+            "kí"
+          ],
+          "gloss": "3sg"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "noneninému",
+          "mixed_script": "刺如",
+          "entry_ids": [
+            "nonenin-",
+            "(é)mu-",
+            "(e)"
+          ],
+          "gloss": "stab-as.if-ADV"
+        },
+        {
+          "form": "cémale",
+          "mixed_script": "言れ",
+          "entry_ids": [
+            "céma-",
+            "(e)l-",
+            "(e)"
+          ],
+          "gloss": "speak-ZERO-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "tádu",
+          "mixed_script": "集",
+          "entry_ids": [
+            "tádu"
+          ],
+          "gloss": "group"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "mugecákata",
+          "mixed_script": "獣げ来か終",
+          "entry_ids": [
+            "múg-",
+            "(e)cák-",
+            "(a)ta"
+          ],
+          "gloss": "be.ugly-toward.us-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "革命は火のようであった。"
+      },
+      "tokens": [
+        {
+          "form": "cońcitu",
+          "mixed_script": "周故",
+          "entry_ids": [
+            "cońcitu"
+          ],
+          "gloss": "revolution"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "káni",
+          "mixed_script": "火",
+          "entry_ids": [
+            "káni"
+          ],
+          "gloss": "fire"
+        },
+        {
+          "form": "unúnemulata",
+          "mixed_script": "うぬねむら終",
+          "entry_ids": [
+            "únun-",
+            "(é)mu-",
+            "(a)ta"
+          ],
+          "gloss": "be-as.if-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "これを書く。"
+      },
+      "tokens": [
+        {
+          "form": "ká",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kálu",
+          "mixed_script": "筆る",
+          "entry_ids": [
+            "ká-",
+            "(u)"
+          ],
+          "gloss": "write-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "これはタカン語の本です。"
+      },
+      "tokens": [
+        {
+          "form": "mé",
+          "mixed_script": "此",
+          "entry_ids": [
+            "mé"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "tákan=cen",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "tákan",
+            "=cen"
+          ],
+          "gloss": "Takan-language"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "あの国に行く。"
+      },
+      "tokens": [
+        {
+          "form": "kí",
+          "mixed_script": "那",
+          "entry_ids": [
+            "kí"
+          ],
+          "gloss": "3sg"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "címa",
+          "mixed_script": "国",
+          "entry_ids": [
+            "címa"
+          ],
+          "gloss": "country"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "かん",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "moŕlu",
+          "mixed_script": "行る",
+          "entry_ids": [
+            "moŕ-",
+            "(u)"
+          ],
+          "gloss": "go-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "この川はイヌサリタを通っていますか？"
+      },
+      "tokens": [
+        {
+          "form": "ká",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ínuci",
+          "mixed_script": "川",
+          "entry_ids": [
+            "ínuci"
+          ],
+          "gloss": "river"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "inucálita",
+          "mixed_script": "川入",
+          "entry_ids": [
+            "inucálita"
+          ],
+          "gloss": "Inusalita(toponym)"
+        },
+        {
+          "form": "men",
+          "mixed_script": "めん",
+          "entry_ids": [
+            "men"
+          ],
+          "gloss": "passing.through"
+        },
+        {
+          "form": "moŕmu",
+          "mixed_script": "行む",
+          "entry_ids": [
+            "moŕ-",
+            "(é)m-",
+            "(u)"
+          ],
+          "gloss": "go-PROG-NPST"
+        },
+        {
+          "form": "mu",
+          "mixed_script": "む",
+          "entry_ids": [
+            "mu"
+          ],
+          "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "あなたが本に色づけしたので、私もまた色づけした。"
+      },
+      "tokens": [
+        {
+          "form": "má",
+          "mixed_script": "汝",
+          "entry_ids": [
+            "má"
+          ],
+          "gloss": "you"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "mogakúgata",
+          "mixed_script": "色付が終",
+          "entry_ids": [
+            "mogakúg-",
+            "(a)ta"
+          ],
+          "gloss": "add.color-PST"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "ju",
+          "mixed_script": "ゆ",
+          "entry_ids": [
+            "ju"
+          ],
+          "gloss": "or"
+        },
+        {
+          "form": "mogakúgata",
+          "mixed_script": "色付が終",
+          "entry_ids": [
+            "mogakúg-",
+            "(a)ta"
+          ],
+          "gloss": "add.color-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "風が穏やかなので、川に行きたい。"
+      },
+      "tokens": [
+        {
+          "form": "múka",
+          "mixed_script": "風",
+          "entry_ids": [
+            "múka"
+          ],
+          "gloss": "wind"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "cósa",
+          "mixed_script": "穏",
+          "entry_ids": [
+            "cósa-",
+            "(e)"
+          ],
+          "gloss": "be.calm-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "ínuci",
+          "mixed_script": "川",
+          "entry_ids": [
+            "ínuci"
+          ],
+          "gloss": "river"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "かん",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "morcíjalu",
+          "mixed_script": "行し心る",
+          "entry_ids": [
+            "moŕ-",
+            "(í)ja-",
+            "(u)"
+          ],
+          "gloss": "go-want-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
+        "ja": "私もパイグ将棋したい。"
+      },
+      "tokens": [
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "o",
+          "mixed_script": "お",
+          "entry_ids": [
+            "o"
+          ],
+          "gloss": "also"
+        },
+        {
+          "form": "cetágeka",
+          "mixed_script": "机戦",
+          "entry_ids": [
+            "cetágeka"
+          ],
+          "gloss": "Cetkaik"
+        },
+        {
+          "form": "cíjalu",
+          "mixed_script": "し心る",
+          "entry_ids": [
+            "ć-",
+            "(í)ja-",
+            "(u)"
+          ],
+          "gloss": "do-want-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
     },
     {
       "source": "ヤマタ！",

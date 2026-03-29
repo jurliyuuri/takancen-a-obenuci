@@ -433,7 +433,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "CMPL",
+          "gloss": "CESSATIVE",
           "translations": {
             "en": "The instant-of-completion marker",
             "ja": "終了瞬間の助動詞：終了した瞬間に着目する瞬間動詞を作る"
@@ -4029,7 +4029,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "as if",
           "translations": {
             "ja": "～のようだ"
           }
@@ -4163,7 +4163,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "fire",
           "translations": {
             "ja": "火"
           }
@@ -4313,7 +4313,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "wind",
           "translations": {
             "ja": "風"
           }
@@ -4402,7 +4402,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "group",
           "translations": {
             "ja": "集まり、集団、団体"
           }
@@ -4563,7 +4563,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "burn",
           "translations": {
             "ja": "燃える"
           }
@@ -4615,7 +4615,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "be calm",
           "translations": {
             "ja": "穏やかである"
           }
@@ -4636,7 +4636,7 @@
       "conjugation_class": "vowel-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "trace",
           "translations": {
             "ja": "たどる、なぞる"
           }
@@ -4820,7 +4820,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "revolution",
           "translations": {
             "ja": "革命"
           }
@@ -4839,7 +4839,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "passing through",
           "translations": {
             "ja": "〜を経由して"
           }
@@ -4858,7 +4858,7 @@
       "pos": "noun particle",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "also",
           "translations": {
             "ja": "〜も"
           }
@@ -4874,8 +4874,9 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "INCHO",
           "translations": {
+            "en": "Inchoative marker",
             "ja": "開始瞬間の助動詞"
           }
         }
@@ -5464,7 +5465,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "add color",
           "translations": {
             "ja": "色を付ける"
           }
@@ -5513,7 +5514,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "stab",
           "translations": {
             "ja": "刺す"
           }
@@ -5705,7 +5706,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "road",
           "translations": {
             "ja": "道"
           }
@@ -5720,7 +5721,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "Makati(toponym)",
           "translations": {
             "ja": "マカティ（地名）"
           }
@@ -5739,7 +5740,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "be ugly",
           "translations": {
             "ja": "醜い"
           }
