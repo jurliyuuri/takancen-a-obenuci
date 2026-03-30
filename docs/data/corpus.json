@@ -2758,6 +2758,100 @@
     {
       "source": "タカン語概論",
       "translation": {
+        "ja": "タカン島からマカチ大学まで行くと何片時（時間の単位）ですか？"
+      },
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "tákan=don",
+            "takańdon"
+          ],
+          "mixed_script": "皇島",
+          "entry_ids_of_each_form": [
+            [
+              "tákan=don"
+            ],
+            [
+              "takańdon"
+            ]
+          ],
+          "gloss": "Atalam.Island"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "makatisoŕnike",
+          "mixed_script": "天神上学処",
+          "entry_ids": [
+            "makatisoŕnike"
+          ],
+          "gloss": "University.of.Makati"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "かん",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "moŕ",
+          "mixed_script": "行",
+          "entry_ids": [
+            "moŕ-",
+            "(e)"
+          ],
+          "gloss": "go-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "nancókaku",
+          "mixed_script": "何片時",
+          "entry_ids": [
+            "nancókaku"
+          ],
+          "gloss": "what.percent.of.a.day"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        },
+        {
+          "form": "mu",
+          "mixed_script": "む",
+          "entry_ids": [
+            "mu"
+          ],
+          "gloss": "Q"
+        },
+        {
+          "punctuation": "？"
+        }
+      ]
+    },
+    {
+      "source": "タカン語概論",
+      "translation": {
         "ja": "小さい文字を読んだので私は疲れた。"
       },
       "tokens": [
