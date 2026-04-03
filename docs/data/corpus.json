@@ -9713,14 +9713,14 @@
       ]
     },
     {
-      "source": "ヤマタ！CM",
+      "source": "ヤマタ！箱裏／CM",
       "translation": {
         "ja": "腹一杯食った│腹一杯食った"
       },
       "tokens": [
         {
           "form": "jáme",
-          "mixed_script": "やーめ",
+          "mixed_script": "口",
           "entry_ids": [
             "jám-",
             "(e)"
@@ -9729,7 +9729,7 @@
         },
         {
           "form": "mólata",
-          "mixed_script": "もーらた",
+          "mixed_script": "満終",
           "entry_ids": [
             "mó-",
             "(a)ta"
@@ -9741,7 +9741,7 @@
         },
         {
           "form": "jáme",
-          "mixed_script": "やめ",
+          "mixed_script": "口",
           "entry_ids": [
             "jám-",
             "(e)"
@@ -9750,7 +9750,7 @@
         },
         {
           "form": "mólata",
-          "mixed_script": "もらた",
+          "mixed_script": "満終",
           "entry_ids": [
             "mó-",
             "(a)ta"
@@ -9760,7 +9760,7 @@
       ]
     },
     {
-      "source": "ヤマタ！CM",
+      "source": "ヤマタ！箱裏／CM",
       "translation": {
         "ja": "「食え」と言うのは│店主"
       },
@@ -9770,7 +9770,7 @@
         },
         {
           "form": "jámi",
-          "mixed_script": "やみ",
+          "mixed_script": "須口",
           "entry_ids": [
             "jám-",
             "(i)"
@@ -9790,7 +9790,7 @@
         },
         {
           "form": "cémala",
-          "mixed_script": "せまら",
+          "mixed_script": "口之",
           "entry_ids": [
             "céma-",
             "(a)"
@@ -9799,7 +9799,7 @@
         },
         {
           "form": "ja",
-          "mixed_script": "や",
+          "mixed_script": "生",
           "entry_ids": [
             "ja"
           ],
@@ -9810,7 +9810,7 @@
         },
         {
           "form": "sukelácuka",
-          "mixed_script": "ずけらすか",
+          "mixed_script": "店軸人",
           "entry_ids": [
             "sukelácuka"
           ],
@@ -9819,7 +9819,7 @@
       ]
     },
     {
-      "source": "ヤマタ！CM",
+      "source": "ヤマタ！箱裏／CM",
       "translation": {
         "ja": "食欲良く│どんどん食べ続けて"
       },
@@ -9834,7 +9834,7 @@
         },
         {
           "form": "kéta",
-          "mixed_script": "けた",
+          "mixed_script": "善",
           "entry_ids": [
             "két-",
             "(a)"
@@ -9843,7 +9843,7 @@
         },
         {
           "form": "éma",
-          "mixed_script": "えま",
+          "mixed_script": "在",
           "entry_ids": [
             "éma-",
             "(e)"
@@ -9855,7 +9855,7 @@
         },
         {
           "form": "jamemóke",
-          "mixed_script": "やめもけ",
+          "mixed_script": "口行",
           "entry_ids": [
             "jám-",
             "(e)mók-",
@@ -9865,7 +9865,7 @@
         },
         {
           "form": "wa",
-          "mixed_script": "わ",
+          "mixed_script": "而",
           "entry_ids": [
             "wa"
           ],
@@ -9874,14 +9874,14 @@
       ]
     },
     {
-      "source": "ヤマタ！CM",
+      "source": "ヤマタ！箱裏／CM",
       "translation": {
         "ja": "他の全員に勝てる│ヤマタ"
       },
       "tokens": [
         {
           "form": "áno",
-          "mixed_script": "あの",
+          "mixed_script": "全",
           "entry_ids": [
             "áno"
           ],
@@ -9889,7 +9889,7 @@
         },
         {
           "form": "oca",
-          "mixed_script": "おさ",
+          "mixed_script": "耒",
           "entry_ids": [
             "oca"
           ],
@@ -9897,7 +9897,7 @@
         },
         {
           "form": "comokácu",
-          "mixed_script": "そもかす",
+          "mixed_script": "上行能",
           "entry_ids": [
             "comók-",
             "(á)c-",
@@ -9910,7 +9910,7 @@
         },
         {
           "form": "jámata",
-          "mixed_script": "やまた",
+          "mixed_script": "口終",
           "entry_ids": [
             "jám-",
             "(a)ta"
@@ -10247,6 +10247,12 @@
       "source_name": "「異世界語入門～転生したけど日本語が通じなかった～」p.216",
       "urls": [
         "https://drive.google.com/file/d/1zQs0incCkepj-xHT3zlHE3O4yqm-ECto/view?usp=sharing"
+      ]
+    },
+    {
+      "source_name": "ヤマタ！箱裏CM",
+      "urls": [
+        "https://drive.google.com/file/d/1fuTagwARX0NWRxJzBdeDyFAftLBHZY4B/view?usp=share_link"
       ]
     }
   ]
