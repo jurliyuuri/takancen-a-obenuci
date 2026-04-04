@@ -603,8 +603,40 @@ function buildSentenceEl(sentence) {
     // Interlinear gloss block
     const interlinear = document.createElement('div');
     interlinear.className = 'interlinear';
-    for (const token of sentence.tokens)
-        interlinear.appendChild(buildTokenEl(token));
+    const altRegs = sentence.alternative_registers_of_writing;
+    function renderInterlinear(regIndex) {
+        interlinear.innerHTML = '';
+        for (let i = 0; i < sentence.tokens.length; i++) {
+            const override = regIndex >= 0 ? altRegs[regIndex][i] : undefined;
+            interlinear.appendChild(buildTokenEl(sentence.tokens[i], override));
+        }
+    }
+    renderInterlinear(-1);
+    if (altRegs?.length) {
+        const switcher = document.createElement('div');
+        switcher.className = 'register-switcher';
+        let activeReg = -1;
+        const makeRegBtn = (label, regIndex) => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.textContent = label;
+            btn.className = 'register-btn' + (regIndex === activeReg ? ' active' : '');
+            btn.addEventListener('click', () => {
+                if (activeReg === regIndex)
+                    return;
+                activeReg = regIndex;
+                switcher.querySelectorAll('.register-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderInterlinear(regIndex);
+            });
+            return btn;
+        };
+        switcher.appendChild(makeRegBtn('base', -1));
+        for (let k = 0; k < altRegs.length; k++) {
+            switcher.appendChild(makeRegBtn(`alt ${k + 1}`, k));
+        }
+        div.appendChild(switcher);
+    }
     div.appendChild(interlinear);
     // Free translation
     const translation = document.createElement('div');
@@ -714,11 +746,11 @@ function buildEntryLinks(ids) {
     }
     return links;
 }
-function buildTokenEl(token) {
+function buildTokenEl(token, scriptOverride) {
     const div = document.createElement('div');
     if ('punctuation' in token) {
         div.className = 'token';
-        div.appendChild(buildScriptElWithRuby({ mixed_script: token.punctuation, latin_form: token.punctuation }));
+        div.appendChild(buildScriptElWithRuby({ mixed_script: scriptOverride ?? token.punctuation, latin_form: token.punctuation }));
         const form = document.createElement('div');
         form.className = 'token-form';
         form.textContent = PUNCTUATION_MAPPING[token.punctuation] ?? token.punctuation;
@@ -731,7 +763,7 @@ function buildTokenEl(token) {
     }
     if ('multiple-standard-pronunciations' in token) {
         div.className = 'token';
-        div.appendChild(buildScriptElWithRuby({ mixed_script: token.mixed_script || '', latin_form: token.forms.join(' / ') }));
+        div.appendChild(buildScriptElWithRuby({ mixed_script: scriptOverride ?? token.mixed_script ?? '', latin_form: token.forms.join(' / ') }));
         const form = document.createElement('div');
         form.className = 'token-form';
         form.textContent = token.forms.join(' / ');
@@ -774,7 +806,7 @@ function buildTokenEl(token) {
     else {
         div.className = 'token';
     }
-    div.appendChild(buildScriptElWithRuby({ mixed_script: token.mixed_script || '', latin_form: token.form }));
+    div.appendChild(buildScriptElWithRuby({ mixed_script: scriptOverride ?? token.mixed_script ?? '', latin_form: token.form }));
     const form = document.createElement('div');
     form.className = 'token-form';
     form.textContent = token.form;
