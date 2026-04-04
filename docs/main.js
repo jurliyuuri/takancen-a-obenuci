@@ -755,7 +755,7 @@ function computeLinzklaPct(tokens, overrides) {
         }
     }
     const total = cjk + hira;
-    return `燐字配合率${total === 0 ? 0 : Math.round(cjk / total * 100)}%`;
+    return `${t('ui', 'linzkla-ratio')}${total === 0 ? 0 : Math.round(cjk / total * 100)}%`;
 }
 function buildScriptElWithRuby(o) {
     const mixedText = o.mixed_script || '';

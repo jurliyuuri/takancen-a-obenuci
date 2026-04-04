@@ -64,6 +64,7 @@
     "Frequent undocumented words": "高頻度で登場する未登録語",
     "Enlisted words": "登録済みの語",
     "alternative forms": "別の読み",
-    "entry filter": "見出し語でフィルター："
+    "entry filter": "見出し語でフィルター：",
+    "linzkla-ratio": "燐字配合率"
   }
 }
