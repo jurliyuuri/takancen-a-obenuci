@@ -1360,6 +1360,772 @@
       ]
     },
     {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "タカン語だけでタカン語を学ぶ本"
+      },
+      "tokens": [
+        {
+          "form": "tákan=cen",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "tákan",
+            "=cen"
+          ],
+          "gloss": "Takan-language"
+        },
+        {
+          "form": "tetu",
+          "mixed_script": "唯",
+          "entry_ids": [
+            "tetu"
+          ],
+          "gloss": "only"
+        },
+        {
+          "form": "men",
+          "mixed_script": "めん",
+          "entry_ids": [
+            "men"
+          ],
+          "gloss": "through"
+        },
+        {
+          "form": "tákan=cen",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "tákan",
+            "=cen"
+          ],
+          "gloss": "Takan-language"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "caneníta",
+          "mixed_script": "識ね入た",
+          "entry_ids": [
+            "canenít-",
+            "(a)"
+          ],
+          "gloss": "learn-PTCP"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "alternative_registers_of_writing": [
+        [
+          "天神",
+          "や",
+          "母島",
+          "処",
+          "在る",
+          "。"
+        ]
+      ],
+      "translation": {
+        "ja": "天神は母島にある。"
+      },
+      "tokens": [
+        {
+          "form": "mákati",
+          "mixed_script": "天神",
+          "entry_ids": [
+            "mákati"
+          ],
+          "gloss": "Makati(toponym)"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "mańdon",
+          "mixed_script": "母島",
+          "entry_ids": [
+            "mańdon"
+          ],
+          "gloss": "Manmana.Island"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "かん",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "émalu",
+          "mixed_script": "在る",
+          "entry_ids": [
+            "éma-",
+            "(u)"
+          ],
+          "gloss": "exist-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "母島はPMCFにある。"
+      },
+      "tokens": [
+        {
+          "form": "mańdon",
+          "mixed_script": "母島",
+          "entry_ids": [
+            "mańdon"
+          ],
+          "gloss": "Manmana.Island"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "dońdatu",
+          "mixed_script": "島集",
+          "entry_ids": [
+            "dońdatu"
+          ],
+          "gloss": "Republic.Union.of.the.Eastern.Islands"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "PMCFには三つの国がある。"
+      },
+      "tokens": [
+        {
+          "form": "dońdatu",
+          "mixed_script": "島集",
+          "entry_ids": [
+            "dońdatu"
+          ],
+          "gloss": "Republic.Union.of.the.Eastern.Islands"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "úmu",
+          "mixed_script": "三",
+          "entry_ids": [
+            "úmu"
+          ],
+          "gloss": "three"
+        },
+        {
+          "form": "címa",
+          "mixed_script": "国",
+          "entry_ids": [
+            "címa"
+          ],
+          "gloss": "country"
+        },
+        {
+          "form": "émalu",
+          "mixed_script": "在る",
+          "entry_ids": [
+            "éma-",
+            "(u)"
+          ],
+          "gloss": "exist-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "三つの国がPMCFに集まった。"
+      },
+      "tokens": [
+        {
+          "form": "úmu",
+          "mixed_script": "三",
+          "entry_ids": [
+            "úmu"
+          ],
+          "gloss": "three"
+        },
+        {
+          "form": "címa",
+          "mixed_script": "国",
+          "entry_ids": [
+            "címa"
+          ],
+          "gloss": "country"
+        },
+        {
+          "form": "dońdatu",
+          "mixed_script": "島集",
+          "entry_ids": [
+            "dońdatu"
+          ],
+          "gloss": "Republic.Union.of.the.Eastern.Islands"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "tádata",
+          "mixed_script": "集だ終",
+          "entry_ids": [
+            "tád-",
+            "(a)ta"
+          ],
+          "gloss": "gather-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "PMCFは三つの国が集まったものである。"
+      },
+      "tokens": [
+        {
+          "form": "dońdatu",
+          "mixed_script": "島集",
+          "entry_ids": [
+            "dońdatu"
+          ],
+          "gloss": "Republic.Union.of.the.Eastern.Islands"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "úmu",
+          "mixed_script": "三",
+          "entry_ids": [
+            "úmu"
+          ],
+          "gloss": "three"
+        },
+        {
+          "form": "címa",
+          "mixed_script": "国",
+          "entry_ids": [
+            "címa"
+          ],
+          "gloss": "country"
+        },
+        {
+          "form": "tadeníta",
+          "mixed_script": "集で入た",
+          "entry_ids": [
+            "tád-",
+            "(e)nít-",
+            "(a)"
+          ],
+          "gloss": "gather-CESSATIVE-PTCP"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "この国はアイル共和国とヴェフィス共和国とリナエスト・オルス共和国である。"
+      },
+      "tokens": [
+        {
+          "form": "ká",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "címa",
+          "mixed_script": "国",
+          "entry_ids": [
+            "címa"
+          ],
+          "gloss": "country"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "áilu",
+          "mixed_script": "冠",
+          "entry_ids": [
+            "áilu"
+          ],
+          "gloss": "Ai’ren Republic"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加た",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "wépica",
+          "mixed_script": "淮",
+          "entry_ids": [
+            "wépica"
+          ],
+          "gloss": "Vefisait.Republic"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加た",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "linécita",
+          "mixed_script": "清た",
+          "entry_ids": [
+            "linécita"
+          ],
+          "gloss": "Linaest.Republic"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "天神はアイル共和国にある。"
+      },
+      "tokens": [
+        {
+          "form": "mákati",
+          "mixed_script": "天神",
+          "entry_ids": [
+            "mákati"
+          ],
+          "gloss": "Makati(toponym)"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "áilu",
+          "mixed_script": "冠",
+          "entry_ids": [
+            "áilu"
+          ],
+          "gloss": "Ai’ren Republic"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "émalu",
+          "mixed_script": "在る",
+          "entry_ids": [
+            "éma-",
+            "(u)"
+          ],
+          "gloss": "exist-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "アイル共和国には文化省がある。"
+      },
+      "tokens": [
+        {
+          "form": "áilu",
+          "mixed_script": "冠",
+          "entry_ids": [
+            "áilu"
+          ],
+          "gloss": "Ai’ren Republic"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "kengjádatu",
+          "mixed_script": "地心集",
+          "entry_ids": [
+            "kengjádatu"
+          ],
+          "gloss": "Ministry.of.Culture"
+        },
+        {
+          "form": "émalu",
+          "mixed_script": "在る",
+          "entry_ids": [
+            "éma-",
+            "(u)"
+          ],
+          "gloss": "exist-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "文化省がこの本を書いた。"
+      },
+      "tokens": [
+        {
+          "form": "kengjádatu",
+          "mixed_script": "地心集",
+          "entry_ids": [
+            "kengjádatu"
+          ],
+          "gloss": "Ministry.of.Culture"
+        },
+        {
+          "form": "ká",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kálata",
+          "mixed_script": "筆ら終",
+          "entry_ids": [
+            "ká-",
+            "(a)ta"
+          ],
+          "gloss": "write-PST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "あなたたちがこれを読めばタカン語を知る。"
+      },
+      "tokens": [
+        {
+          "form": "má",
+          "mixed_script": "汝",
+          "entry_ids": [
+            "má"
+          ],
+          "gloss": "you"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "mé",
+          "mixed_script": "茲",
+          "entry_ids": [
+            "mé"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "áta",
+          "mixed_script": "目",
+          "entry_ids": [
+            "áta-",
+            "(e)"
+          ],
+          "gloss": "see-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "tákan=cen",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "tákan",
+            "=cen"
+          ],
+          "gloss": "Takan-language"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "cánu",
+          "mixed_script": "識ぬ",
+          "entry_ids": [
+            "cán-",
+            "(u)"
+          ],
+          "gloss": "have.knowledge-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "source": "皇言唯めん皇言き識ね入た書",
+      "translation": {
+        "ja": "だからこれを読め、そして知れ！"
+      },
+      "tokens": [
+        {
+          "form": "kásitu",
+          "mixed_script": "此故",
+          "entry_ids": [
+            "kásitu"
+          ],
+          "gloss": "this.reason"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "mé",
+          "mixed_script": "茲",
+          "entry_ids": [
+            "mé"
+          ],
+          "gloss": "this"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "cáni",
+          "mixed_script": "識に",
+          "entry_ids": [
+            "cán-",
+            "(i)"
+          ],
+          "gloss": "have.knowledge-IMP"
+        },
+        {
+          "form": "a",
+          "mixed_script": "噫",
+          "entry_ids": [
+            "a#2"
+          ],
+          "gloss": "DECL"
+        },
+        {
+          "punctuation": "！"
+        }
+      ]
+    },
+    {
       "source": "Spoonfed Takancen",
       "tokens": [
         {
@@ -2294,56 +3060,6 @@
         "en": "a book to learn the Takan language from",
         "ja": "タカン語を学ぶ本"
       }
-    },
-    {
-      "source": "タカン語概論",
-      "translation": {
-        "ja": "集まったものである。"
-      },
-      "tokens": [
-        {
-          "form": "tadeníta",
-          "mixed_script": "集で入た",
-          "entry_ids": [
-            "tád-",
-            "(e)nít-",
-            "(a)"
-          ],
-          "gloss": "gather-CESSATIVE-PTCP"
-        },
-        {
-          "form": "únunu",
-          "mixed_script": "うぬゝ",
-          "entry_ids": [
-            "únun-",
-            "(u)"
-          ],
-          "gloss": "be-NPST"
-        },
-        {
-          "punctuation": "。"
-        }
-      ]
-    },
-    {
-      "source": "タカン語概論",
-      "translation": {
-        "ja": "集まった。"
-      },
-      "tokens": [
-        {
-          "form": "tádata",
-          "mixed_script": "集だ終",
-          "entry_ids": [
-            "tád-",
-            "(a)ta"
-          ],
-          "gloss": "gather-PST"
-        },
-        {
-          "punctuation": "。"
-        }
-      ]
     },
     {
       "source": "タカン語概論",
@@ -3780,7 +4496,7 @@
           "entry_ids": [
             "men"
           ],
-          "gloss": "passing.through"
+          "gloss": "through"
         },
         {
           "form": "moŕmu",
@@ -11080,6 +11796,12 @@
       "source_name": "ヤマタ！箱裏／CM",
       "urls": [
         "https://drive.google.com/file/d/1y0HxhgH2L2miO5GpLMPxBztyNQvH49-2/view?usp=share_link"
+      ]
+    },
+    {
+      "source_name": "皇言唯めん皇言き識ね入た書",
+      "urls": [
+        "https://docs.google.com/document/d/16Gyjhn7dHrI0hL8hjWaQlzV2jjFumnnTZLNLFvJRN8g/edit?tab=t.0#heading=h.djqt4mpskbrz"
       ]
     }
   ]
