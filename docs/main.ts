@@ -667,12 +667,13 @@ function buildSentenceEl(sentence: CorpusSentence): HTMLDivElement {
     }
   }
 
+  let activeReg = -1;
+
   renderInterlinear(-1);
 
   if (altRegs?.length) {
     const switcher = document.createElement('div');
     switcher.className = 'register-switcher';
-    let activeReg = -1;
 
     const makeRegBtn = (label: string, regIndex: number) => {
       const btn = document.createElement('button');
@@ -712,11 +713,13 @@ function buildSentenceEl(sentence: CorpusSentence): HTMLDivElement {
   copyScript.type = 'button';
   copyScript.textContent = t('ui', 'Copy script');
   copyScript.addEventListener('click', () => {
-    const text = sentence.tokens.map(tok =>
-      'punctuation' in tok ? tok.punctuation :
-      tok.mixed_script === "\u3000" ? "" : // special case handling for \u3000
-      (tok.mixed_script ?? '')
-    ).join('');
+    const text = sentence.tokens.map((tok, i) => {
+      const override = activeReg >= 0 ? altRegs?.[activeReg]?.[i] : undefined;
+      if (override !== undefined) return override === '\u3000' ? '' : override;
+      return 'punctuation' in tok ? tok.punctuation :
+        tok.mixed_script === '\u3000' ? '' :
+        (tok.mixed_script ?? '');
+    }).join('');
     navigator.clipboard.writeText(text).then(() => {
       copyScript.textContent = t('ui', 'Copied!');
       setTimeout(() => { copyScript.textContent = t('ui', 'Copy script'); }, 1500);
