@@ -34,6 +34,59 @@ function tCount(count, property_name) {
         : (i18n[property_name]?.other ?? `${count} sentence${count !== 1 ? 's' : ''} in corpus`);
     return tmpl.replace('${COUNT}', String(count));
 }
+// ── Mora counting ───────────────────────────────────────────────────────────
+const MORA_VOWELS = new Set(['a', 'e', 'i', 'o', 'u']);
+function countMorae(form) {
+    // Normalize to NFD and strip combining diacritics so that ŕ → r, ń → n, á → a, etc.
+    const s = form.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    let n = 0;
+    for (let i = 0; i < s.length; i++) {
+        const ch = s[i];
+        if (MORA_VOWELS.has(ch)) {
+            n++; // nucleus vowel
+        }
+        else if (ch === 'x') {
+            n++; // っ (geminate coda)
+        }
+        else if (ch === 'r') {
+            n++; // ー (moraic extension coda)
+        }
+        else if (ch === 'n') {
+            const next = s[i + 1];
+            if (!next || !MORA_VOWELS.has(next))
+                n++; // syllabic ん
+        }
+    }
+    return n;
+}
+// Returns [min, max] mora count for a token (equal for single-form tokens).
+function tokenMoraRange(token) {
+    if ('punctuation' in token)
+        return [0, 0];
+    if ('multiple-standard-pronunciations' in token) {
+        const counts = token.forms.map(countMorae);
+        return [Math.min(...counts), Math.max(...counts)];
+    }
+    const c = countMorae(token.form);
+    return [c, c];
+}
+function sourceMoraRange(sourceName) {
+    let min = 0, max = 0;
+    for (const sentence of corpus) {
+        if (sentence.source !== sourceName)
+            continue;
+        for (const token of sentence.tokens) {
+            const [tmin, tmax] = tokenMoraRange(token);
+            min += tmin;
+            max += tmax;
+        }
+    }
+    return [min, max];
+}
+function formatMoraRange(min, max) {
+    const label = lang === 'ja' ? '拍' : ' morae';
+    return min === max ? `${min}${label}` : `${min}–${max}${label}`;
+}
 async function init() {
     lang = detectLang();
     const [dictData, corpusData, i18nData] = await Promise.all([
@@ -156,9 +209,21 @@ function setupControls() {
     for (const source of sources) {
         const opt = document.createElement('option');
         opt.value = source;
-        const count = corpus.filter(s => s.source === source).length;
-        opt.textContent = `[${tCount(count, 'count-sentence')}] ${source}`;
+        const [moraMin, moraMax] = sourceMoraRange(source);
+        const sentenceCount = corpus.filter(s => s.source === source).length;
+        opt.textContent = `[${tCount(sentenceCount, 'count-sentence')}, ${formatMoraRange(moraMin, moraMax)}] ${source}`;
         sourceSel.appendChild(opt);
+    }
+    // Source stats panel below the select
+    const statsDiv = document.getElementById('source-stats');
+    for (const source of sources) {
+        const sentenceCount = corpus.filter(s => s.source === source).length;
+        const [moraMin, moraMax] = sourceMoraRange(source);
+        const row = document.createElement('div');
+        row.className = 'source-stat-row';
+        row.textContent =
+            `[${tCount(sentenceCount, 'count-sentence')}, ${formatMoraRange(moraMin, moraMax)}] ${source}`;
+        statsDiv.appendChild(row);
     }
 }
 function applyFilter() {

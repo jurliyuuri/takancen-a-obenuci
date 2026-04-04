@@ -461,3 +461,14 @@ dialog#entry-modal::backdrop { background: rgba(0,0,0,0.45); }
 .ref-highlight {
   animation: ref-flash 1.8s ease-out;
 }
+
+.source-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#source-stats {
+  font-size: 0.8rem;
+  color: #555;
+}
