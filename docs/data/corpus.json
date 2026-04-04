@@ -810,6 +810,108 @@
       }
     },
     {
+      "source": "Alice in Wonderland",
+      "tokens": [
+        {
+          "form": "kákaku",
+          "mixed_script": "此時",
+          "entry_ids": [
+            "kákaku"
+          ],
+          "gloss": "this.time"
+        },
+        {
+          "form": "ekakańboku",
+          "mixed_script": "光赤色",
+          "entry_ids": [
+            "ekakańboku"
+          ],
+          "gloss": "pink"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "áta",
+          "mixed_script": "目",
+          "entry_ids": [
+            "áta"
+          ],
+          "gloss": "eye"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "kuńson",
+          "mixed_script": "木獣",
+          "entry_ids": [
+            "kuńson"
+          ],
+          "gloss": "rabbit"
+        },
+        {
+          "form": "kí",
+          "mixed_script": "彼",
+          "entry_ids": [
+            "kí"
+          ],
+          "gloss": "3sg"
+        },
+        {
+          "form": "a",
+          "mixed_script": "あ",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "céce",
+          "mixed_script": "近",
+          "entry_ids": [
+            "céce"
+          ],
+          "gloss": "proximity"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "kanmokucáku",
+          "mixed_script": "躍行来く",
+          "entry_ids": [
+            "kanmoku-",
+            "(e)cák-",
+            "(u)"
+          ],
+          "gloss": "run-toward.us-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ],
+      "translation": {
+        "en": "At that moment, a pink-eyed rabbit ran close to Alice.",
+        "ja": "そのとき、ピンクの目のウサギがアリスの近くを走った。"
+      }
+    },
+    {
       "source": "「異世界語入門～転生したけど日本語が通じなかった～」p.216",
       "translation": {
         "ja": "あなたは反革命主義者ですか？"
