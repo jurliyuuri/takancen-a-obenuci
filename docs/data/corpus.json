@@ -691,6 +691,125 @@
       }
     },
     {
+      "source": "Alice in Wonderland",
+      "tokens": [
+        {
+          "form": "ticáguci",
+          "mixed_script": "花輪",
+          "entry_ids": [
+            "ticáguci"
+          ],
+          "gloss": "flower.chain"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "jána",
+          "mixed_script": "生な",
+          "entry_ids": [
+            "ján-",
+            "(a)"
+          ],
+          "gloss": "create-PTCP"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "kéte",
+          "mixed_script": "善て",
+          "entry_ids": [
+            "két-",
+            "(e)"
+          ],
+          "gloss": "be.good-ADV"
+        },
+        {
+          "form": "íjale",
+          "mixed_script": "心れ",
+          "entry_ids": [
+            "íja-",
+            "(e)l-",
+            "(e)"
+          ],
+          "gloss": "consider-ZERO-ADV"
+        },
+        {
+          "form": "nosejáne",
+          "mixed_script": "立ぜ生ね",
+          "entry_ids": [
+            "nós-",
+            "(e)ján-",
+            "(e)"
+          ],
+          "gloss": "stand-INCHO-ADV"
+        },
+        {
+          "form": "momemóka",
+          "mixed_script": "手めもか",
+          "entry_ids": [
+            "móm-",
+            "(e)mók-",
+            "(a)"
+          ],
+          "gloss": "obtain-away-PTCP"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "kéte",
+          "mixed_script": "善て",
+          "entry_ids": [
+            "két-",
+            "(e)"
+          ],
+          "gloss": "be.good-ADV"
+        },
+        {
+          "form": "wáce",
+          "mixed_script": "無せ",
+          "entry_ids": [
+            "wác-",
+            "(e)"
+          ],
+          "gloss": "not.exist-ADV"
+        },
+        {
+          "form": "íjalu",
+          "mixed_script": "心る",
+          "entry_ids": [
+            "íja-",
+            "(u)"
+          ],
+          "gloss": "consider-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ],
+      "translation": {
+        "en": "Making flower chains feels favorable; getting up and picking [the flowers] feels unfavorable.",
+        "ja": "花輪を作ることは好ましく感じられ、立ち上がって（花を）取りに行くことは好ましくないように感じられる。"
+      }
+    },
+    {
       "source": "「異世界語入門～転生したけど日本語が通じなかった～」p.216",
       "translation": {
         "ja": "あなたは反革命主義者ですか？"

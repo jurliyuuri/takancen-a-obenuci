@@ -1714,7 +1714,16 @@
       ],
       "definitions": [
         {
-          "gloss": "submit"
+          "gloss": "create",
+          "translations": {
+            "ja": "作る、生む、生み出す"
+          }
+        },
+        {
+          "gloss": "submit",
+          "translations": {
+            "ja": "出す、提出する"
+          }
         }
       ]
     },
