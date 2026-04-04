@@ -2707,15 +2707,12 @@
           "言之",
           "五々",
           "而",
-          "耒㆑",
-          "古",
+          "耒古",
           "巫",
-          "於㆑",
-          "此",
+          "於此",
           "言",
           "筆人",
-          "於㆑",
-          "此",
+          "於此",
           "筆",
           "。"
         ]
@@ -2784,20 +2781,13 @@
           "gloss": "and.also"
         },
         {
-          "form": "cókaga",
-          "mixed_script": "古",
+          "form": "cókaga oca",
+          "mixed_script": "古おさ",
           "entry_ids": [
-            "cókaga"
-          ],
-          "gloss": "ancient.times"
-        },
-        {
-          "form": "oca",
-          "mixed_script": "おさ",
-          "entry_ids": [
+            "cókaga",
             "oca"
           ],
-          "gloss": "ABL"
+          "gloss": "ancient.times-ABL"
         },
         {
           "form": "takanácuka",
@@ -2808,20 +2798,13 @@
           "gloss": "shaman"
         },
         {
-          "form": "ká",
-          "mixed_script": "此",
+          "form": "ká ki",
+          "mixed_script": "此き",
           "entry_ids": [
-            "ká"
-          ],
-          "gloss": "this"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
+            "ká",
             "ki"
           ],
-          "gloss": "ACC"
+          "gloss": "this-ACC"
         },
         {
           "form": "cémale",
@@ -2842,20 +2825,13 @@
           "gloss": "scribe"
         },
         {
-          "form": "ká",
-          "mixed_script": "此",
+          "form": "ká ki",
+          "mixed_script": "此き",
           "entry_ids": [
-            "ká"
-          ],
-          "gloss": "this"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
+            "ká",
             "ki"
           ],
-          "gloss": "ACC"
+          "gloss": "this-ACC"
         },
         {
           "form": "kálu",
