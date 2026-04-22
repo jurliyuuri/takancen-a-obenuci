@@ -6397,6 +6397,30 @@
           "gloss": "grapheme"
         }
       ]
+    },
+    {
+      "id": "soŕutu",
+      "pos": "noun suffix",
+      "script": [
+        "上下"
+      ],
+      "definitions": [
+        {
+          "gloss": "approximately"
+        }
+      ]
+    },
+    {
+      "id": "umúkaga",
+      "pos": "noun",
+      "script": [
+        "三時"
+      ],
+      "definitions": [
+        {
+          "gloss": "thrice"
+        }
+      ]
     }
   ],
   "alternative_form_groups": [

@@ -3226,7 +3226,8 @@
           "entry_ids": [
             "ketéma-",
             "(u)"
-          ]
+          ],
+          "gloss": "be.good-NPST"
         },
         {
           "punctuation": "。"
@@ -11208,6 +11209,112 @@
         },
         {
           "punctuation": ")"
+        }
+      ]
+    },
+    {
+      "source": "ヤマタ！",
+      "translation": {
+        "ja": "3回ぐらい行ってもいいでしょう。満足したらやめるべきです。"
+      },
+      "tokens": [
+        {
+          "form": "umúkaga",
+          "mixed_script": "三時",
+          "entry_ids": [
+            "umúkaga"
+          ],
+          "gloss": "thrice"
+        },
+        {
+          "form": "soŕutu",
+          "mixed_script": "上下",
+          "entry_ids": [
+            "soŕutu"
+          ],
+          "gloss": "approximately"
+        },
+        {
+          "form": "tútu",
+          "mixed_script": "再",
+          "entry_ids": [
+            "tútu"
+          ],
+          "gloss": "again"
+        },
+        {
+          "form": "cóla",
+          "mixed_script": "為",
+          "entry_ids": [
+            "ć-",
+            "(a)"
+          ],
+          "gloss": "do-PTCP"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "ketémaci",
+          "mixed_script": "善し",
+          "entry_ids": [
+            "ketéma-",
+            "(i)"
+          ],
+          "gloss": "be.good-IMP"
+        },
+        {
+          "punctuation": "。"
+        },
+        {
+          "form": "íja",
+          "mixed_script": "心",
+          "entry_ids": [
+            "íja"
+          ],
+          "gloss": "soul"
+        },
+        {
+          "form": "móla",
+          "mixed_script": "満",
+          "entry_ids": [
+            "mó-",
+            "(a)"
+          ],
+          "gloss": "fill-PTCP"
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "time"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "táci",
+          "mixed_script": "終し",
+          "entry_ids": [
+            "tá-",
+            "(i)"
+          ],
+          "gloss": "end-IMP"
+        },
+        {
+          "punctuation": "。"
         }
       ]
     },
