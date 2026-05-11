@@ -696,7 +696,7 @@
         }
       ],
       "translation": {
-        "ja": "百冊以上のお取引の際は、我々の会社にご連絡ください。"
+        "ja": "百冊以上のお取引の際は、我が社にご連絡ください。"
       }
     },
     {
@@ -811,7 +811,154 @@
         }
       ],
       "translation": {
-        "ja": "この本は教科書であり、我々の会社は[⏳安価にご提供いたします]。"
+        "ja": "この本は教科書であり、我が社は[⏳安価にご提供いたします]。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "ká a",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká a"
+          ],
+          "gloss": "this.kind.of"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "súla",
+          "mixed_script": "銭軸",
+          "entry_ids": [
+            "súla"
+          ],
+          "gloss": "company"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ketacémala",
+          "mixed_script": "認",
+          "entry_ids": [
+            "ketacéma-",
+            "(a)"
+          ],
+          "gloss": "permit-PTCP"
+        },
+        {
+          "form": "wáce",
+          "mixed_script": "無せ",
+          "entry_ids": [
+            "wác-",
+            "(e)"
+          ],
+          "gloss": "not.exist-ADV"
+        },
+        {
+          "form": "bex́man",
+          "mixed_script": "圧字",
+          "entry_ids": [
+            "bex́man"
+          ],
+          "gloss": "printing"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "cjúrke",
+          "mixed_script": "裁処",
+          "entry_ids": [
+            "cjúrke"
+          ],
+          "gloss": "courthouse"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "cemakúgi",
+          "mixed_script": "言付ぎ",
+          "entry_ids": [
+            "cemakúg-",
+            "(i)"
+          ],
+          "gloss": "notify-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "この本を我が社の許諾無しに印刷した場合、我々は裁判所に申し立てをします。"
       }
     },
     {
