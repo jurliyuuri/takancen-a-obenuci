@@ -1,1125 +1,6 @@
 {
   "sentences": [
     {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "kujógaci",
-          "mixed_script": "層筆",
-          "entry_ids": [
-            "kujóga-",
-            "(i)"
-          ],
-          "gloss": "write.superimposed-IMP"
-        },
-        {
-          "form": "wa",
-          "mixed_script": "而",
-          "entry_ids": [
-            "wa"
-          ],
-          "gloss": "and.also"
-        },
-        {
-          "mixed_script": "軟め",
-          "form": "kéme",
-          "entry_ids": [
-            "kém-",
-            "(e)"
-          ],
-          "gloss": "be.easy-ADV"
-        },
-        {
-          "form": "caneníti",
-          "mixed_script": "学ち",
-          "entry_ids": [
-            "canenít-",
-            "(i)"
-          ],
-          "gloss": "learn-IMP"
-        }
-      ],
-      "translation": {
-        "ja": "重ね書きして簡単に学ぼう"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "takamámani",
-          "mixed_script": "たかままに",
-          "entry_ids": [
-            "takamámani"
-          ],
-          "gloss": "Takan.grapheme"
-        }
-      ],
-      "translation": {
-        "ja": "タカン文字"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "cína",
-          "mixed_script": "しな",
-          "entry_ids": [
-            "cína"
-          ],
-          "gloss": "name"
-        }
-      ],
-      "translation": {
-        "ja": "名前"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "takamácema",
-          "mixed_script": "皇言",
-          "entry_ids": [
-            "takamácema"
-          ],
-          "gloss": "Takan.language"
-        },
-        {
-          "form": "ata",
-          "mixed_script": "加",
-          "entry_ids": [
-            "ata"
-          ],
-          "gloss": "and"
-        },
-        {
-          "form": "takamámani",
-          "mixed_script": "皇字",
-          "entry_ids": [
-            "takamámani"
-          ],
-          "gloss": "Takan.grapheme"
-        },
-        {
-          "form": "okímae",
-          "mixed_script": "友糸",
-          "entry_ids": [
-            "okímae"
-          ],
-          "gloss": "relationship"
-        },
-        {
-          "form": "ja",
-          "mixed_script": "や",
-          "entry_ids": [
-            "ja"
-          ],
-          "gloss": "NOM"
-        },
-        {
-          "form": "méki",
-          "mixed_script": "硬き",
-          "entry_ids": [
-            "méki"
-          ],
-          "gloss": "strong"
-        },
-        {
-          "form": "únune",
-          "mixed_script": "うぬね",
-          "entry_ids": [
-            "únun-",
-            "(e)"
-          ],
-          "gloss": "be-ADV"
-        },
-        {
-          "form": "wa",
-          "mixed_script": "而",
-          "entry_ids": [
-            "wa"
-          ],
-          "gloss": "and.also"
-        },
-        {
-          "form": "anókaga",
-          "mixed_script": "全時",
-          "entry_ids": [
-            "anókaga"
-          ],
-          "gloss": "virtually.always"
-        },
-        {
-          "form": "nó",
-          "mixed_script": "我",
-          "entry_ids": [
-            "nó"
-          ],
-          "gloss": "I"
-        },
-        {
-          "form": "i",
-          "mixed_script": "等",
-          "entry_ids": [
-            "i"
-          ],
-          "gloss": "PL"
-        },
-        {
-          "form": "takamámani",
-          "mixed_script": "皇字",
-          "entry_ids": [
-            "takamámani"
-          ],
-          "gloss": "Takan.grapheme"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "moméci",
-          "mixed_script": "使",
-          "entry_ids": [
-            "moméci-",
-            "(e)"
-          ],
-          "gloss": "use-ADV"
-        },
-        {
-          "form": "wa",
-          "mixed_script": "而",
-          "entry_ids": [
-            "wa"
-          ],
-          "gloss": "and.also"
-        },
-        {
-          "form": "takamácema",
-          "mixed_script": "皇言",
-          "entry_ids": [
-            "takamácema"
-          ],
-          "gloss": "Takan.language"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "kálu",
-          "mixed_script": "筆る",
-          "entry_ids": [
-            "ká-",
-            "(u)"
-          ],
-          "gloss": "write-NPST"
-        }
-      ],
-      "translation": {
-        "ja": "タカン語とタカン文字の関係は強く、現代においてタカン文字を使わずにタカン語を書くことはほとんどありません。"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "mórwa",
-          "mixed_script": "別而",
-          "entry_ids": [
-            "mórwa"
-          ],
-          "gloss": "but"
-        },
-        {
-          "form": "takamámani",
-          "mixed_script": "皇字",
-          "entry_ids": [
-            "takamámani"
-          ],
-          "gloss": "Takan.grapheme"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "kála",
-          "mixed_script": "筆ら",
-          "entry_ids": [
-            "ká-",
-            "(a)"
-          ],
-          "gloss": "write-PTCP"
-        },
-        {
-          "form": "ja",
-          "mixed_script": "や",
-          "entry_ids": [
-            "ja"
-          ],
-          "gloss": "NOM"
-        },
-        {
-          "form": "lińman",
-          "mixed_script": "清字",
-          "gloss": "Lanermic.logogram",
-          "entry_ids": [
-            "lińman"
-          ]
-        },
-        {
-          "form": "oca",
-          "mixed_script": "耒",
-          "entry_ids": [
-            "oca"
-          ],
-          "gloss": "ABL"
-        },
-        {
-          "form": "méki",
-          "mixed_script": "硬き",
-          "entry_ids": [
-            "méki"
-          ],
-          "gloss": "difficult"
-        },
-        {
-          "form": "únune",
-          "mixed_script": "うぬね",
-          "entry_ids": [
-            "únun-",
-            "(e)"
-          ],
-          "gloss": "be-ADV"
-        },
-        {
-          "form": "wa",
-          "mixed_script": "而",
-          "entry_ids": [
-            "wa"
-          ],
-          "gloss": "and.also"
-        },
-        {
-          "form": "kátu",
-          "mixed_script": "子",
-          "entry_ids": [
-            "kátu"
-          ],
-          "gloss": "child"
-        },
-        {
-          "form": "ja",
-          "mixed_script": "や",
-          "entry_ids": [
-            "ja"
-          ],
-          "gloss": "NOM"
-        },
-        {
-          "form": "lúkaku",
-          "mixed_script": "新時",
-          "entry_ids": [
-            "lúkaku"
-          ],
-          "gloss": "early.age"
-        },
-        {
-          "form": "oca",
-          "mixed_script": "耒",
-          "entry_ids": [
-            "oca"
-          ],
-          "gloss": "ABL"
-        },
-        {
-          "form": "nícon",
-          "mixed_script": "学積",
-          "entry_ids": [
-            "nícon"
-          ],
-          "gloss": "training"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "cí",
-          "mixed_script": "為",
-          "entry_ids": [
-            "ć-",
-            "(i)"
-          ],
-          "gloss": "do-IMP"
-        }
-      ],
-      "translation": {
-        "ja": "しかしタカン文字を書くのは燐字よりも難しく、子どもは早くから訓練を行うことが必要です。"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "multiple-standard-pronunciations": true,
-          "forms": [
-            "mamókaka",
-            "mamokúwaka"
-          ],
-          "mixed_script": "母父",
-          "entry_ids_of_each_form": [
-            [
-              "mamókaka"
-            ],
-            [
-              "mamokúwaka"
-            ]
-          ],
-          "gloss": "parents"
-        },
-        {
-          "form": "ata",
-          "mixed_script": "加",
-          "entry_ids": [
-            "ata"
-          ],
-          "gloss": "and"
-        },
-        {
-          "form": "kátu",
-          "mixed_script": "子",
-          "entry_ids": [
-            "kátu"
-          ],
-          "gloss": "child"
-        },
-        {
-          "form": "ja",
-          "mixed_script": "や",
-          "entry_ids": [
-            "ja"
-          ],
-          "gloss": "NOM"
-        },
-        {
-          "form": "ká a",
-          "mixed_script": "此",
-          "entry_ids": [
-            "ká a"
-          ],
-          "gloss": "this.kind.of"
-        },
-        {
-          "form": "áku",
-          "mixed_script": "書",
-          "entry_ids": [
-            "áku"
-          ],
-          "gloss": "book"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "áta",
-          "mixed_script": "目",
-          "entry_ids": [
-            "áta-",
-            "(e)"
-          ],
-          "gloss": "see-ADV"
-        },
-        {
-          "form": "wa",
-          "mixed_script": "而",
-          "entry_ids": [
-            "wa"
-          ],
-          "gloss": "and.also"
-        },
-        {
-          "form": "mómo",
-          "mixed_script": "手",
-          "entry_ids": [
-            "mómo"
-          ],
-          "gloss": "hand"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "moméci",
-          "mixed_script": "使",
-          "entry_ids": [
-            "moméci-",
-            "(e)"
-          ],
-          "gloss": "use-ADV"
-        },
-        {
-          "form": "wa",
-          "mixed_script": "而",
-          "entry_ids": [
-            "wa"
-          ],
-          "gloss": "and.also"
-        },
-        {
-          "form": "takamácema",
-          "mixed_script": "皇言",
-          "entry_ids": [
-            "takamácema"
-          ],
-          "gloss": "Takan.language"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "ká",
-          "mixed_script": "筆",
-          "entry_ids": [
-            "ká-",
-            "(e)"
-          ],
-          "gloss": "write-ADV"
-        },
-        {
-          "form": "ken",
-          "mixed_script": "即",
-          "entry_ids": [
-            "ken"
-          ],
-          "gloss": "then"
-        },
-        {
-          "form": "kátu",
-          "mixed_script": "子",
-          "entry_ids": [
-            "kátu"
-          ],
-          "gloss": "child"
-        },
-        {
-          "form": "ja",
-          "mixed_script": "や",
-          "entry_ids": [
-            "ja"
-          ],
-          "gloss": "NOM"
-        },
-        {
-          "form": "takamámani",
-          "mixed_script": "皇字",
-          "entry_ids": [
-            "takamámani"
-          ],
-          "gloss": "Takan.grapheme"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "kéte",
-          "mixed_script": "善て",
-          "entry_ids": [
-            "két-",
-            "(e)"
-          ],
-          "gloss": "be.good-ADV"
-        },
-        {
-          "form": "caneníti",
-          "mixed_script": "学ち",
-          "entry_ids": [
-            "canenít-",
-            "(i)"
-          ],
-          "gloss": "learn-IMP"
-        }
-      ],
-      "translation": {
-        "ja": "ご両親がお子さんと一緒にこの本を読み、手を動かして練習させてあげることで、タカン文字をより効果的に学ぶことができるでしょう。"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "kíta",
-          "mixed_script": "百",
-          "entry_ids": [
-            "kíta"
-          ],
-          "gloss": "hundred"
-        },
-        {
-          "form": "áku",
-          "mixed_script": "書",
-          "entry_ids": [
-            "áku"
-          ],
-          "gloss": "book"
-        },
-        {
-          "form": "ju",
-          "mixed_script": "亦",
-          "entry_ids": [
-            "ju"
-          ],
-          "gloss": "or"
-        },
-        {
-          "form": "tacáma",
-          "mixed_script": "多",
-          "entry_ids": [
-            "tacám-",
-            "(a)"
-          ],
-          "gloss": "be.many-PTCP"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "sumóka",
-          "mixed_script": "銭行之",
-          "entry_ids": [
-            "sumók-",
-            "(a)"
-          ],
-          "gloss": "do.business-PTCP"
-        },
-        {
-          "form": "kága",
-          "mixed_script": "時",
-          "entry_ids": [
-            "kága"
-          ],
-          "gloss": "case"
-        },
-        {
-          "form": "nó",
-          "mixed_script": "我",
-          "entry_ids": [
-            "nó"
-          ],
-          "gloss": "I"
-        },
-        {
-          "form": "i",
-          "mixed_script": "等",
-          "entry_ids": [
-            "i"
-          ],
-          "gloss": "PL"
-        },
-        {
-          "form": "a",
-          "mixed_script": "　",
-          "entry_ids": [
-            "a"
-          ],
-          "gloss": "GEN"
-        },
-        {
-          "form": "súla",
-          "mixed_script": "銭軸",
-          "entry_ids": [
-            "súla"
-          ],
-          "gloss": "company"
-        },
-        {
-          "form": "kan",
-          "mixed_script": "処",
-          "entry_ids": [
-            "kan"
-          ],
-          "gloss": "LOC"
-        },
-        {
-          "form": "cemakugéti",
-          "mixed_script": "言付下ち",
-          "entry_ids": [
-            "cemakúg-",
-            "(é)t-",
-            "(i)"
-          ],
-          "gloss": "notify-RESPECT-IMP"
-        }
-      ],
-      "translation": {
-        "ja": "百冊以上のお取引の際は、我が社にご連絡ください。"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "ká a",
-          "mixed_script": "此",
-          "entry_ids": [
-            "ká a"
-          ],
-          "gloss": "this.kind.of"
-        },
-        {
-          "form": "áku",
-          "mixed_script": "書",
-          "entry_ids": [
-            "áku"
-          ],
-          "gloss": "book"
-        },
-        {
-          "form": "ja",
-          "mixed_script": "や",
-          "entry_ids": [
-            "ja"
-          ],
-          "gloss": "NOM"
-        },
-        {
-          "form": "tiníaku",
-          "mixed_script": "与学書",
-          "entry_ids": [
-            "tiníaku"
-          ],
-          "gloss": "textbook"
-        },
-        {
-          "form": "únune",
-          "mixed_script": "うぬね",
-          "entry_ids": [
-            "únun-",
-            "(e)"
-          ],
-          "gloss": "be-ADV"
-        },
-        {
-          "form": "nó",
-          "mixed_script": "我",
-          "entry_ids": [
-            "nó"
-          ],
-          "gloss": "I"
-        },
-        {
-          "form": "i",
-          "mixed_script": "等",
-          "entry_ids": [
-            "i"
-          ],
-          "gloss": "PL"
-        },
-        {
-          "form": "a",
-          "mixed_script": "　",
-          "entry_ids": [
-            "a"
-          ],
-          "gloss": "GEN"
-        },
-        {
-          "form": "súla",
-          "mixed_script": "銭軸",
-          "entry_ids": [
-            "súla"
-          ],
-          "gloss": "company"
-        },
-        {
-          "form": "ukakínusa",
-          "mixed_script": "少銭",
-          "entry_ids": [
-            "ukakínusa"
-          ],
-          "gloss": "affordability"
-        },
-        {
-          "form": "kan",
-          "mixed_script": "処",
-          "entry_ids": [
-            "kan"
-          ],
-          "gloss": "LOC"
-        },
-        {
-          "form": "sumóke",
-          "mixed_script": "銭行け",
-          "entry_ids": [
-            "sumók-",
-            "(e)"
-          ],
-          "gloss": "do.business-ADV"
-        },
-        {
-          "form": "únunu",
-          "mixed_script": "うぬゝ",
-          "entry_ids": [
-            "únun-",
-            "(u)"
-          ],
-          "gloss": "be-NPST"
-        }
-      ],
-      "translation": {
-        "ja": "この本は教科書であり、我が社は[⏳安価にご提供いたします]。"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "ká a",
-          "mixed_script": "此",
-          "entry_ids": [
-            "ká a"
-          ],
-          "gloss": "this.kind.of"
-        },
-        {
-          "form": "áku",
-          "mixed_script": "書",
-          "entry_ids": [
-            "áku"
-          ],
-          "gloss": "book"
-        },
-        {
-          "form": "ki",
-          "mixed_script": "き",
-          "entry_ids": [
-            "ki"
-          ],
-          "gloss": "ACC"
-        },
-        {
-          "form": "nó",
-          "mixed_script": "我",
-          "entry_ids": [
-            "nó"
-          ],
-          "gloss": "I"
-        },
-        {
-          "form": "i",
-          "mixed_script": "等",
-          "entry_ids": [
-            "i"
-          ],
-          "gloss": "PL"
-        },
-        {
-          "form": "a",
-          "mixed_script": "　",
-          "entry_ids": [
-            "a"
-          ],
-          "gloss": "GEN"
-        },
-        {
-          "form": "súla",
-          "mixed_script": "銭軸",
-          "entry_ids": [
-            "súla"
-          ],
-          "gloss": "company"
-        },
-        {
-          "form": "a",
-          "mixed_script": "之",
-          "entry_ids": [
-            "a"
-          ],
-          "gloss": "GEN"
-        },
-        {
-          "form": "ketacémala",
-          "mixed_script": "認",
-          "entry_ids": [
-            "ketacéma-",
-            "(a)"
-          ],
-          "gloss": "permit-PTCP"
-        },
-        {
-          "form": "wáce",
-          "mixed_script": "無せ",
-          "entry_ids": [
-            "wác-",
-            "(e)"
-          ],
-          "gloss": "not.exist-ADV"
-        },
-        {
-          "form": "bex́man",
-          "mixed_script": "圧字",
-          "entry_ids": [
-            "bex́man"
-          ],
-          "gloss": "printing"
-        },
-        {
-          "form": "ken",
-          "mixed_script": "即",
-          "entry_ids": [
-            "ken"
-          ],
-          "gloss": "then"
-        },
-        {
-          "form": "nó",
-          "mixed_script": "我",
-          "entry_ids": [
-            "nó"
-          ],
-          "gloss": "I"
-        },
-        {
-          "form": "i",
-          "mixed_script": "等",
-          "entry_ids": [
-            "i"
-          ],
-          "gloss": "PL"
-        },
-        {
-          "form": "cjúrke",
-          "mixed_script": "裁処",
-          "entry_ids": [
-            "cjúrke"
-          ],
-          "gloss": "courthouse"
-        },
-        {
-          "form": "kan",
-          "mixed_script": "処",
-          "entry_ids": [
-            "kan"
-          ],
-          "gloss": "LOC"
-        },
-        {
-          "form": "cemakúgi",
-          "mixed_script": "言付ぎ",
-          "entry_ids": [
-            "cemakúg-",
-            "(i)"
-          ],
-          "gloss": "notify-IMP"
-        }
-      ],
-      "translation": {
-        "ja": "この本を我が社の許諾無しに印刷した場合、我々は裁判所に申し立てをします。"
-      }
-    },
-    {
-      "source": "タカン文字練習帳",
-      "tokens": [
-        {
-          "form": "bex́man",
-          "mixed_script": "圧字",
-          "entry_ids": [
-            "bex́man"
-          ],
-          "gloss": "printing"
-        },
-        {
-          "form": "nóne",
-          "mixed_script": "悪ね",
-          "entry_ids": [
-            "nón-",
-            "(e)"
-          ],
-          "gloss": "bad-ADV"
-        },
-        {
-          "form": "teńten",
-          "mixed_script": "混々",
-          "entry_ids": [
-            "teńten"
-          ],
-          "gloss": "garbled.up"
-        },
-        {
-          "form": "ken",
-          "mixed_script": "即",
-          "entry_ids": [
-            "ken"
-          ],
-          "gloss": "then"
-        },
-        {
-          "form": "nó",
-          "mixed_script": "我",
-          "entry_ids": [
-            "nó"
-          ],
-          "gloss": "I"
-        },
-        {
-          "form": "i",
-          "mixed_script": "等",
-          "entry_ids": [
-            "i"
-          ],
-          "gloss": "PL"
-        },
-        {
-          "form": "a",
-          "mixed_script": "　",
-          "entry_ids": [
-            "a"
-          ],
-          "gloss": "GEN"
-        },
-        {
-          "form": "súla",
-          "mixed_script": "銭軸",
-          "entry_ids": [
-            "súla"
-          ],
-          "gloss": "company"
-        },
-        {
-          "form": "a",
-          "mixed_script": "　",
-          "entry_ids": [
-            "a"
-          ],
-          "gloss": "GEN"
-        },
-        {
-          "form": "corakúdatu",
-          "mixed_script": "為書集",
-          "entry_ids": [
-            "corakúdatu"
-          ],
-          "gloss": "publishing.house"
-        },
-        {
-          "punctuation": "("
-        },
-        {
-          "form": "takańdatu",
-          "mixed_script": "皇集",
-          "entry_ids": [
-            "takańdatu"
-          ],
-          "gloss": "Atalam.Province"
-        },
-        {
-          "form": "aaaaa",
-          "mixed_script": "将上片",
-          "entry_ids": [
-            "cacacaca"
-          ]
-        },
-        {
-          "form": "aaaaa",
-          "mixed_script": "種木谷",
-          "entry_ids": [
-            "cacacaca"
-          ]
-        },
-        {
-          "form": "citérno",
-          "mixed_script": "してーの",
-          "entry_ids": [
-            "citérno"
-          ],
-          "gloss": "flower.petal"
-        },
-        {
-          "form": "aaaaa",
-          "mixed_script": "高家",
-          "entry_ids": [
-            "cacacaca"
-          ],
-          "gloss": "tall.building"
-        },
-        {
-          "form": "aaaaa",
-          "mixed_script": "三層",
-          "entry_ids": [
-            "cacacaca"
-          ],
-          "gloss": "third.floor"
-        },
-        {
-          "punctuation": ")"
-        },
-        {
-          "form": "kan",
-          "mixed_script": "処",
-          "entry_ids": [
-            "kan"
-          ],
-          "gloss": "LOC"
-        },
-        {
-          "form": "cemakúgi",
-          "mixed_script": "言付ぎ",
-          "entry_ids": [
-            "cemakúg-",
-            "(i)"
-          ],
-          "gloss": "notify-IMP"
-        }
-      ],
-      "translation": {
-        "ja": "印刷が低質でぐちゃぐちゃであれば、我が社の印刷所（アタラム郡【将上片】どんぐり谷花びらビル3階）までご連絡ください。"
-      }
-    },
-    {
       "source": "Alice in Wonderland",
       "tokens": [
         {
@@ -12948,6 +11829,1125 @@
           "gloss": "give-humbly-ZERO-want-NPST"
         }
       ]
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "kujógaci",
+          "mixed_script": "層筆",
+          "entry_ids": [
+            "kujóga-",
+            "(i)"
+          ],
+          "gloss": "write.superimposed-IMP"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "mixed_script": "軟め",
+          "form": "kéme",
+          "entry_ids": [
+            "kém-",
+            "(e)"
+          ],
+          "gloss": "be.easy-ADV"
+        },
+        {
+          "form": "caneníti",
+          "mixed_script": "学ち",
+          "entry_ids": [
+            "canenít-",
+            "(i)"
+          ],
+          "gloss": "learn-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "重ね書きして簡単に学ぼう"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "takamámani",
+          "mixed_script": "たかままに",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        }
+      ],
+      "translation": {
+        "ja": "タカン文字"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "cína",
+          "mixed_script": "しな",
+          "entry_ids": [
+            "cína"
+          ],
+          "gloss": "name"
+        }
+      ],
+      "translation": {
+        "ja": "名前"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "takamácema",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "takamácema"
+          ],
+          "gloss": "Takan.language"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "okímae",
+          "mixed_script": "友糸",
+          "entry_ids": [
+            "okímae"
+          ],
+          "gloss": "relationship"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "méki",
+          "mixed_script": "硬き",
+          "entry_ids": [
+            "méki"
+          ],
+          "gloss": "strong"
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "anókaga",
+          "mixed_script": "全時",
+          "entry_ids": [
+            "anókaga"
+          ],
+          "gloss": "virtually.always"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "moméci",
+          "mixed_script": "使",
+          "entry_ids": [
+            "moméci-",
+            "(e)"
+          ],
+          "gloss": "use-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "takamácema",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "takamácema"
+          ],
+          "gloss": "Takan.language"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kálu",
+          "mixed_script": "筆る",
+          "entry_ids": [
+            "ká-",
+            "(u)"
+          ],
+          "gloss": "write-NPST"
+        }
+      ],
+      "translation": {
+        "ja": "タカン語とタカン文字の関係は強く、現代においてタカン文字を使わずにタカン語を書くことはほとんどありません。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "mórwa",
+          "mixed_script": "別而",
+          "entry_ids": [
+            "mórwa"
+          ],
+          "gloss": "but"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kála",
+          "mixed_script": "筆ら",
+          "entry_ids": [
+            "ká-",
+            "(a)"
+          ],
+          "gloss": "write-PTCP"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "lińman",
+          "mixed_script": "清字",
+          "gloss": "Lanermic.logogram",
+          "entry_ids": [
+            "lińman"
+          ]
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "méki",
+          "mixed_script": "硬き",
+          "entry_ids": [
+            "méki"
+          ],
+          "gloss": "difficult"
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "lúkaku",
+          "mixed_script": "新時",
+          "entry_ids": [
+            "lúkaku"
+          ],
+          "gloss": "early.age"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "nícon",
+          "mixed_script": "学積",
+          "entry_ids": [
+            "nícon"
+          ],
+          "gloss": "training"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "cí",
+          "mixed_script": "為",
+          "entry_ids": [
+            "ć-",
+            "(i)"
+          ],
+          "gloss": "do-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "しかしタカン文字を書くのは燐字よりも難しく、子どもは早くから訓練を行うことが必要です。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "ká a",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká a"
+          ],
+          "gloss": "this.kind.of"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "áta",
+          "mixed_script": "目",
+          "entry_ids": [
+            "áta-",
+            "(e)"
+          ],
+          "gloss": "see-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "mómo",
+          "mixed_script": "手",
+          "entry_ids": [
+            "mómo"
+          ],
+          "gloss": "hand"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "moméci",
+          "mixed_script": "使",
+          "entry_ids": [
+            "moméci-",
+            "(e)"
+          ],
+          "gloss": "use-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "takamácema",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "takamácema"
+          ],
+          "gloss": "Takan.language"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "ká",
+          "mixed_script": "筆",
+          "entry_ids": [
+            "ká-",
+            "(e)"
+          ],
+          "gloss": "write-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kéte",
+          "mixed_script": "善て",
+          "entry_ids": [
+            "két-",
+            "(e)"
+          ],
+          "gloss": "be.good-ADV"
+        },
+        {
+          "form": "caneníti",
+          "mixed_script": "学ち",
+          "entry_ids": [
+            "canenít-",
+            "(i)"
+          ],
+          "gloss": "learn-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "ご両親がお子さんと一緒にこの本を読み、手を動かして練習させてあげることで、タカン文字をより効果的に学ぶことができるでしょう。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "kíta",
+          "mixed_script": "百",
+          "entry_ids": [
+            "kíta"
+          ],
+          "gloss": "hundred"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ju",
+          "mixed_script": "亦",
+          "entry_ids": [
+            "ju"
+          ],
+          "gloss": "or"
+        },
+        {
+          "form": "tacáma",
+          "mixed_script": "多",
+          "entry_ids": [
+            "tacám-",
+            "(a)"
+          ],
+          "gloss": "be.many-PTCP"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "sumóka",
+          "mixed_script": "銭行之",
+          "entry_ids": [
+            "sumók-",
+            "(a)"
+          ],
+          "gloss": "do.business-PTCP"
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "case"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "súla",
+          "mixed_script": "銭軸",
+          "entry_ids": [
+            "súla"
+          ],
+          "gloss": "company"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "cemakugéti",
+          "mixed_script": "言付下ち",
+          "entry_ids": [
+            "cemakúg-",
+            "(é)t-",
+            "(i)"
+          ],
+          "gloss": "notify-RESPECT-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "百冊以上のお取引の際は、我が社にご連絡ください。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "ká a",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká a"
+          ],
+          "gloss": "this.kind.of"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "tiníaku",
+          "mixed_script": "与学書",
+          "entry_ids": [
+            "tiníaku"
+          ],
+          "gloss": "textbook"
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "súla",
+          "mixed_script": "銭軸",
+          "entry_ids": [
+            "súla"
+          ],
+          "gloss": "company"
+        },
+        {
+          "form": "ukakínusa",
+          "mixed_script": "少銭",
+          "entry_ids": [
+            "ukakínusa"
+          ],
+          "gloss": "affordability"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "sumóke",
+          "mixed_script": "銭行け",
+          "entry_ids": [
+            "sumók-",
+            "(e)"
+          ],
+          "gloss": "do.business-ADV"
+        },
+        {
+          "form": "únunu",
+          "mixed_script": "うぬゝ",
+          "entry_ids": [
+            "únun-",
+            "(u)"
+          ],
+          "gloss": "be-NPST"
+        }
+      ],
+      "translation": {
+        "ja": "この本は教科書であり、我が社は[⏳安価にご提供いたします]。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "ká a",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká a"
+          ],
+          "gloss": "this.kind.of"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "súla",
+          "mixed_script": "銭軸",
+          "entry_ids": [
+            "súla"
+          ],
+          "gloss": "company"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ketacémala",
+          "mixed_script": "認",
+          "entry_ids": [
+            "ketacéma-",
+            "(a)"
+          ],
+          "gloss": "permit-PTCP"
+        },
+        {
+          "form": "wáce",
+          "mixed_script": "無せ",
+          "entry_ids": [
+            "wác-",
+            "(e)"
+          ],
+          "gloss": "not.exist-ADV"
+        },
+        {
+          "form": "bex́man",
+          "mixed_script": "圧字",
+          "entry_ids": [
+            "bex́man"
+          ],
+          "gloss": "printing"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "cjúrke",
+          "mixed_script": "裁処",
+          "entry_ids": [
+            "cjúrke"
+          ],
+          "gloss": "courthouse"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "cemakúgi",
+          "mixed_script": "言付ぎ",
+          "entry_ids": [
+            "cemakúg-",
+            "(i)"
+          ],
+          "gloss": "notify-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "この本を我が社の許諾無しに印刷した場合、我々は裁判所に申し立てをします。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "bex́man",
+          "mixed_script": "圧字",
+          "entry_ids": [
+            "bex́man"
+          ],
+          "gloss": "printing"
+        },
+        {
+          "form": "nóne",
+          "mixed_script": "悪ね",
+          "entry_ids": [
+            "nón-",
+            "(e)"
+          ],
+          "gloss": "bad-ADV"
+        },
+        {
+          "form": "teńten",
+          "mixed_script": "混々",
+          "entry_ids": [
+            "teńten"
+          ],
+          "gloss": "garbled.up"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "súla",
+          "mixed_script": "銭軸",
+          "entry_ids": [
+            "súla"
+          ],
+          "gloss": "company"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "corakúdatu",
+          "mixed_script": "為書集",
+          "entry_ids": [
+            "corakúdatu"
+          ],
+          "gloss": "publishing.house"
+        },
+        {
+          "punctuation": "("
+        },
+        {
+          "form": "takańdatu",
+          "mixed_script": "皇集",
+          "entry_ids": [
+            "takańdatu"
+          ],
+          "gloss": "Atalam.Province"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "将上片",
+          "entry_ids": [
+            "cacacaca"
+          ]
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "種木谷",
+          "entry_ids": [
+            "cacacaca"
+          ]
+        },
+        {
+          "form": "citérno",
+          "mixed_script": "してーの",
+          "entry_ids": [
+            "citérno"
+          ],
+          "gloss": "flower.petal"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "高家",
+          "entry_ids": [
+            "cacacaca"
+          ],
+          "gloss": "tall.building"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "三層",
+          "entry_ids": [
+            "cacacaca"
+          ],
+          "gloss": "third.floor"
+        },
+        {
+          "punctuation": ")"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "cemakúgi",
+          "mixed_script": "言付ぎ",
+          "entry_ids": [
+            "cemakúg-",
+            "(i)"
+          ],
+          "gloss": "notify-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "印刷が低質でぐちゃぐちゃであれば、我が社の印刷所（アタラム郡【将上片】どんぐり谷花びらビル3階）までご連絡ください。"
+      }
     }
   ],
   "source_urls": [
@@ -13005,6 +13005,10 @@
       "urls": [
         "https://docs.google.com/document/d/16Gyjhn7dHrI0hL8hjWaQlzV2jjFumnnTZLNLFvJRN8g/edit?tab=t.0#heading=h.djqt4mpskbrz"
       ]
+    },
+    {
+      "source_name": "タカン文字練習帳",
+      "urls": []
     }
   ]
 }
