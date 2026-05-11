@@ -11979,7 +11979,7 @@
           "entry_ids": [
             "anókaga"
           ],
-          "gloss": "virtually.always"
+          "gloss": "everlastingly"
         },
         {
           "form": "nó",
@@ -12012,6 +12012,22 @@
             "ki"
           ],
           "gloss": "ACC"
+        },
+        {
+          "form": "anásono",
+          "mixed_script": "全前",
+          "entry_ids": [
+            "anásono"
+          ],
+          "gloss": "almost.all"
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "time"
         },
         {
           "form": "moméci",
@@ -12057,7 +12073,7 @@
         }
       ],
       "translation": {
-        "ja": "タカン語とタカン文字の関係は強く、現代においてタカン文字を使わずにタカン語を書くことはほとんどありません。"
+        "ja": "タカン語とタカン文字の関係は強く、ずっと我々はほとんどの場合タカン文字を使ってタカン語を書いてきました。"
       }
     },
     {
