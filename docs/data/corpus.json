@@ -962,6 +962,164 @@
       }
     },
     {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "bex́man",
+          "mixed_script": "圧字",
+          "entry_ids": [
+            "bex́man"
+          ],
+          "gloss": "printing"
+        },
+        {
+          "form": "nóne",
+          "mixed_script": "悪ね",
+          "entry_ids": [
+            "nón-",
+            "(e)"
+          ],
+          "gloss": "bad-ADV"
+        },
+        {
+          "form": "teńten",
+          "mixed_script": "混々",
+          "entry_ids": [
+            "teńten"
+          ],
+          "gloss": "garbled.up"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "súla",
+          "mixed_script": "銭軸",
+          "entry_ids": [
+            "súla"
+          ],
+          "gloss": "company"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "corakúdatu",
+          "mixed_script": "為書集",
+          "entry_ids": [
+            "corakúdatu"
+          ],
+          "gloss": "publishing.house"
+        },
+        {
+          "punctuation": "("
+        },
+        {
+          "form": "takańdatu",
+          "mixed_script": "皇集",
+          "entry_ids": [
+            "takańdatu"
+          ],
+          "gloss": "Atalam.Province"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "将上片",
+          "entry_ids": [
+            "cacacaca"
+          ]
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "種木谷",
+          "entry_ids": [
+            "cacacaca"
+          ]
+        },
+        {
+          "form": "citérno",
+          "mixed_script": "してーの",
+          "entry_ids": [
+            "citérno"
+          ],
+          "gloss": "flower.petal"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "高家",
+          "entry_ids": [
+            "cacacaca"
+          ],
+          "gloss": "tall.building"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "三層",
+          "entry_ids": [
+            "cacacaca"
+          ],
+          "gloss": "third.floor"
+        },
+        {
+          "punctuation": ")"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "cemakúgi",
+          "mixed_script": "言付ぎ",
+          "entry_ids": [
+            "cemakúg-",
+            "(i)"
+          ],
+          "gloss": "notify-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "印刷が低質でぐちゃぐちゃであれば、我が社の印刷所（アタラム郡【将上片】どんぐり谷花びらビル3階）までご連絡ください。"
+      }
+    },
+    {
       "source": "Alice in Wonderland",
       "tokens": [
         {
