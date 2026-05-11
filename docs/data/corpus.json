@@ -2,9 +2,160 @@
   "sentences": [
     {
       "source": "タカン文字練習帳宣伝文句",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "takamácema",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "takamácema"
+          ],
+          "gloss": "Takan.language"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "okímae",
+          "mixed_script": "友糸",
+          "entry_ids": [
+            "okímae"
+          ],
+          "gloss": "relationship"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "méki",
+          "mixed_script": "硬き",
+          "entry_ids": [
+            "méki"
+          ],
+          "gloss": "strong"
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "anókaga",
+          "mixed_script": "全時",
+          "entry_ids": [
+            "anókaga"
+          ],
+          "gloss": "virtually.always"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "moméci",
+          "mixed_script": "使",
+          "entry_ids": [
+            "moméci-",
+            "(e)"
+          ],
+          "gloss": "use-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "takamácema",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "takamácema"
+          ],
+          "gloss": "Takan.language"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kálu",
+          "mixed_script": "筆る",
+          "entry_ids": [
+            "ká-",
+            "(u)"
+          ],
+          "gloss": "write-NPST"
+        },
+        {
+          "punctuation": "。"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "タカン語とタカン文字の関係は強く、現代においてタカン文字を使わずにタカン語を書くことはほとんどありません。"
       }
     },
     {
