@@ -1,7 +1,82 @@
 {
   "sentences": [
     {
-      "source": "タカン文字練習帳宣伝文句",
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "kujógaci",
+          "mixed_script": "層筆",
+          "entry_ids": [
+            "kujóga-",
+            "(i)"
+          ],
+          "gloss": "write.superimposed-IMP"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "mixed_script": "軟め",
+          "form": "kéme",
+          "entry_ids": [
+            "kém-",
+            "(e)"
+          ],
+          "gloss": "be.easy-ADV"
+        },
+        {
+          "form": "caneníti",
+          "mixed_script": "学ち",
+          "entry_ids": [
+            "canenít-",
+            "(i)"
+          ],
+          "gloss": "learn-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "重ね書きして簡単に学ぼう"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "takamámani",
+          "mixed_script": "たかままに",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        }
+      ],
+      "translation": {
+        "ja": "タカン文字"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "cína",
+          "mixed_script": "しな",
+          "entry_ids": [
+            "cína"
+          ],
+          "gloss": "name"
+        }
+      ],
+      "translation": {
+        "ja": "名前"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
       "tokens": [
         {
           "form": "takamácema",
@@ -149,9 +224,6 @@
             "(u)"
           ],
           "gloss": "write-NPST"
-        },
-        {
-          "punctuation": "。"
         }
       ],
       "translation": {
@@ -159,7 +231,7 @@
       }
     },
     {
-      "source": "タカン文字練習帳宣伝文句",
+      "source": "タカン文字練習帳",
       "tokens": [
         {
           "form": "mórwa",
@@ -299,9 +371,6 @@
             "(i)"
           ],
           "gloss": "do-IMP"
-        },
-        {
-          "punctuation": "。"
         }
       ],
       "translation": {
@@ -309,7 +378,7 @@
       }
     },
     {
-      "source": "タカン文字練習帳宣伝文句",
+      "source": "タカン文字練習帳",
       "tokens": [
         {
           "multiple-standard-pronunciations": true,
@@ -508,13 +577,133 @@
             "(i)"
           ],
           "gloss": "learn-IMP"
-        },
-        {
-          "punctuation": "。"
         }
       ],
       "translation": {
         "ja": "ご両親がお子さんと一緒にこの本を読み、手を動かして練習させてあげることで、タカン文字をより効果的に学ぶことができるでしょう。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "kíta",
+          "mixed_script": "百",
+          "entry_ids": [
+            "kíta"
+          ],
+          "gloss": "hundred"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ju",
+          "mixed_script": "亦",
+          "entry_ids": [
+            "ju"
+          ],
+          "gloss": "or"
+        },
+        {
+          "form": "tacáma",
+          "mixed_script": "多",
+          "entry_ids": [
+            "tacám-",
+            "(a)"
+          ],
+          "gloss": "be.many-PTCP"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "sumóku",
+          "mixed_script": "銭行",
+          "entry_ids": [
+            "sumóku"
+          ],
+          "gloss": "purchase"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "case"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "我",
+          "entry_ids": [
+            "nó"
+          ],
+          "gloss": "I"
+        },
+        {
+          "form": "i",
+          "mixed_script": "等",
+          "entry_ids": [
+            "i"
+          ],
+          "gloss": "PL"
+        },
+        {
+          "form": "a",
+          "mixed_script": "　",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "súla",
+          "mixed_script": "銭軸",
+          "entry_ids": [
+            "súla"
+          ],
+          "gloss": "company"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "cemakugéti",
+          "mixed_script": "言付下ち",
+          "entry_ids": [
+            "cemakúg-",
+            "(é)t-",
+            "(i)"
+          ],
+          "gloss": "notify-RESPECT-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "百冊以上をご購入の際は、我々の会社にご連絡ください。"
       }
     },
     {
