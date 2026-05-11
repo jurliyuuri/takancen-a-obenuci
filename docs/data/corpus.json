@@ -310,9 +310,211 @@
     },
     {
       "source": "タカン文字練習帳宣伝文句",
-      "tokens": [],
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "ká a",
+          "mixed_script": "此",
+          "entry_ids": [
+            "ká a"
+          ],
+          "gloss": "this.kind.of"
+        },
+        {
+          "form": "áku",
+          "mixed_script": "書",
+          "entry_ids": [
+            "áku"
+          ],
+          "gloss": "book"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "áta",
+          "mixed_script": "目",
+          "entry_ids": [
+            "áta-",
+            "(e)"
+          ],
+          "gloss": "see-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "mómo",
+          "mixed_script": "手",
+          "entry_ids": [
+            "mómo"
+          ],
+          "gloss": "hand"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "moméci",
+          "mixed_script": "使",
+          "entry_ids": [
+            "moméci-",
+            "(e)"
+          ],
+          "gloss": "use-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "takamácema",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "takamácema"
+          ],
+          "gloss": "Takan.language"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "ká",
+          "mixed_script": "筆",
+          "entry_ids": [
+            "ká-",
+            "(e)"
+          ],
+          "gloss": "write-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kéte",
+          "mixed_script": "善て",
+          "entry_ids": [
+            "két-",
+            "(e)"
+          ],
+          "gloss": "be.good-ADV"
+        },
+        {
+          "form": "caneníti",
+          "mixed_script": "学ち",
+          "entry_ids": [
+            "canenít-",
+            "(i)"
+          ],
+          "gloss": "learn-IMP"
+        },
+        {
+          "punctuation": "。"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "ご両親がお子さんと一緒にこの本を読み、手を動かして練習させてあげることで、タカン文字をより効果的に学ぶことができるでしょう。"
       }
     },
     {
