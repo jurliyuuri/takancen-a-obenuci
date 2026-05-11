@@ -1,6 +1,170 @@
 {
   "sentences": [
     {
+      "source": "タカン文字練習帳宣伝文句",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳宣伝文句",
+      "tokens": [
+        {
+          "form": "mórwa",
+          "mixed_script": "別而",
+          "entry_ids": [
+            "mórwa"
+          ],
+          "gloss": "but"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kála",
+          "mixed_script": "筆ら",
+          "entry_ids": [
+            "ká-",
+            "(a)"
+          ],
+          "gloss": "write-PTCP"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "lińman",
+          "mixed_script": "清字",
+          "gloss": "Lanermic.logogram",
+          "entry_ids": [
+            "lińman"
+          ]
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "méki",
+          "mixed_script": "硬き",
+          "entry_ids": [
+            "méki"
+          ],
+          "gloss": "difficult"
+        },
+        {
+          "form": "únune",
+          "mixed_script": "うぬね",
+          "entry_ids": [
+            "únun-",
+            "(e)"
+          ],
+          "gloss": "be-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "lúkaku",
+          "mixed_script": "新時",
+          "entry_ids": [
+            "lúkaku"
+          ],
+          "gloss": "early.age"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "nícon",
+          "mixed_script": "学積",
+          "entry_ids": [
+            "nícon"
+          ],
+          "gloss": "training"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "cí",
+          "mixed_script": "為",
+          "entry_ids": [
+            "ć-",
+            "(i)"
+          ],
+          "gloss": "do-IMP"
+        },
+        {
+          "punctuation": "。"
+        }
+      ],
+      "translation": {
+        "ja": "しかしタカン文字を書くのは燐字よりも難しく、子どもは早くから訓練を行うことが必要です。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳宣伝文句",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
       "source": "Alice in Wonderland",
       "tokens": [
         {

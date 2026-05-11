@@ -2265,7 +2265,16 @@
       ],
       "definitions": [
         {
-          "gloss": "strong"
+          "gloss": "strong",
+          "translations": {
+            "ja": "強い"
+          }
+        },
+        {
+          "gloss": "difficult",
+          "translations": {
+            "ja": "難しい"
+          }
         }
       ]
     },
