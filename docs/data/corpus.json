@@ -9600,11 +9600,20 @@
       },
       "tokens": [
         {
-          "form": "mákaco",
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mákaco",
+            "máxco"
+          ],
           "mixed_script": "値片",
           "gloss": "number.card",
-          "entry_ids": [
-            "mákaco"
+          "entry_ids_of_each_form": [
+            [
+              "mákaco"
+            ],
+            [
+              "máxco"
+            ]
           ]
         },
         {

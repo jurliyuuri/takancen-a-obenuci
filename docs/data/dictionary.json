@@ -2248,6 +2248,18 @@
       ]
     },
     {
+      "id": "máxco",
+      "pos": "noun",
+      "script": [
+        "値片"
+      ],
+      "definitions": [
+        {
+          "gloss": "number card"
+        }
+      ]
+    },
+    {
       "id": "mám-",
       "pos": "verb",
       "conjugation_class": "consonant-stem",
@@ -7271,10 +7283,24 @@
       ]
     },
     {
+      "script": "値片",
+      "entry_ids": [
+        "mákaco",
+        "máxco"
+      ]
+    },
+    {
       "script": "皇島",
       "entry_ids": [
         "tákan=don",
         "takańdon"
+      ]
+    },
+    {
+      "script": "皇言",
+      "entry_ids": [
+        "tákan=cen",
+        "takamácema"
       ]
     }
   ]
