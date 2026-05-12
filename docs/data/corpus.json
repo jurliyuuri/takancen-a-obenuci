@@ -12134,7 +12134,7 @@
           "form": "tá",
           "mixed_script": "た",
           "entry_ids": [
-            "tá#3"
+            "tá#0"
           ],
           "gloss": "letter.“ta”"
         },
@@ -12331,7 +12331,7 @@
         },
         {
           "form": "cákata",
-          "mixed_script": "来かた",
+          "mixed_script": "さかた",
           "entry_ids": [
             "cák-",
             "(a)ta"
@@ -12562,6 +12562,47 @@
       "source": "タカン文字練習帳",
       "tokens": [
         {
+          "form": "kánata",
+          "mixed_script": "かなた",
+          "entry_ids": [
+            "kán-",
+            "(a)ta"
+          ],
+          "gloss": "burn-PST"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "wácata",
+          "mixed_script": "わさた",
+          "entry_ids": [
+            "wác-",
+            "(a)ta"
+          ],
+          "gloss": "not.exist-PST"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "jámata",
+          "mixed_script": "やまた",
+          "entry_ids": [
+            "jám-",
+            "(a)ta"
+          ],
+          "gloss": "eat-PST"
+        }
+      ],
+      "translation": {
+        "ja": "燃えた│なかった│食べた"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
           "multiple-standard-pronunciations": true,
           "forms": [
             "nága",
@@ -12593,9 +12634,59 @@
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "ú",
+          "mixed_script": "う",
+          "entry_ids": [
+            "ú#0"
+          ],
+          "gloss": "letter.“u”"
+        },
+        {
+          "form": "mó",
+          "mixed_script": "も",
+          "entry_ids": [
+            "mó#0"
+          ],
+          "gloss": "letter.“mo”"
+        },
+        {
+          "form": "có",
+          "mixed_script": "そ",
+          "entry_ids": [
+            "có#0"
+          ],
+          "gloss": "letter.“co”"
+        },
+        {
+          "form": "nó",
+          "mixed_script": "の",
+          "entry_ids": [
+            "nó#0"
+          ],
+          "gloss": "letter.“no”"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "káci",
+          "mixed_script": "かし",
+          "entry_ids": [
+            "ká-",
+            "(i)"
+          ],
+          "gloss": "write-IMP"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "「う」「も」「そ」「の」を書こう"
       }
     },
     {
@@ -12634,16 +12725,155 @@
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "ú",
+          "mixed_script": "う",
+          "entry_ids": [
+            "ú#0"
+          ],
+          "gloss": "letter.“u”"
+        },
+        {
+          "form": "cómi",
+          "mixed_script": "声",
+          "entry_ids": [
+            "cómi"
+          ],
+          "gloss": "sound"
+        },
+        {
+          "form": "tetu",
+          "mixed_script": "唯",
+          "entry_ids": [
+            "tetu"
+          ],
+          "gloss": "only"
+        },
+        {
+          "form": "únuna",
+          "mixed_script": "うぬな",
+          "entry_ids": [
+            "únun-",
+            "(a)"
+          ],
+          "gloss": "be-PTCP"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "形",
+          "entry_ids": [
+            "cocococo"
+          ],
+          "gloss": "shape"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "lácon",
+          "mixed_script": "軸声",
+          "entry_ids": [
+            "lácon"
+          ],
+          "gloss": "vowel"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "ú",
+          "mixed_script": "う",
+          "entry_ids": [
+            "ú#0"
+          ],
+          "gloss": "letter.“u”"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "méme",
+          "mixed_script": "同",
+          "entry_ids": [
+            "méme-",
+            "(e)"
+          ],
+          "gloss": "be.same-ADV"
+        },
+        {
+          "form": "wácu",
+          "mixed_script": "無す",
+          "entry_ids": [
+            "wác-",
+            "(u)"
+          ],
+          "gloss": "not.exist-NPST"
+        },
+        {
+          "form": "a",
+          "mixed_script": "噫",
+          "entry_ids": [
+            "a#2"
+          ],
+          "gloss": "DECL"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "「う」の音単体での形は母音の「う」と異なりますね"
       }
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "nóke",
+          "mixed_script": "のけ",
+          "entry_ids": [
+            "nóke"
+          ],
+          "gloss": "box"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "tíco",
+          "mixed_script": "ちそ",
+          "entry_ids": [
+            "tíco"
+          ],
+          "gloss": "flower"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "úmo",
+          "mixed_script": "うも",
+          "entry_ids": [
+            "úmo"
+          ],
+          "gloss": "tree"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "箱│花│木"
       }
     },
     {
