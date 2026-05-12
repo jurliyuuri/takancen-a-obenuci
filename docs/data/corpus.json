@@ -11893,6 +11893,212 @@
       "source": "タカン文字練習帳",
       "tokens": [
         {
+          "form": "ási",
+          "mixed_script": "一",
+          "entry_ids": [
+            "ási"
+          ],
+          "gloss": "one"
+        }
+      ],
+      "translation": {
+        "ja": "一"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "ká",
+          "mixed_script": "か",
+          "entry_ids": [
+            "ká#3"
+          ],
+          "gloss": "letter.“ka”"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "títoci",
+          "mixed_script": "ちとし",
+          "entry_ids": [
+            "títo-",
+            "(i)"
+          ],
+          "gloss": "decorate-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "「か」を飾ろう"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "両親はご覧ください"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "ási",
+          "mixed_script": "一",
+          "entry_ids": [
+            "ási"
+          ],
+          "gloss": "one"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "形",
+          "entry_ids": [
+            "cocococo"
+          ],
+          "gloss": "shape"
+        },
+        {
+          "form": "tetu",
+          "mixed_script": "唯",
+          "entry_ids": [
+            "tetu"
+          ],
+          "gloss": "only"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "títo",
+          "mixed_script": "貝",
+          "entry_ids": [
+            "títo-",
+            "(e)"
+          ],
+          "gloss": "decorate-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "tacáma",
+          "mixed_script": "多ま",
+          "entry_ids": [
+            "tacám-",
+            "(a)"
+          ],
+          "gloss": "be.many-PTCP"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kalácu",
+          "mixed_script": "筆能す",
+          "entry_ids": [
+            "ká-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "write-can-NPST"
+        }
+      ],
+      "translation": {
+        "ja": "ひとつの形だけを飾っても多くのことがらを書けます。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "kága",
+          "mixed_script": "かが",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "time"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "kúgu",
+          "mixed_script": "くぐ",
+          "entry_ids": [
+            "kúg-",
+            "(u)"
+          ],
+          "gloss": "put-NPST"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "kéka",
+          "mixed_script": "けか",
+          "entry_ids": [
+            "kéka"
+          ],
+          "gloss": "meat"
+        }
+      ],
+      "translation": {
+        "ja": "時│付ける│肉"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
           "form": "cína",
           "mixed_script": "しな",
           "entry_ids": [
