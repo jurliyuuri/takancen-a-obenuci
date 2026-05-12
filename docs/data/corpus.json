@@ -13187,9 +13187,26 @@
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "áno",
+          "mixed_script": "全",
+          "entry_ids": [
+            "áno#2"
+          ],
+          "gloss": "all"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "全てのタカン文字"
       }
     },
     {
@@ -13228,16 +13245,185 @@
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "kákan",
+          "mixed_script": "此処",
+          "entry_ids": [
+            "kákan"
+          ],
+          "gloss": "here"
+        },
+        {
+          "form": "éma",
+          "mixed_script": "在ま",
+          "entry_ids": [
+            "ém-",
+            "(a)"
+          ],
+          "gloss": "exist-PTCP"
+        },
+        {
+          "form": "áno",
+          "mixed_script": "全",
+          "entry_ids": [
+            "áno#2"
+          ],
+          "gloss": "all"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "形",
+          "entry_ids": [
+            "cocococo"
+          ],
+          "gloss": "shape"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "caneníte",
+          "mixed_script": "学",
+          "entry_ids": [
+            "canenít-",
+            "(e)"
+          ],
+          "gloss": "learn-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "imikecáka",
+          "mixed_script": "思来か",
+          "entry_ids": [
+            "imík-",
+            "(e)cák-",
+            "(a)"
+          ],
+          "gloss": "feel-toward.us-PTCP"
+        },
+        {
+          "form": "takamácema",
+          "mixed_script": "皇言",
+          "entry_ids": [
+            "takamácema"
+          ],
+          "gloss": "Takan.language"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "áno",
+          "mixed_script": "全",
+          "entry_ids": [
+            "áno"
+          ],
+          "gloss": "all"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kalácu",
+          "mixed_script": "筆能す",
+          "entry_ids": [
+            "ká-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "write-can-NPST"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "お子さんがここにある全ての形を学ぶと、思いついたタカン語の全てを書くことができます"
       }
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "áilu",
+          "mixed_script": "あいる",
+          "entry_ids": [
+            "áilu"
+          ],
+          "gloss": "Ai’ren Republic"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "bélepici",
+          "mixed_script": "べれぴし",
+          "entry_ids": [
+            "bélepici"
+          ],
+          "gloss": "game"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "wex́mon",
+          "mixed_script": "ゑっもん",
+          "entry_ids": [
+            "wex́mon"
+          ],
+          "gloss": "egg.rice"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "cjórla",
+          "mixed_script": "しぉーら",
+          "entry_ids": [
+            "cjórla"
+          ],
+          "gloss": "smoked.fish"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "アイル共和国│遊び│卵ご飯│燻製した魚"
       }
     },
     {
