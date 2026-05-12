@@ -12099,6 +12099,612 @@
       "source": "タカン文字練習帳",
       "tokens": [
         {
+          "form": "íku",
+          "mixed_script": "二",
+          "entry_ids": [
+            "íku"
+          ],
+          "gloss": "two"
+        }
+      ],
+      "translation": {
+        "ja": "二"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "cá",
+          "mixed_script": "さ",
+          "entry_ids": [
+            "cá#3"
+          ],
+          "gloss": "letter.“ca”"
+        },
+        {
+          "form": "ká",
+          "mixed_script": "か",
+          "entry_ids": [
+            "ká#3"
+          ],
+          "gloss": "letter.“ka”"
+        },
+        {
+          "form": "tá",
+          "mixed_script": "た",
+          "entry_ids": [
+            "tá#3"
+          ],
+          "gloss": "letter.“ta”"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "káci",
+          "mixed_script": "筆し",
+          "entry_ids": [
+            "ká-",
+            "(i)"
+          ],
+          "gloss": "write-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "「さ」「か」「た」を書こう"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "両親はご覧ください"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "momécila",
+          "mixed_script": "使之",
+          "entry_ids": [
+            "moméci-",
+            "(a)"
+          ],
+          "gloss": "use-PTCP"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "形",
+          "entry_ids": [
+            "cocococo"
+          ],
+          "gloss": "shape"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "mormoŕ",
+          "mixed_script": "行々",
+          "entry_ids": [
+            "mormoŕ-",
+            "(e)"
+          ],
+          "gloss": "gradually.increase-ADV"
+        },
+        {
+          "form": "móko",
+          "mixed_script": "増",
+          "entry_ids": [
+            "móko-",
+            "(e)"
+          ],
+          "gloss": "increase-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "takamámani",
+          "mixed_script": "皇字",
+          "entry_ids": [
+            "takamámani"
+          ],
+          "gloss": "Takan.grapheme"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kéte",
+          "mixed_script": "善",
+          "entry_ids": [
+            "két-",
+            "(e)"
+          ],
+          "gloss": "be.good-ADV"
+        },
+        {
+          "form": "imíki",
+          "mixed_script": "思き",
+          "entry_ids": [
+            "imík-",
+            "(i)"
+          ],
+          "gloss": "feel-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "使う形がだんだん増えると、お子さんはタカン文字のことが楽しくなっていくでしょう。"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "císa",
+          "mixed_script": "しざ",
+          "entry_ids": [
+            "císa"
+          ],
+          "gloss": "foot"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "tádata",
+          "mixed_script": "ただた",
+          "entry_ids": [
+            "tád-",
+            "(a)ta"
+          ],
+          "gloss": "gather-PST"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "cákata",
+          "mixed_script": "来かた",
+          "entry_ids": [
+            "cák-",
+            "(a)ta"
+          ],
+          "gloss": "come-PST"
+        }
+      ],
+      "translation": {
+        "ja": "足│集まった│来た"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "úmu",
+          "mixed_script": "三",
+          "entry_ids": [
+            "úmu"
+          ],
+          "gloss": "three"
+        }
+      ],
+      "translation": {
+        "ja": "三"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "両親はご覧ください"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "nága",
+            "nágamu",
+            "nágan",
+            "kámu"
+          ],
+          "mixed_script": "四",
+          "entry_ids_of_each_form": [
+            [
+              "nága"
+            ],
+            [
+              "nágamu"
+            ],
+            [
+              "nágan"
+            ],
+            [
+              "kámu"
+            ]
+          ],
+          "gloss": "four"
+        }
+      ],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "両親はご覧ください"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "cúna",
+          "entry_ids": [
+            "cúna"
+          ],
+          "gloss": "five",
+          "mixed_script": "五"
+        }
+      ],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "両親はご覧ください"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "cúnasi",
+          "entry_ids": [
+            "cúnasi"
+          ],
+          "gloss": "six",
+          "mixed_script": "六"
+        }
+      ],
+      "translation": {
+        "ja": "六"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "両親はご覧ください"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "cúneku",
+          "entry_ids": [
+            "cúneku"
+          ],
+          "gloss": "seven",
+          "mixed_script": "七"
+        }
+      ],
+      "translation": {
+        "ja": "七"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "mamókaka",
+            "mamokúwaka"
+          ],
+          "mixed_script": "母父",
+          "entry_ids_of_each_form": [
+            [
+              "mamókaka"
+            ],
+            [
+              "mamokúwaka"
+            ]
+          ],
+          "gloss": "parents"
+        },
+        {
+          "form": "átaci",
+          "mixed_script": "目し",
+          "entry_ids": [
+            "áta-",
+            "(i)"
+          ],
+          "gloss": "see-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "両親はご覧ください"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [],
+      "translation": {
+        "ja": ""
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
           "form": "cína",
           "mixed_script": "しな",
           "entry_ids": [
