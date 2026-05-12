@@ -1,4 +1,70 @@
 {
-  "entries": [],
+  "entries": [
+    {
+      "id": "=co",
+      "pos": "noun",
+      "script": [
+        "将上片"
+      ],
+      "definitions": [
+        {
+          "gloss": "district"
+        }
+      ]
+    },
+    {
+      "id": "cacacaca",
+      "pos": "noun",
+      "script": [
+        "種木谷",
+        "高家",
+        "三層"
+      ],
+      "definitions": [
+        {
+          "gloss": "tall building"
+        },
+        {
+          "gloss": "third floor"
+        }
+      ]
+    },
+    {
+      "id": "kána",
+      "pos": "noun",
+      "script": [
+        "かな"
+      ],
+      "definitions": [
+        {
+          "gloss": "Kana(name)"
+        }
+      ]
+    },
+    {
+      "id": "wéco",
+      "pos": "noun",
+      "script": [
+        "将上片"
+      ],
+      "definitions": [
+        {
+          "gloss": "Weso"
+        }
+      ]
+    },
+    {
+      "id": "álicu",
+      "pos": "noun",
+      "script": [
+        "ありす"
+      ],
+      "definitions": [
+        {
+          "gloss": "Alice(English_name)"
+        }
+      ]
+    }
+  ],
   "alternative_form_groups": []
 }

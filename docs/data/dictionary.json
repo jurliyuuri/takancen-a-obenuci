@@ -2814,6 +2814,454 @@
       ]
     },
     {
+      "id": "kátu",
+      "pos": "noun",
+      "script": [
+        "子"
+      ],
+      "definitions": [
+        {
+          "gloss": "child"
+        }
+      ]
+    },
+    {
+      "id": "kéka",
+      "pos": "noun",
+      "script": [
+        "肉"
+      ],
+      "definitions": [
+        {
+          "gloss": "meat"
+        }
+      ]
+    },
+    {
+      "id": "lácon",
+      "pos": "noun",
+      "script": [
+        "軸声"
+      ],
+      "definitions": [
+        {
+          "gloss": "vowel"
+        }
+      ]
+    },
+    {
+      "id": "lácor",
+      "pos": "noun",
+      "script": [
+        "軸形"
+      ],
+      "definitions": [
+        {
+          "gloss": "core shape"
+        }
+      ]
+    },
+    {
+      "id": "lúkaku",
+      "pos": "noun",
+      "script": [
+        "新時"
+      ],
+      "definitions": [
+        {
+          "gloss": "early age"
+        }
+      ]
+    },
+    {
+      "id": "mamokúwaka",
+      "pos": "noun",
+      "script": [
+        "母父"
+      ],
+      "definitions": [
+        {
+          "gloss": "parents"
+        }
+      ]
+    },
+    {
+      "id": "mamókaka",
+      "pos": "noun",
+      "script": [
+        "母父"
+      ],
+      "definitions": [
+        {
+          "gloss": "parents"
+        }
+      ]
+    },
+    {
+      "id": "moméci-",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "script": [
+        "使る"
+      ],
+      "definitions": [
+        {
+          "gloss": "use"
+        }
+      ]
+    },
+    {
+      "id": "ká a",
+      "pos": "prenominal",
+      "script": [
+        "此"
+      ],
+      "definitions": [
+        {
+          "gloss": "this kind of"
+        }
+      ]
+    },
+    {
+      "id": "míju",
+      "pos": "noun",
+      "script": [
+        "力"
+      ],
+      "definitions": [
+        {
+          "gloss": "power"
+        }
+      ]
+    },
+    {
+      "id": "mó#0",
+      "pos": "noun",
+      "script": [
+        "も"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “mo”"
+        }
+      ]
+    },
+    {
+      "id": "némani",
+      "pos": "noun",
+      "script": [
+        "ねまに"
+      ],
+      "definitions": [
+        {
+          "gloss": "central consonant symbol"
+        }
+      ]
+    },
+    {
+      "id": "nícon",
+      "pos": "noun",
+      "script": [
+        "学積"
+      ],
+      "definitions": [
+        {
+          "gloss": "training"
+        }
+      ]
+    },
+    {
+      "id": "nó#0",
+      "pos": "noun",
+      "script": [
+        "の"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “no”"
+        }
+      ]
+    },
+    {
+      "id": "nóke",
+      "pos": "noun",
+      "script": [
+        "のけ"
+      ],
+      "definitions": [
+        {
+          "gloss": "box"
+        }
+      ]
+    },
+    {
+      "id": "okímae",
+      "pos": "noun",
+      "script": [
+        "友糸"
+      ],
+      "definitions": [
+        {
+          "gloss": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "sumók-",
+      "pos": "verb",
+      "conjugation_class": "consonant-stem",
+      "script": [
+        "銭行く"
+      ],
+      "definitions": [
+        {
+          "gloss": "do business"
+        }
+      ]
+    },
+    {
+      "id": "súla",
+      "pos": "noun",
+      "script": [
+        "銭軸"
+      ],
+      "definitions": [
+        {
+          "gloss": "company"
+        }
+      ]
+    },
+    {
+      "id": "takamácema",
+      "pos": "noun",
+      "script": [
+        "皇言"
+      ],
+      "definitions": [
+        {
+          "gloss": "Takan language"
+        }
+      ]
+    },
+    {
+      "id": "takamámani",
+      "pos": "noun",
+      "script": [
+        "皇字"
+      ],
+      "definitions": [
+        {
+          "gloss": "Takan grapheme"
+        }
+      ]
+    },
+    {
+      "id": "takańdatu",
+      "pos": "noun",
+      "script": [
+        "皇集"
+      ],
+      "definitions": [
+        {
+          "gloss": "Atalam Province"
+        }
+      ]
+    },
+    {
+      "id": "teńten",
+      "pos": "noun",
+      "script": [
+        "混々"
+      ],
+      "definitions": [
+        {
+          "gloss": "garbled up"
+        }
+      ]
+    },
+    {
+      "id": "tiníaku",
+      "pos": "noun",
+      "script": [
+        "与学書"
+      ],
+      "definitions": [
+        {
+          "gloss": "textbook"
+        }
+      ]
+    },
+    {
+      "id": "títo-",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "script": [
+        "貝る"
+      ],
+      "definitions": [
+        {
+          "gloss": "decorate"
+        }
+      ]
+    },
+    {
+      "id": "ukakínusa",
+      "pos": "noun",
+      "script": [
+        "少銭"
+      ],
+      "definitions": [
+        {
+          "gloss": "affordability"
+        }
+      ]
+    },
+    {
+      "id": "wex́mon",
+      "pos": "noun",
+      "script": [
+        "卵米"
+      ],
+      "definitions": [
+        {
+          "gloss": "egg rice"
+        }
+      ]
+    },
+    {
+      "id": "wí#0",
+      "pos": "noun",
+      "script": [
+        "ゐ"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “wi”"
+        }
+      ]
+    },
+    {
+      "id": "éjo",
+      "pos": "noun",
+      "script": [
+        "春"
+      ],
+      "definitions": [
+        {
+          "gloss": "spring"
+        }
+      ]
+    },
+    {
+      "id": "ótton",
+      "pos": "noun",
+      "script": [
+        "長文"
+      ],
+      "definitions": [
+        {
+          "gloss": "long sentence"
+        }
+      ]
+    },
+    {
+      "id": "ówi",
+      "pos": "noun",
+      "script": [
+        "骨"
+      ],
+      "definitions": [
+        {
+          "gloss": "bone"
+        }
+      ]
+    },
+    {
+      "id": "ú#0",
+      "pos": "noun",
+      "script": [
+        "う"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “u”"
+        }
+      ]
+    },
+    {
+      "id": "úmo",
+      "pos": "noun",
+      "script": [
+        "木"
+      ],
+      "definitions": [
+        {
+          "gloss": "tree"
+        }
+      ]
+    },
+    {
+      "id": "tá#0",
+      "pos": "noun",
+      "script": [
+        "た"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “ta”"
+        }
+      ]
+    },
+    {
+      "id": "tíco",
+      "pos": "noun",
+      "script": [
+        "花"
+      ],
+      "definitions": [
+        {
+          "gloss": "flower"
+        }
+      ]
+    },
+    {
+      "id": "atakét-",
+      "pos": "verb",
+      "conjugation_class": "consonant-stem",
+      "script": [
+        "美つ"
+      ],
+      "definitions": [
+        {
+          "gloss": "be beautiful"
+        }
+      ]
+    },
+    {
+      "id": "anásono",
+      "pos": "prenominal",
+      "script": [
+        "全前"
+      ],
+      "definitions": [
+        {
+          "gloss": "almost all"
+        }
+      ]
+    },
+    {
+      "id": "bex́man",
+      "pos": "noun",
+      "script": [
+        "圧字"
+      ],
+      "definitions": [
+        {
+          "gloss": "printing"
+        }
+      ]
+    },
+    {
       "id": "tíkaga",
       "pos": "noun",
       "script": [
@@ -2822,6 +3270,18 @@
       "definitions": [
         {
           "gloss": "that time"
+        }
+      ]
+    },
+    {
+      "id": "anókaga",
+      "pos": "noun",
+      "script": [
+        "全時"
+      ],
+      "definitions": [
+        {
+          "gloss": "everlastingly"
         }
       ]
     },
@@ -3269,6 +3729,44 @@
       ]
     },
     {
+      "id": "móko-",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "script": [
+        "増る"
+      ],
+      "definitions": [
+        {
+          "gloss": "increase"
+        }
+      ]
+    },
+    {
+      "id": "muńkai",
+      "pos": "noun",
+      "script": [
+        "妙"
+      ],
+      "definitions": [
+        {
+          "gloss": "strange"
+        }
+      ]
+    },
+    {
+      "id": "ók-",
+      "pos": "verb",
+      "conjugation_class": "consonant-stem",
+      "script": [
+        "長く"
+      ],
+      "definitions": [
+        {
+          "gloss": "be long"
+        }
+      ]
+    },
+    {
       "id": "on≡",
       "pos": "bound morpheme",
       "script": [
@@ -3320,6 +3818,18 @@
           "translations": {
             "ja": "三"
           }
+        }
+      ]
+    },
+    {
+      "id": "kíta",
+      "pos": "noun",
+      "script": [
+        "百"
+      ],
+      "definitions": [
+        {
+          "gloss": "hundred"
         }
       ]
     },
@@ -6429,6 +6939,43 @@
       ]
     },
     {
+      "id": "cemakúg-",
+      "pos": "verb",
+      "conjugation_class": "consonant-stem",
+      "script": [
+        "言付ぐ"
+      ],
+      "definitions": [
+        {
+          "gloss": "notify"
+        }
+      ]
+    },
+    {
+      "id": "cjúrke",
+      "pos": "noun",
+      "script": [
+        "裁処"
+      ],
+      "definitions": [
+        {
+          "gloss": "courthouse"
+        }
+      ]
+    },
+    {
+      "id": "ká#0",
+      "pos": "noun",
+      "script": [
+        "か"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “ka”"
+        }
+      ]
+    },
+    {
       "id": "soŕutu",
       "pos": "noun suffix",
       "script": [
@@ -6449,6 +6996,155 @@
       "definitions": [
         {
           "gloss": "thrice"
+        }
+      ]
+    },
+    {
+      "id": "citérno",
+      "pos": "noun",
+      "script": [
+        "してーの"
+      ],
+      "definitions": [
+        {
+          "gloss": "flower petal"
+        }
+      ]
+    },
+    {
+      "id": "có#0",
+      "pos": "noun",
+      "script": [
+        "そ"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “co”"
+        }
+      ]
+    },
+    {
+      "id": "cá#0",
+      "pos": "noun",
+      "script": [
+        "さ"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “ca”"
+        }
+      ]
+    },
+    {
+      "id": "cjórla",
+      "pos": "noun",
+      "script": [
+        "しぉーら"
+      ],
+      "definitions": [
+        {
+          "gloss": "smoked fish"
+        }
+      ]
+    },
+    {
+      "id": "céko",
+      "pos": "noun",
+      "script": [
+        "形"
+      ],
+      "definitions": [
+        {
+          "gloss": "shape"
+        }
+      ]
+    },
+    {
+      "id": "cómi",
+      "pos": "noun",
+      "script": [
+        "声"
+      ],
+      "definitions": [
+        {
+          "gloss": "sound"
+        }
+      ]
+    },
+    {
+      "id": "jó#0",
+      "pos": "noun",
+      "script": [
+        "よ"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “jo”"
+        }
+      ]
+    },
+    {
+      "id": "jú#0",
+      "pos": "noun",
+      "script": [
+        "ゆ"
+      ],
+      "definitions": [
+        {
+          "gloss": "letter “ju”"
+        }
+      ]
+    },
+    {
+      "id": "júce",
+      "pos": "noun",
+      "script": [
+        "ゆせ"
+      ],
+      "definitions": [
+        {
+          "gloss": "ring"
+        }
+      ]
+    },
+    {
+      "id": "ketacéma-",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "script": [
+        "認る"
+      ],
+      "definitions": [
+        {
+          "gloss": "permit"
+        }
+      ]
+    },
+    {
+      "id": "kujóga-",
+      "pos": "verb",
+      "conjugation_class": "vowel-stem",
+      "script": [
+        "層筆る"
+      ],
+      "definitions": [
+        {
+          "gloss": "write superimposed"
+        }
+      ]
+    },
+    {
+      "id": "corakúdatu",
+      "pos": "noun",
+      "script": [
+        "為書集"
+      ],
+      "definitions": [
+        {
+          "gloss": "editorial department​",
+          "translations": {
+            "ja": "編集部"
+          }
         }
       ]
     }
