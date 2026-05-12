@@ -30,9 +30,10 @@ export function latinToSyllabary(token: string): string {
   let text = token.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   text = text.replace(/[-=≡]/g, '').toLowerCase();
 
-  // or → ou
+  // r-avoidance
   text = text.replace(/or/g, "ou");
-
+  text = text.replace(/(?<=[kgcstdnbpml])jur/g, "iu");
+  text = text.replace(/ur/g, "uu");
   text = text.replace(/r/g, "ー");
 
   let result = '';

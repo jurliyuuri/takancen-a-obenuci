@@ -7275,10 +7275,19 @@
           "gloss": "after.that"
         },
         {
-          "form": "bélu",
+          "multiple-standard-pronunciations": true,
+          "forms": [
+            "bélu",
+            "bélur"
+          ],
           "mixed_script": "全新",
-          "entry_ids": [
-            "bélu"
+          "entry_ids_of_each_form": [
+            [
+              "bélu"
+            ],
+            [
+              "bélur"
+            ]
           ],
           "gloss": "latest"
         },

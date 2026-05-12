@@ -2942,7 +2942,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “mo”"
+          "gloss": "letter “mo”",
+          "translations": {
+            "ja": "「も」の文字"
+          }
         }
       ]
     },
@@ -2978,7 +2981,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “no”"
+          "gloss": "letter “no”",
+          "translations": {
+            "ja": "「の」の文字"
+          }
         }
       ]
     },
@@ -3136,7 +3142,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “wi”"
+          "gloss": "letter “wi”",
+          "translations": {
+            "ja": "「ゐ」の文字"
+          }
         }
       ]
     },
@@ -3184,7 +3193,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “u”"
+          "gloss": "letter “u”",
+          "translations": {
+            "ja": "「う」の文字"
+          }
         }
       ]
     },
@@ -3208,7 +3220,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “ta”"
+          "gloss": "letter “ta”",
+          "translations": {
+            "ja": "「た」の文字"
+          }
         }
       ]
     },
@@ -6971,7 +6986,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “ka”"
+          "gloss": "letter “ka”",
+          "translations": {
+            "ja": "「か」の文字"
+          }
         }
       ]
     },
@@ -7019,7 +7037,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “co”"
+          "gloss": "letter “co”",
+          "translations": {
+            "ja": "「そ」の文字"
+          }
         }
       ]
     },
@@ -7031,7 +7052,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “ca”"
+          "gloss": "letter “ca”",
+          "translations": {
+            "ja": "「さ」の文字"
+          }
         }
       ]
     },
@@ -7039,7 +7063,8 @@
       "id": "cjórla",
       "pos": "noun",
       "script": [
-        "しぉーら"
+        "しぉーら",
+        "しぉうら"
       ],
       "definitions": [
         {
@@ -7079,7 +7104,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “jo”"
+          "gloss": "letter “jo”",
+          "translations": {
+            "ja": "「よ」の文字"
+          }
         }
       ]
     },
@@ -7091,7 +7119,10 @@
       ],
       "definitions": [
         {
-          "gloss": "letter “ju”"
+          "gloss": "letter “ju”",
+          "translations": {
+            "ja": "「ゆ」の文字"
+          }
         }
       ]
     },
