@@ -13444,9 +13444,28 @@
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "óke",
+          "mixed_script": "おけ",
+          "entry_ids": [
+            "ók-",
+            "(e)"
+          ],
+          "gloss": "be.long-ADV"
+        },
+        {
+          "form": "káci",
+          "mixed_script": "かし",
+          "entry_ids": [
+            "ká-",
+            "(i)"
+          ],
+          "gloss": "write-IMP"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "長く書こう"
       }
     },
     {
@@ -13485,16 +13504,259 @@
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "caneníte",
+          "mixed_script": "学",
+          "entry_ids": [
+            "canenít-",
+            "(e)"
+          ],
+          "gloss": "learn-ADV"
+        },
+        {
+          "form": "líja",
+          "mixed_script": "須や",
+          "entry_ids": [
+            "líj-",
+            "(a)"
+          ],
+          "gloss": "must-PTCP"
+        },
+        {
+          "form": "lińman",
+          "mixed_script": "清字",
+          "gloss": "Lanermic.logogram",
+          "entry_ids": [
+            "lińman"
+          ]
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "moméci",
+          "mixed_script": "使",
+          "entry_ids": [
+            "moméci-",
+            "(e)"
+          ],
+          "gloss": "use-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "atakéta",
+          "mixed_script": "美た",
+          "entry_ids": [
+            "atakét-",
+            "(a)"
+          ],
+          "gloss": "be.beautiful-PTCP"
+        },
+        {
+          "form": "ótton",
+          "mixed_script": "長文",
+          "entry_ids": [
+            "ótton"
+          ],
+          "gloss": "long.sentence"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "kalácu",
+          "mixed_script": "筆能す",
+          "entry_ids": [
+            "ká-",
+            "(á)c-",
+            "(u)"
+          ],
+          "gloss": "write-can-NPST"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "学ばねばならない燐字を使い、美しい長文が書けます。"
       }
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "címa",
+          "mixed_script": "しま",
+          "entry_ids": [
+            "címa"
+          ],
+          "gloss": "country"
+        },
+        {
+          "form": "ata",
+          "mixed_script": "加",
+          "entry_ids": [
+            "ata"
+          ],
+          "gloss": "and"
+        },
+        {
+          "form": "cúka",
+          "mixed_script": "すか",
+          "entry_ids": [
+            "cúka"
+          ],
+          "gloss": "person"
+        },
+        {
+          "form": "imíke",
+          "mixed_script": "いみけ",
+          "entry_ids": [
+            "imík-",
+            "(e)"
+          ],
+          "gloss": "think-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "わ",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "ámama",
+          "mixed_script": "あまゝ",
+          "entry_ids": [
+            "ámama"
+          ],
+          "gloss": "big"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "míju",
+          "mixed_script": "力",
+          "entry_ids": [
+            "míju"
+          ],
+          "gloss": "power"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "jáne",
+          "mixed_script": "やね",
+          "entry_ids": [
+            "ján-",
+            "(e)"
+          ],
+          "gloss": "submit-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "ná",
+          "mixed_script": "な",
+          "entry_ids": [
+            "ná"
+          ],
+          "gloss": "water"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "mixed_script": "うたぎ",
+          "form": "útagi",
+          "entry_ids": [
+            "útagi"
+          ],
+          "gloss": "below"
+        },
+        {
+          "form": "oca",
+          "mixed_script": "耒",
+          "entry_ids": [
+            "oca"
+          ],
+          "gloss": "ABL"
+        },
+        {
+          "form": "có",
+          "mixed_script": "そ",
+          "entry_ids": [
+            "có"
+          ],
+          "gloss": "on.top"
+        },
+        {
+          "form": "kan",
+          "mixed_script": "処",
+          "entry_ids": [
+            "kan"
+          ],
+          "gloss": "LOC"
+        },
+        {
+          "form": "nálu",
+          "mixed_script": "なる",
+          "entry_ids": [
+            "ná-",
+            "(u)"
+          ],
+          "gloss": "flow-NPST"
+        },
+        {
+          "form": "a",
+          "mixed_script": "噫",
+          "entry_ids": [
+            "a#2"
+          ],
+          "gloss": "DECL"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "国と人が考えて大きな力を出せば水が下から上に流れるのだ"
       }
     },
     {

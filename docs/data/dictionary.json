@@ -3771,7 +3771,7 @@
       "conjugation_class": "consonant-stem",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "must",
           "translations": {
             "ja": "しなければならない"
           }
@@ -3941,7 +3941,7 @@
       "pos": "noun",
       "definitions": [
         {
-          "gloss": "(TODO)",
+          "gloss": "person",
           "translations": {
             "ja": "人"
           }
@@ -5110,7 +5110,13 @@
         {
           "gloss": "feel",
           "translations": {
-            "ja": "思う、考える"
+            "ja": "思う"
+          }
+        },
+        {
+          "gloss": "think",
+          "translations": {
+            "ja": "考える"
           }
         }
       ],
