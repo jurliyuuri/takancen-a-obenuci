@@ -2962,7 +2962,7 @@
       ]
     },
     {
-      "id": "á",
+      "id": "á#0",
       "pos": "noun",
       "script": [
         "あ"
@@ -2972,6 +2972,12 @@
           "gloss": "the first alphabet",
           "translations": {
             "ja": "①, その1"
+          }
+        },
+        {
+          "gloss": "letter “a”",
+          "translations": {
+            "ja": "「あ」の文字"
           }
         }
       ]
@@ -3066,7 +3072,7 @@
       ]
     },
     {
-      "id": "é",
+      "id": "é#0",
       "pos": "noun",
       "script": [
         "え"

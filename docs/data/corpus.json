@@ -6356,7 +6356,7 @@
           "form": "á",
           "mixed_script": "あ",
           "entry_ids": [
-            "á"
+            "á#0"
           ],
           "gloss": "the.first.alphabet"
         },
@@ -6378,7 +6378,7 @@
           "form": "é",
           "mixed_script": "え",
           "entry_ids": [
-            "é"
+            "é#0"
           ],
           "gloss": "the.second.alphabet"
         },
@@ -6453,7 +6453,7 @@
           "form": "á",
           "mixed_script": "あ",
           "entry_ids": [
-            "á"
+            "á#0"
           ],
           "gloss": "the.first.alphabet"
         },
@@ -6848,7 +6848,7 @@
           "form": "é",
           "mixed_script": "え",
           "entry_ids": [
-            "é"
+            "é#0"
           ],
           "gloss": "the.second.alphabet"
         },
@@ -11912,7 +11912,7 @@
           "form": "ká",
           "mixed_script": "か",
           "entry_ids": [
-            "ká#3"
+            "ká#0"
           ],
           "gloss": "letter.“ka”"
         },
@@ -12118,7 +12118,7 @@
           "form": "cá",
           "mixed_script": "さ",
           "entry_ids": [
-            "cá#3"
+            "cá#0"
           ],
           "gloss": "letter.“ca”"
         },
@@ -12126,7 +12126,7 @@
           "form": "ká",
           "mixed_script": "か",
           "entry_ids": [
-            "ká#3"
+            "ká#0"
           ],
           "gloss": "letter.“ka”"
         },
@@ -12449,9 +12449,9 @@
           "form": "á",
           "mixed_script": "あ",
           "entry_ids": [
-            "á"
+            "á#0"
           ],
-          "gloss": "the.first.alphabet"
+          "gloss": "letter.“a”"
         },
         {
           "form": "únuna",
