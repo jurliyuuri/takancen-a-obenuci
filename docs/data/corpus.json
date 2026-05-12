@@ -14758,7 +14758,7 @@
           "entry_ids": [
             "corakúdatu"
           ],
-          "gloss": "publishing.house"
+          "gloss": "editorial.department​"
         },
         {
           "punctuation": "("
@@ -14772,11 +14772,13 @@
           "gloss": "Atalam.Province"
         },
         {
-          "form": "aaaaa",
+          "form": "wéco=co",
           "mixed_script": "将上片",
           "entry_ids": [
-            "cacacaca"
-          ]
+            "wéco",
+            "=co"
+          ],
+          "gloss": "Weso-district"
         },
         {
           "form": "aaaaa",
@@ -14831,7 +14833,7 @@
         }
       ],
       "translation": {
-        "ja": "印刷が低質でぐちゃぐちゃであれば、我が社の印刷所（アタラム郡【将上片】どんぐり谷花びらビル3階）までご連絡ください。"
+        "ja": "印刷が低質でぐちゃぐちゃであれば、我が社の編集部（アタラム郡ウェソ町どんぐり谷花びらビル3階）までご連絡ください。"
       }
     }
   ],
