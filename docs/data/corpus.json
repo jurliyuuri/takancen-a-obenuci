@@ -12889,7 +12889,64 @@
         }
       ],
       "translation": {
-        "ja": ""
+        "ja": "五"
+      }
+    },
+    {
+      "source": "タカン文字練習帳",
+      "tokens": [
+        {
+          "form": "é",
+          "mixed_script": "え",
+          "entry_ids": [
+            "é#0"
+          ],
+          "gloss": "letter.“e”"
+        },
+        {
+          "form": "wí",
+          "mixed_script": "ゐ",
+          "entry_ids": [
+            "wí#0"
+          ],
+          "gloss": "letter.“wi”"
+        },
+        {
+          "form": "jú",
+          "mixed_script": "ゆ",
+          "entry_ids": [
+            "jú#0"
+          ],
+          "gloss": "letter.“ju”"
+        },
+        {
+          "form": "jó",
+          "mixed_script": "よ",
+          "entry_ids": [
+            "jó#0"
+          ],
+          "gloss": "letter.“jo”"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "káci",
+          "mixed_script": "かし",
+          "entry_ids": [
+            "ká-",
+            "(i)"
+          ],
+          "gloss": "write-IMP"
+        }
+      ],
+      "translation": {
+        "ja": "「え」「ゐ」「ゆ」「よ」を書こう"
       }
     },
     {
@@ -12928,16 +12985,188 @@
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "é",
+          "mixed_script": "え",
+          "entry_ids": [
+            "é#0"
+          ],
+          "gloss": "letter.“e”"
+        },
+        {
+          "form": "wí",
+          "mixed_script": "ゐ",
+          "entry_ids": [
+            "wí#0"
+          ],
+          "gloss": "letter.“wi”"
+        },
+        {
+          "form": "jú",
+          "mixed_script": "ゆ",
+          "entry_ids": [
+            "jú#0"
+          ],
+          "gloss": "letter.“ju”"
+        },
+        {
+          "form": "jó",
+          "mixed_script": "よ",
+          "entry_ids": [
+            "jó#0"
+          ],
+          "gloss": "letter.“jo”"
+        },
+        {
+          "form": "a",
+          "mixed_script": "之",
+          "entry_ids": [
+            "a"
+          ],
+          "gloss": "GEN"
+        },
+        {
+          "form": "aaaaa",
+          "mixed_script": "形",
+          "entry_ids": [
+            "cocococo"
+          ],
+          "gloss": "shape"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "mememememe",
+          "mixed_script": "妙",
+          "entry_ids": [
+            "pepepepe-",
+            "(e)"
+          ],
+          "gloss": "strange-ADV"
+        },
+        {
+          "form": "ken",
+          "mixed_script": "即",
+          "entry_ids": [
+            "ken"
+          ],
+          "gloss": "then"
+        },
+        {
+          "form": "tacáma",
+          "mixed_script": "多",
+          "entry_ids": [
+            "tacám-",
+            "(a)"
+          ],
+          "gloss": "be.many-PTCP"
+        },
+        {
+          "form": "kága",
+          "mixed_script": "時",
+          "entry_ids": [
+            "kága"
+          ],
+          "gloss": "time"
+        },
+        {
+          "form": "ki",
+          "mixed_script": "き",
+          "entry_ids": [
+            "ki"
+          ],
+          "gloss": "ACC"
+        },
+        {
+          "form": "moméci",
+          "mixed_script": "使",
+          "entry_ids": [
+            "moméci-",
+            "(e)"
+          ],
+          "gloss": "use-ADV"
+        },
+        {
+          "form": "wa",
+          "mixed_script": "而",
+          "entry_ids": [
+            "wa"
+          ],
+          "gloss": "and.also"
+        },
+        {
+          "form": "kátu",
+          "mixed_script": "子",
+          "entry_ids": [
+            "kátu"
+          ],
+          "gloss": "child"
+        },
+        {
+          "form": "ja",
+          "mixed_script": "や",
+          "entry_ids": [
+            "ja"
+          ],
+          "gloss": "NOM"
+        },
+        {
+          "form": "caneníti",
+          "mixed_script": "学ち",
+          "entry_ids": [
+            "canenít-",
+            "(i)"
+          ],
+          "gloss": "learn-IMP"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "「え」「ゐ」「ゆ」「よ」の形は奇妙であり、多数使われるので、お子さんは是非とも学ぶ必要があります"
       }
     },
     {
       "source": "タカン文字練習帳",
-      "tokens": [],
+      "tokens": [
+        {
+          "form": "ówi",
+          "mixed_script": "おゐ",
+          "entry_ids": [
+            "ówi"
+          ],
+          "gloss": "bone"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "éjo",
+          "mixed_script": "えよ",
+          "entry_ids": [
+            "éjo"
+          ],
+          "gloss": "spring"
+        },
+        {
+          "punctuation": "│"
+        },
+        {
+          "form": "júce",
+          "mixed_script": "ゆせ",
+          "entry_ids": [
+            "júce"
+          ],
+          "gloss": "ring"
+        }
+      ],
       "translation": {
-        "ja": ""
+        "ja": "骨│春│輪"
       }
     },
     {
